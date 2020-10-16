@@ -28,16 +28,21 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         //Move in the X and Z in regards to move speed
-        moveDirection = new Vector3(Input.GetAxis("Horizontal") * moveSpeed, 0f, Input.GetAxis("Vertical") * moveSpeed);
+        moveDirection = new Vector3(Input.GetAxis("Horizontal") * moveSpeed, moveDirection.y, Input.GetAxis("Vertical") * moveSpeed);
         
-        //If jumping add jump force to moveDirection
-        if(Input.GetButtonDown("Jump"))
-        {
-            moveDirection.y = jumpForce;
-        }
-
+        //Check if on ground
+        if (cController.isGrounded)
+        {       
+            //If jumping add jump force to moveDirection
+            if (Input.GetButtonDown("Jump"))
+            {
+                moveDirection.y = jumpForce;
+            }
+        }       
+        
+        
         //Move in the x taking into account gravity scale and gravity
-        moveDirection.y = moveDirection.y + Physics.gravity.y * gravityScale;
+        moveDirection.y += Physics.gravity.y * gravityScale * Time.deltaTime;
         
         //Move in the directions built in regards to delta time (rather than set by frame rate)
         cController.Move(moveDirection * Time.deltaTime) ;

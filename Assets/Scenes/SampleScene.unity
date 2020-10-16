@@ -597,8 +597,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cController: {fileID: 884915839}
   moveSpeed: 10
-  jumpForce: 200
-  gravityScale: 1
+  jumpForce: 10
+  gravityScale: 2
 --- !u!1 &908463755
 GameObject:
   m_ObjectHideFlags: 0
