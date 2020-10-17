@@ -596,7 +596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cController: {fileID: 884915839}
-  moveSpeed: 10
+  moveSpeed: 11
   jumpForce: 10
   gravityScale: 2
 --- !u!1 &908463755
