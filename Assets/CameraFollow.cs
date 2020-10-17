@@ -31,7 +31,7 @@ public class CameraFollow : MonoBehaviour
         UnityEngine.Cursor.lockState = CursorLockMode.Locked;
     }
 
-    void FixedUpdate()
+    void LateUpdate()
     {
         if (pcControlled)
         {
@@ -62,6 +62,13 @@ public class CameraFollow : MonoBehaviour
             Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPositon, smoothSpeed * Time.deltaTime);
             transform.position = smoothedPosition;
 
+        }
+
+        //If lower that what the camera is looking at
+        if(transform.position.y < target.position.y)
+        {
+            //Make the y = the y of the target
+            transform.position = new Vector3(transform.position.x, target.position.y, transform.position.z);
         }
 
         //Look towards the target
