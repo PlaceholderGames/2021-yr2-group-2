@@ -27,8 +27,18 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Move in the X and Z in regards to move speed
-        moveDirection = new Vector3(Input.GetAxis("Horizontal") * moveSpeed, moveDirection.y, Input.GetAxis("Vertical") * moveSpeed);
+        //Store the y move direction for usage later
+        float yStore = moveDirection.y;
+
+        //Adjust movement based on facing
+        moveDirection = (transform.forward * Input.GetAxis("Vertical")) + 
+            (transform.right * Input.GetAxis("Horizontal"));
+
+        //Normalise vector to make sure moving diagonally doesn't double speed
+        moveDirection = moveDirection.normalized * moveSpeed;
+
+        //Reapply yStore as moveDirection.y (as would be broken via normalisation)
+        moveDirection.y = yStore;
         
         //Check if on ground
         if (cController.isGrounded)
