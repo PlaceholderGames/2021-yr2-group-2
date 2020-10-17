@@ -13,12 +13,16 @@ public class CameraFollow : MonoBehaviour
     public bool useOffsetValues;
     public bool pcControlled;
 
+    public Transform pivot;
+
     private void Start()
     {
         if(!useOffsetValues)
         {
             offset = target.position - transform.position;
         }
+        pivot.transform.position = target.transform.position;
+        pivot.transform.parent = target.transform;
     }
 
     void FixedUpdate()
@@ -29,12 +33,13 @@ public class CameraFollow : MonoBehaviour
             float horizontal = Input.GetAxis("Mouse X") * rotateSpeed;
             target.Rotate(0, horizontal, 0);
 
+            //Get y position of mouse (works for joysticks too) & rotate the pivot point
             float vertical = Input.GetAxis("Mouse Y") * rotateSpeed;
-            target.Rotate(-vertical, 0, 0);
+            pivot.Rotate(-vertical, 0, 0);
 
             //Move camera based on current rotation & offset
             float desiredYAngle = target.eulerAngles.y;
-            float desiredXAngle = target.eulerAngles.x;
+            float desiredXAngle = pivot.eulerAngles.x;
 
             Quaternion rotation = Quaternion.Euler(desiredXAngle, desiredYAngle, 0);
             transform.position = target.position - (rotation * offset);
@@ -51,8 +56,9 @@ public class CameraFollow : MonoBehaviour
             Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPositon, smoothSpeed * Time.deltaTime);
             transform.position = smoothedPosition;
 
-            //Look towards the target
-            transform.LookAt(target);
         }
+
+        //Look towards the target
+        transform.LookAt(target);
     }
 }
