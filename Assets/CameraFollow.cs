@@ -1,5 +1,6 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.UIElements;
 
 public class CameraFollow : MonoBehaviour
@@ -21,8 +22,11 @@ public class CameraFollow : MonoBehaviour
         {
             offset = target.position - transform.position;
         }
+
+        //Set the pivot = the target transform
         pivot.transform.position = target.transform.position;
         pivot.transform.parent = target.transform;
+
     }
 
     void FixedUpdate()
