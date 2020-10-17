@@ -18,6 +18,8 @@ public class CameraFollow : MonoBehaviour
     public float maxViewAngle;
     public float minViewAngle;
 
+    public bool invertY;
+
     private void Start()
     {
         if(!useOffsetValues)
@@ -44,6 +46,16 @@ public class CameraFollow : MonoBehaviour
             //Get y position of mouse (works for joysticks too) & rotate the pivot point
             float vertical = Input.GetAxis("Mouse Y") * rotateSpeed;
             pivot.Rotate(-vertical, 0, 0);
+
+            //To allow controller choice for Y inversion
+            if(invertY)
+            {
+                pivot.Rotate(vertical, 0, 0);
+            }
+            else
+            {
+                pivot.Rotate(-vertical, 0, 0);
+            }
 
             //If pivot is above the max angle & below the 180f threshold
             if(pivot.rotation.eulerAngles.x > maxViewAngle && pivot.rotation.eulerAngles.x < 180f)
