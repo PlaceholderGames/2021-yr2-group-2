@@ -32,7 +32,10 @@ public class PlayerController : MonoBehaviour
         
         //Check if on ground
         if (cController.isGrounded)
-        {       
+        {
+            //So gravity build-up doesnt occur
+            moveDirection.y = 0f;
+
             //If jumping add jump force to moveDirection
             if (Input.GetButtonDown("Jump"))
             {

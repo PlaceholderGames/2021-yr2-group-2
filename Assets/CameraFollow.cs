@@ -1,35 +1,58 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UIElements;
 
 public class CameraFollow : MonoBehaviour
 {
     public Transform target;
-
-    //public float closeSmoothSpeed = 0.5f;              //Camera update speed when close up
-    //public float farSmoothSpeed = 2.0f;                //Camera update speed when far away
-
     float smoothSpeed;
     public Vector3 offset;
     public int cameraRange;
 
+    public float rotateSpeed;
+    public bool useOffsetValues;
+    public bool pcControlled;
+
+    private void Start()
+    {
+        if(!useOffsetValues)
+        {
+            offset = target.position - transform.position;
+        }
+    }
+
     void FixedUpdate()
     {
-        smoothSpeed = (Vector3.Distance(target.transform.position, transform.position))/10;
+        if (pcControlled)
+        {
+            //Get x position of mouse (works for joysticks too) & rotate the target of the camera
+            float horizontal = Input.GetAxis("Mouse X") * rotateSpeed;
+            target.Rotate(0, horizontal, 0);
 
-        // //If target of camera is beyond a certain distance change the update speed to fast updating
-        //if (Vector3.Distance(target.transform.position, transform.position) > cameraRange)
-        // {
-        //     smoothSpeed = farSmoothSpeed;
-        // }
-        //else //Otherwise update it at close smooth speed
-        // {
-        //     smoothSpeed = closeSmoothSpeed;
-        // }
+            float vertical = Input.GetAxis("Mouse Y") * rotateSpeed;
+            target.Rotate(-vertical, 0, 0);
 
-       Vector3 desiredPositon = target.position + offset;
-       Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPositon, smoothSpeed * Time.deltaTime);
-       transform.position = smoothedPosition;
+            //Move camera based on current rotation & offset
+            float desiredYAngle = target.eulerAngles.y;
+            float desiredXAngle = target.eulerAngles.x;
 
-       transform.LookAt(target);
+            Quaternion rotation = Quaternion.Euler(desiredXAngle, desiredYAngle, 0);
+            transform.position = target.position - (rotation * offset);
+        }
+        else
+        {
+            //Base the speed of the camera update on distance from target
+            smoothSpeed = (Vector3.Distance(target.transform.position, transform.position)) / 10;
+
+            //Offset the desired position
+            Vector3 desiredPositon = target.position - offset;
+
+            //Make the small changees to target position based on the desired position and smooth speed
+            Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPositon, smoothSpeed * Time.deltaTime);
+            transform.position = smoothedPosition;
+
+            //Look towards the target
+            transform.LookAt(target);
+        }
     }
 }
