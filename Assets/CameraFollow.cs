@@ -45,13 +45,17 @@ public class CameraFollow : MonoBehaviour
             float vertical = Input.GetAxis("Mouse Y") * rotateSpeed;
             pivot.Rotate(-vertical, 0, 0);
 
+            //If pivot is above the max angle & below the 180f threshold
             if(pivot.rotation.eulerAngles.x > maxViewAngle && pivot.rotation.eulerAngles.x < 180f)
             {
+                //Set it to the max angle
                 pivot.rotation = Quaternion.Euler(maxViewAngle, 0f,0f);
             }
 
+            //If the pivot is greater than the 180 threshold and below 360 (-) + the minimum view angle
             if (pivot.rotation.eulerAngles.x > 180 && pivot.rotation.eulerAngles.x  < 360f + minViewAngle)
             {
+                //Set it to 360 (-) + the minViewAngle
                 pivot.rotation = Quaternion.Euler(360f + minViewAngle, 0f, 0f);
             }
 
