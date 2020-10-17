@@ -64,6 +64,13 @@ public class CameraFollow : MonoBehaviour
 
         }
 
+        //If lower that what the camera is looking at
+        if(transform.position.y < target.position.y)
+        {
+            //Make the y = the y of the target
+            transform.position = new Vector3(transform.position.x, target.position.y, transform.position.z);
+        }
+
         //Look towards the target
         transform.LookAt(target);
     }
