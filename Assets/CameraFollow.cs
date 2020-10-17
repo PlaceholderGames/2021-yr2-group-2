@@ -27,6 +27,8 @@ public class CameraFollow : MonoBehaviour
         pivot.transform.position = target.transform.position;
         pivot.transform.parent = target.transform;
 
+        //Make cursor disappear on launch
+        UnityEngine.Cursor.lockState = CursorLockMode.Locked;
     }
 
     void FixedUpdate()
