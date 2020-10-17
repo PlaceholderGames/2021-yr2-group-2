@@ -31,7 +31,7 @@ public class CameraFollow : MonoBehaviour
         UnityEngine.Cursor.lockState = CursorLockMode.Locked;
     }
 
-    void FixedUpdate()
+    void LateUpdate()
     {
         if (pcControlled)
         {
