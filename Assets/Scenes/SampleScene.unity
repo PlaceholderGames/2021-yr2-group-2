@@ -798,8 +798,9 @@ MonoBehaviour:
   useOffsetValues: 0
   pcControlled: 1
   pivot: {fileID: 1807558342}
-  maxViewAngle: 65
-  minViewAngle: -60
+  maxViewAngle: 25
+  minViewAngle: -50
+  invertY: 0
 --- !u!1 &992609163
 GameObject:
   m_ObjectHideFlags: 0
