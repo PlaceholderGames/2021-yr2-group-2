@@ -3,15 +3,22 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Threading;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
     public CharacterController cController;
+    public Healthbar Healthbar;
+    //flashimage script:
+    [SerializeField] FlashImage _flashImage = null;
+
 
     //Player info
     public float moveSpeed;
     public float jumpForce;
     public float gravityScale;
+    public int maxHealth = 100;
+    public int currentHealth;
 
     //Current direction of movement
     private Vector3 moveDirection;
@@ -21,6 +28,9 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         cController = GetComponent<CharacterController>();
+        Healthbar.slider = Healthbar.gameObject.GetComponent<Slider>(); //initiate healthbar using variables from slider
+        currentHealth = maxHealth;//start game with max health
+        Healthbar.SetMaxHealth(maxHealth);//max health for player set to 100, so max health is 100
 
     }
 
@@ -50,10 +60,20 @@ public class PlayerController : MonoBehaviour
             if (Input.GetButtonDown("Jump"))
             {
                 moveDirection.y = jumpForce;
+                TakeDamage(20);//just to test that damage gets inflicted and healthbar works, will be moved onto enemies when possible
+                
             }
-        }       
-        
-        
+        }
+
+        void TakeDamage(int damage) // Take damage code
+        {
+            currentHealth -= damage;
+
+            Healthbar.SetHealth(currentHealth);
+
+            _flashImage.StartFlash(.25f, .5f, Color.red); //When take damage is called, flash image starts
+        }
+
         //Move in the x taking into account gravity scale and gravity
         moveDirection.y += Physics.gravity.y * gravityScale * Time.deltaTime;
         
