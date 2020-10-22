@@ -57,21 +57,23 @@ public class PlayerController : MonoBehaviour
             moveDirection.y = 0f;
 
             //If jumping add jump force to moveDirection
-            if (Input.GetButtonDown("Jump"))
+            if (Input.GetButtonDown("Jump") && StaminaBar.instance.currentStamina >= 20)
             {
                 moveDirection.y = jumpForce;
                 TakeDamage(20);//just to test that damage gets inflicted and healthbar works, will be moved onto enemies when possible
-                
+                StaminaBar.instance.UseStamina(20);//this reduces stamina bar
             }
+          
         }
 
         void TakeDamage(int damage) // Take damage code
         {
-            currentHealth -= damage;
-
-            Healthbar.SetHealth(currentHealth);
-
-            _flashImage.StartFlash(.25f, .5f, Color.red); //When take damage is called, flash image starts
+            if (currentHealth >= 0)
+            {
+                currentHealth -= damage;
+                Healthbar.SetHealth(currentHealth);
+                _flashImage.StartFlash(.25f, .5f, Color.red); //When take damage is called, flash image starts
+            }
         }
 
         //Move in the x taking into account gravity scale and gravity
