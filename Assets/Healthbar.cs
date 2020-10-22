@@ -5,10 +5,12 @@ using UnityEngine.UI;
 
 public class Healthbar : MonoBehaviour
 {
+    public PlayerController pController;
     public Slider slider;
     public Gradient gradient;
     public Image fill;
-
+    private WaitForSeconds healthregentick = new WaitForSeconds(0.1f);
+    private Coroutine regen;
 
     public void SetMaxHealth(int health)
     {
@@ -24,6 +26,17 @@ public class Healthbar : MonoBehaviour
         fill.color = gradient.Evaluate(slider.normalizedValue);
     }
      
-    
+    private IEnumerator Regenhealth()
+    {
+        yield return new WaitForSeconds(2);
+        while(pController.currentHealth < pController.maxHealth)
+        {
+            pController.currentHealth += pController.maxHealth / 100;
+            slider.value = pController.currentHealth;
+            yield return healthregentick;
+        }
+
+        healthregentick = null;
+    }
 
 }
