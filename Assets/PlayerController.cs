@@ -63,10 +63,6 @@ public class PlayerController : MonoBehaviour
                 StaminaBar.instance.UseStamina(20);//this reduces stamina bar
                 canJump = false;
             }
-            else
-            {   //So gravity build-up doesnt occur
-                moveDirection.y = 0f;
-            }
         }
 
         void TakeDamage(int damage) // Take damage code
@@ -85,9 +81,16 @@ public class PlayerController : MonoBehaviour
         //Move in the directions built in regards to delta time (rather than set by frame rate)
         cController.Move(moveDirection * Time.deltaTime);
 
-        //If the player can't jump set the canJump to is Grounded (so it is only called if checking is required
-        if (!canJump) { canJump = cController.isGrounded; }
-    }
+        //When player is grounded
+        if (cController.isGrounded)
+        {
+            //Renable ability to jump
+            canJump = true;
 
+            //So gravity build-up doesnt occur
+            moveDirection.y = 0;
+        }
+
+    }
 
 }
