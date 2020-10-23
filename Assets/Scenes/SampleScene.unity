@@ -1086,6 +1086,9 @@ MonoBehaviour:
   ghostTimer: 3
   ghostTimerMax: 3
   ghostTimerRegenMultipler: 1
+  myRenderer: {fileID: 884915841}
+  standardMaterial: {fileID: 2100000, guid: 3ad20e6067349bf4aad686bb982b2de5, type: 2}
+  ghostMaterial: {fileID: 2100000, guid: 5a353d76c90cb484e83a30b6cd457858, type: 2}
 --- !u!1 &908463755
 GameObject:
   m_ObjectHideFlags: 0

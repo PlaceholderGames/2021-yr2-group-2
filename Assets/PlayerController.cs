@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Threading;
+using UnityEditor.UI;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.XR;
 
 public class PlayerController : MonoBehaviour
 {
@@ -25,6 +27,8 @@ public class PlayerController : MonoBehaviour
     public float ghostTimer = 3.0f;
     public float ghostTimerMax = 3.0f;
     public float ghostTimerRegenMultipler = 1.0f;
+    public Material standardMaterial;
+    public Material ghostMaterial;
 
     //Current direction of movement
     private Vector3 moveDirection;
@@ -72,7 +76,12 @@ public class PlayerController : MonoBehaviour
             {
                 //Come out of ghost form
                 isGhost = false;
+
+                //Go back to default look
+                GetComponent<Renderer>().material = standardMaterial;
             }
+
+
         }
         else //If not a ghost
         {
@@ -84,6 +93,9 @@ public class PlayerController : MonoBehaviour
             {
                 //become a ghost
                 isGhost = true;
+
+                //Change look into ghosty form
+                GetComponent<Renderer>().material = ghostMaterial;
             }
             else
             {
