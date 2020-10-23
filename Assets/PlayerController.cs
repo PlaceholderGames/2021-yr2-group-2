@@ -20,6 +20,11 @@ public class PlayerController : MonoBehaviour
     public int maxHealth = 100;
     public int currentHealth;
     public bool canJump = true;
+    public bool canGhost = true;
+    public bool isGhost = false;
+    public float ghostTimer = 3.0f;
+    public float ghostTimerMax = 3.0f;
+    public float ghostTimerRegenMultipler = 1.0f;
 
     //Current direction of movement
     private Vector3 moveDirection;
@@ -32,7 +37,6 @@ public class PlayerController : MonoBehaviour
         Healthbar.slider = Healthbar.gameObject.GetComponent<Slider>(); //initiate healthbar using variables from slider
         currentHealth = maxHealth;//start game with max health
         Healthbar.SetMaxHealth(maxHealth);//max health for player set to 100, so max health is 100
-
     }
 
     // Update is called once per frame
@@ -52,6 +56,45 @@ public class PlayerController : MonoBehaviour
         //Reapply yStore as moveDirection.y (as would be broken via normalisation)
         moveDirection.y = yStore;
 
+
+        //If a ghost
+        if(isGhost)
+        {
+            //Turn off collision with passable terrain
+            Physics.IgnoreLayerCollision(0, 8);
+            
+
+            //Start counting down the ghost timer
+            ghostTimer -= Time.deltaTime;
+
+            //If you ghost timer -ve
+            if(ghostTimer <= 0)
+            {
+                //Come out of ghost form
+                isGhost = false;
+            }
+        }
+        else //If not a ghost
+        {
+            //Restart collision with passable layer
+            Physics.IgnoreLayerCollision(0, 8, false);
+
+            //If you press activate ghost power and cooldown > 1
+            if (Input.GetButtonDown("Ghost") && ghostTimer > 1)
+            {
+                //become a ghost
+                isGhost = true;
+            }
+            else
+            {
+                //...increase the ghost time avaliable
+                ghostTimer += ghostTimerRegenMultipler * Time.deltaTime;
+
+                //within cap
+                if (ghostTimer > ghostTimerMax) ghostTimer = ghostTimerMax;
+            }
+        }
+        
         //Check if on ground
         if (canJump)
         {
@@ -64,6 +107,8 @@ public class PlayerController : MonoBehaviour
                 canJump = false;
             }
         }
+
+
 
         void TakeDamage(int damage) // Take damage code
         {
