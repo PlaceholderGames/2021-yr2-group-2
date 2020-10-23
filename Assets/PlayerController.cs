@@ -21,6 +21,10 @@ public class PlayerController : MonoBehaviour
     public float gravityScale;
     public int maxHealth = 100;
     public int currentHealth;
+
+
+    //Ghost related variables
+    public bool ghostAbilityActive = false;
     public bool canJump = true;
     public bool canGhost = true;
     public bool isGhost = false;
@@ -60,53 +64,55 @@ public class PlayerController : MonoBehaviour
         //Reapply yStore as moveDirection.y (as would be broken via normalisation)
         moveDirection.y = yStore;
 
-
-        //If a ghost
-        if(isGhost)
+        if (ghostAbilityActive)
         {
-            //Turn off collision with passable terrain
-            Physics.IgnoreLayerCollision(0, 8);
-            
-
-            //Start counting down the ghost timer
-            ghostTimer -= Time.deltaTime;
-
-            //If you ghost timer -ve
-            if(ghostTimer <= 0)
+            //If a ghost
+            if (isGhost)
             {
-                //Come out of ghost form
-                isGhost = false;
+                //Turn off collision with passable terrain
+                Physics.IgnoreLayerCollision(0, 8);
 
-                //Go back to default look
-                GetComponent<Renderer>().material = standardMaterial;
+
+                //Start counting down the ghost timer
+                ghostTimer -= Time.deltaTime;
+
+                //If you ghost timer -ve
+                if (ghostTimer <= 0)
+                {
+                    //Come out of ghost form
+                    isGhost = false;
+
+                    //Go back to default look
+                    GetComponent<Renderer>().material = standardMaterial;
+                }
+
+
             }
+            else //If not a ghost
+            {
+                //Restart collision with passable layer
+                Physics.IgnoreLayerCollision(0, 8, false);
 
+                //If you press activate ghost power and cooldown > 1
+                if (Input.GetButtonDown("Ghost") && ghostTimer > 1)
+                {
+                    //become a ghost
+                    isGhost = true;
 
+                    //Change look into ghosty form
+                    GetComponent<Renderer>().material = ghostMaterial;
+                }
+                else
+                {
+                    //...increase the ghost time avaliable
+                    ghostTimer += ghostTimerRegenMultipler * Time.deltaTime;
+
+                    //within cap
+                    if (ghostTimer > ghostTimerMax) ghostTimer = ghostTimerMax;
+                }
+            }
         }
-        else //If not a ghost
-        {
-            //Restart collision with passable layer
-            Physics.IgnoreLayerCollision(0, 8, false);
 
-            //If you press activate ghost power and cooldown > 1
-            if (Input.GetButtonDown("Ghost") && ghostTimer > 1)
-            {
-                //become a ghost
-                isGhost = true;
-
-                //Change look into ghosty form
-                GetComponent<Renderer>().material = ghostMaterial;
-            }
-            else
-            {
-                //...increase the ghost time avaliable
-                ghostTimer += ghostTimerRegenMultipler * Time.deltaTime;
-
-                //within cap
-                if (ghostTimer > ghostTimerMax) ghostTimer = ghostTimerMax;
-            }
-        }
-        
         //Check if on ground
         if (canJump)
         {
