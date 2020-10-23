@@ -19,6 +19,7 @@ public class PlayerController : MonoBehaviour
     public float gravityScale;
     public int maxHealth = 100;
     public int currentHealth;
+    public bool canJump = true;
 
     //Current direction of movement
     private Vector3 moveDirection;
@@ -37,11 +38,12 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         //Store the y move direction for usage later
         float yStore = moveDirection.y;
 
         //Adjust movement based on facing
-        moveDirection = (transform.forward * Input.GetAxis("Vertical")) + 
+        moveDirection = (transform.forward * Input.GetAxis("Vertical")) +
             (transform.right * Input.GetAxis("Horizontal"));
 
         //Normalise vector to make sure moving diagonally doesn't double speed
@@ -49,21 +51,22 @@ public class PlayerController : MonoBehaviour
 
         //Reapply yStore as moveDirection.y (as would be broken via normalisation)
         moveDirection.y = yStore;
-        
-        //Check if on ground
-        if (cController.isGrounded)
-        {
-            //So gravity build-up doesnt occur
-            moveDirection.y = 0f;
 
+        //Check if on ground
+        if (canJump)
+        {
             //If jumping add jump force to moveDirection
             if (Input.GetButtonDown("Jump") && StaminaBar.instance.currentStamina >= 20)
             {
                 moveDirection.y = jumpForce;
                 TakeDamage(20);//just to test that damage gets inflicted and healthbar works, will be moved onto enemies when possible
                 StaminaBar.instance.UseStamina(20);//this reduces stamina bar
+                canJump = false;
             }
-          
+            else
+            {   //So gravity build-up doesnt occur
+                moveDirection.y = 0f;
+            }
         }
 
         void TakeDamage(int damage) // Take damage code
@@ -78,8 +81,13 @@ public class PlayerController : MonoBehaviour
 
         //Move in the x taking into account gravity scale and gravity
         moveDirection.y += Physics.gravity.y * gravityScale * Time.deltaTime;
-        
+
         //Move in the directions built in regards to delta time (rather than set by frame rate)
-        cController.Move(moveDirection * Time.deltaTime) ;
+        cController.Move(moveDirection * Time.deltaTime);
+
+        //If the player can't jump set the canJump to is Grounded (so it is only called if checking is required
+        if (!canJump) { canJump = cController.isGrounded; }
     }
+
+
 }
