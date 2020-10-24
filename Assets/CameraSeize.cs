@@ -4,9 +4,16 @@ using System.Runtime.CompilerServices;
 using UnityEditor.UI;
 using UnityEngine;
 
-public class NPC_Controller : MonoBehaviour
+public class CameraSeize : MonoBehaviour
 {
     public CameraFollow cam;
+
+    private void Start()
+    {
+        //Find the Main Camera
+        GameObject obj = GameObject.Find("Main Camera");
+        cam = obj.GetComponent<CameraFollow>();
+    }
 
     //Become the focus of the camera
     void TakeCameraControl()
