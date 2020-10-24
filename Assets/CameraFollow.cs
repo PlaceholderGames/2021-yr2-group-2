@@ -1,11 +1,15 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using TreeEditor;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
 public class CameraFollow : MonoBehaviour
 {
-    public Transform target;
+    public Transform target;        //Current Target
+    public Transform oldTarget;     //Stored Old Target
     float smoothSpeed;
     public Vector3 offset;
     public int cameraRange;
@@ -14,7 +18,7 @@ public class CameraFollow : MonoBehaviour
     public bool useOffsetValues;
     public bool pcControlled;
 
-    public Transform pivot;
+    public Transform pivot;         //Pivot Point
     public float maxViewAngle;
     public float minViewAngle;
 
@@ -101,5 +105,21 @@ public class CameraFollow : MonoBehaviour
 
         //Look towards the target
         transform.LookAt(target);
+    }
+
+
+    //Set the camera to focus on a new point and transform
+    public void NewTarget(Transform newTran)
+    {
+        oldTarget = target;
+        target = newTran;
+        pcControlled = false;
+    }
+
+   //Return to previous target / pivot
+    public void RevertTarget()
+    {
+        target = oldTarget;
+        pcControlled = true;
     }
 }
