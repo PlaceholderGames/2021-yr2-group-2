@@ -1846,8 +1846,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a6cd14e880435b4cab29efaecff68e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pController: {fileID: 0}
-  slider: {fileID: 0}
+  pController: {fileID: 884915844}
+  slider: {fileID: 1337113835}
   gradient:
     serializedVersion: 2
     key0: {r: 1, g: 0, b: 0, a: 1}
@@ -1923,7 +1923,7 @@ MonoBehaviour:
   m_Direction: 0
   m_MinValue: 0
   m_MaxValue: 100
-  m_WholeNumbers: 1
+  m_WholeNumbers: 0
   m_Value: 100
   m_OnValueChanged:
     m_PersistentCalls:

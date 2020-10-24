@@ -132,6 +132,7 @@ public class PlayerController : MonoBehaviour
         {
             if (currentHealth >= 0)
             {
+                Healthbar.instance.TakeDamage();
                 currentHealth -= damage;
                 Healthbar.SetHealth(currentHealth);
                 _flashImage.StartFlash(.25f, .5f, Color.red); //When take damage is called, flash image starts

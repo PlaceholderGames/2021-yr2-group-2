@@ -12,6 +12,14 @@ public class Healthbar : MonoBehaviour
     private WaitForSeconds healthregentick = new WaitForSeconds(0.1f);
     private Coroutine regen;
 
+    public static Healthbar instance;
+
+    private void Awake()
+    {
+        instance = this;
+        SetMaxHealth(pController.maxHealth);
+    }
+
     public void SetMaxHealth(int health)
     {
         slider.maxValue = health;
@@ -25,18 +33,32 @@ public class Healthbar : MonoBehaviour
 
         fill.color = gradient.Evaluate(slider.normalizedValue);
     }
-     
+
+    public void TakeDamage()
+    {
+
+        slider.value = pController.currentHealth;
+        if (regen != null)
+        {
+            StopCoroutine(regen);
+        }
+        regen = StartCoroutine(Regenhealth());
+    }
+
     private IEnumerator Regenhealth()
     {
         yield return new WaitForSeconds(2);
-        while(pController.currentHealth < pController.maxHealth)
+        while (pController.currentHealth < pController.maxHealth)
         {
-            pController.currentHealth += pController.maxHealth / 100;
+            pController.currentHealth += pController.maxHealth /100;
             slider.value = pController.currentHealth;
+            fill.color = gradient.Evaluate(slider.normalizedValue);
             yield return healthregentick;
         }
 
-        healthregentick = null;
+        regen = null;
     }
+   
+
 
 }
