@@ -29,10 +29,11 @@ public class ProgressBar : MonoBehaviour
 
     public int maximum;
     public int minimum;
-    public int current;
+    public float current;
     public Image mask;
     public Image fill;
-    public Color color;
+    public Color fill_color;
+    public Color mask_color;
 
     // Start is called before the first frame update
     void Start()
@@ -52,6 +53,22 @@ public class ProgressBar : MonoBehaviour
         float currentOffset = current - minimum;
         float maximumOffset = maximum - minimum;
         mask.fillAmount = currentOffset / maximumOffset;
-        fill.color = color;
+        fill.color = fill_color;
+        mask.color = mask_color;
+    }
+
+    public void UpdateCurrent(float newCur)
+    {
+        current = newCur;
+    }
+
+    public void UpdateMax(int newMax)
+    {
+        maximum = newMax;
+    }
+
+    public void UpdateMin(int newMin)
+    {
+        minimum = newMin;
     }
 }

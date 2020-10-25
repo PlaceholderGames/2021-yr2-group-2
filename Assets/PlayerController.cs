@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
     public float ghostTimerRegenMultipler = 1.0f;
     public Material standardMaterial;
     public Material ghostMaterial;
+    ProgressBar ghost;
 
     //Current direction of movement
     private Vector3 moveDirection;
@@ -62,10 +63,27 @@ public class PlayerController : MonoBehaviour
             print("Could not find FlashImage for PlayerControlller");
         }
 
+        //Find Ghost UI
+        obj = GameObject.Find("GhostUI");
+        ghost = obj.GetComponent<ProgressBar>();
+
+        if (obj == null)
+        {
+            print("Could not find GhostUI for PlayerController");
+        }
+        else
+        {
+            ghost.maximum = (int)ghostTimerMax;
+            ghost.minimum = 0;
+        }
+
+
         cController = GetComponent<CharacterController>();
         Healthbar.slider = Healthbar.gameObject.GetComponent<Slider>(); //initiate healthbar using variables from slider
         currentHealth = maxHealth;//start game with max health
         Healthbar.SetMaxHealth(maxHealth);//max health for player set to 100, so max health is 100
+
+
     }
 
     // Update is called once per frame
@@ -176,6 +194,7 @@ public class PlayerController : MonoBehaviour
             moveDirection.y = 0;
         }
 
+        ghost.UpdateCurrent(ghostTimer);
     }
 
 }
