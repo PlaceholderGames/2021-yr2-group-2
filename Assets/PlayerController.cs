@@ -41,6 +41,27 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+        //Find the healthbar
+        GameObject obj = GameObject.Find("Healthbar");
+        Healthbar = obj.GetComponent<Healthbar>();
+        
+        //Error check
+        if (obj == null)
+        {
+            print("Could not find Healthbar for PlayerControlller");
+        }
+
+        //Find the Flash Image
+        obj = GameObject.Find("FlashImage");
+        _flashImage = obj.GetComponent<FlashImage>();
+
+        //Error check
+        if (obj == null)
+        {
+            print("Could not find FlashImage for PlayerControlller");
+        }
+
         cController = GetComponent<CharacterController>();
         Healthbar.slider = Healthbar.gameObject.GetComponent<Slider>(); //initiate healthbar using variables from slider
         currentHealth = maxHealth;//start game with max health

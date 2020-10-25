@@ -8,11 +8,19 @@ public class CameraSeize : MonoBehaviour
 {
     public CameraFollow cam;
 
+
     private void Start()
     {
         //Find the Main Camera
         GameObject obj = GameObject.Find("Main Camera");
         cam = obj.GetComponent<CameraFollow>();
+
+        //Error message
+        if(obj == null)
+        {
+            print("Could not find camerafollow for Camera");
+        }
+
     }
 
     //Become the focus of the camera
