@@ -26,7 +26,17 @@ public class CameraFollow : MonoBehaviour
 
     private void Start()
     {
-        if(!useOffsetValues)
+        //Find the Player
+        GameObject obj = GameObject.Find("Player");
+        target = obj.transform;
+
+        //Error check
+        if(obj == null)
+        {
+            print("Could not find Player for CameraFollow");
+        }
+
+        if (!useOffsetValues)
         {
             offset = target.position - transform.position;
         }

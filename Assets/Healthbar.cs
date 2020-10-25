@@ -17,6 +17,17 @@ public class Healthbar : MonoBehaviour
     private void Awake()
     {
         instance = this;
+
+        //Find the Player
+        GameObject obj = GameObject.Find("Player");
+        pController = obj.GetComponent<PlayerController>();
+
+        //Error message
+        if(obj == null)
+        {
+            print("Could not find Player for PlayerController");
+        }
+
         SetMaxHealth(pController.maxHealth);
     }
 
