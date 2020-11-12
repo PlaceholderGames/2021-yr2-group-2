@@ -97,6 +97,16 @@ public class PlayerController : MonoBehaviour
         moveDirection = (transform.forward * Input.GetAxis("Vertical")) +
             (transform.right * Input.GetAxis("Horizontal"));
 
+        if (Input.GetKey(KeyCode.T))
+        {
+            Time.timeScale = 0.5f;
+            moveSpeed = 22;
+        }
+        else
+        {
+            Time.timeScale = 1;
+            moveSpeed = 11;
+        }
         //Normalise vector to make sure moving diagonally doesn't double speed
         moveDirection = moveDirection.normalized * moveSpeed;
 
@@ -165,19 +175,6 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-
-
-        void TakeDamage(int damage) // Take damage code
-        {
-            if (currentHealth >= 0)
-            {
-                Healthbar.instance.TakeDamage();
-                currentHealth -= damage;
-                Healthbar.SetHealth(currentHealth);
-                _flashImage.StartFlash(.25f, .5f, Color.red); //When take damage is called, flash image starts
-            }
-        }
-
         //Move in the x taking into account gravity scale and gravity
         moveDirection.y += Physics.gravity.y * gravityScale * Time.deltaTime;
 
@@ -197,4 +194,14 @@ public class PlayerController : MonoBehaviour
         ghost.UpdateCurrent(ghostTimer);
     }
 
+    public void TakeDamage(int damage) // Take damage code
+    {
+        if (currentHealth >= 0)
+        {
+            Healthbar.instance.TakeDamage();
+            currentHealth -= damage;
+            Healthbar.SetHealth(currentHealth);
+            _flashImage.StartFlash(.25f, .5f, Color.red); //When take damage is called, flash image starts
+        }
+    }
 }
