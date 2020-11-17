@@ -21,6 +21,8 @@ public class PlayerController : MonoBehaviour
     public float gravityScale;
     public int maxHealth = 100;
     public int currentHealth;
+    public Animator anim;
+
 
 
     //Ghost related variables
@@ -107,6 +109,7 @@ public class PlayerController : MonoBehaviour
             Time.timeScale = 1;
             moveSpeed = 11;
         }
+
         //Normalise vector to make sure moving diagonally doesn't double speed
         moveDirection = moveDirection.normalized * moveSpeed;
 
@@ -191,6 +194,15 @@ public class PlayerController : MonoBehaviour
             moveDirection.y = 0;
         }
 
+        //Handle Animation
+        anim.SetBool("isGrounded", !canJump);
+        anim.SetFloat("Speed", Mathf.Abs(moveDirection.x + moveDirection.z));
+
+
+        //print("Speed = " + Mathf.Abs(Input.GetAxis("Vertical")) + Mathf.Abs(Input.GetAxis("Horizontal")));
+        print("Can Jump = " + canJump);
+        anim.SetBool("isGrounded", canJump);
+        anim.SetFloat("Speed", (Mathf.Abs(Input.GetAxis("Vertical")) + Mathf.Abs(Input.GetAxis("Horizontal"))));
         ghost.UpdateCurrent(ghostTimer);
     }
 

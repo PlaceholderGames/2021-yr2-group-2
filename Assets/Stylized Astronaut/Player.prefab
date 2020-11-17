@@ -232,6 +232,7 @@ MonoBehaviour:
   gravityScale: 2
   maxHealth: 100
   currentHealth: 0
+  anim: {fileID: 0}
   ghostAbilityActive: 0
   canJump: 1
   canGhost: 1
