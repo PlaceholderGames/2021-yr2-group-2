@@ -204,6 +204,8 @@ public class PlayerController : MonoBehaviour
         anim.SetBool("isGrounded", canJump);
         anim.SetFloat("Speed", (Mathf.Abs(Input.GetAxis("Vertical")) + Mathf.Abs(Input.GetAxis("Horizontal"))));
         ghost.UpdateCurrent(ghostTimer);
+
+        print(cController.isGrounded);
     }
 
     public void TakeDamage(int damage) // Take damage code
