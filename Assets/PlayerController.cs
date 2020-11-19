@@ -206,6 +206,8 @@ public class PlayerController : MonoBehaviour
         ghost.UpdateCurrent(ghostTimer);
 
         print(cController.isGrounded);
+
+        print(Time.deltaTime);
     }
 
     public void TakeDamage(int damage) // Take damage code
