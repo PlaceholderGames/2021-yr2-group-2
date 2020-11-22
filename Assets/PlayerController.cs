@@ -51,8 +51,9 @@ public class PlayerController : MonoBehaviour
     [Tooltip("Defines if the character can jump")]
     public bool canJump = true;
 
-
+    //Power Ghost
     [Header("Power: Ghost")]
+    
     [Tooltip("Defines if the ghost power can be activated")]
     public bool ghostPowerActive = false;
 
@@ -77,7 +78,17 @@ public class PlayerController : MonoBehaviour
     [Tooltip("Defines which progress bar is for the ghost power")]
     ProgressBar ghost;
 
+
+    //Power Time
     [Header("Power: Time")]
+
+    [Tooltip("Defines if the time power can be activated")]
+    public bool timePowerActive;
+
+
+    [Tooltip("Defines if the character is slowed")]
+    public bool isSlowed;
+
     [Range(0, 50)]
     [Tooltip("Define the speed of the character when slowed")]
     public float slowMoveSpeed = 11;
@@ -135,6 +146,7 @@ public class PlayerController : MonoBehaviour
         Healthbar.SetMaxHealth(maxHealth);                              //max health for player set to 100, so max health is 100
 
 
+        //Use defaults to set info
         moveSpeed = baseMoveSpeed;
         ghostTimer = ghostTimerMax;
     }
@@ -150,15 +162,20 @@ public class PlayerController : MonoBehaviour
         moveDirection = (transform.forward * Input.GetAxis("Vertical")) +
             (transform.right * Input.GetAxis("Horizontal"));
 
-        if (Input.GetKey(KeyCode.T))
+        if (timePowerActive)
         {
-            Time.timeScale = 0.5f;
-            moveSpeed = slowMoveSpeed;
-        }
-        else
-        {
-            Time.timeScale = 1;
-            moveSpeed = baseMoveSpeed;
+            if (Input.GetButton("Time"))
+            {
+                Time.timeScale = slowTime;
+                moveSpeed = slowMoveSpeed;
+                isSlowed = true;
+            }
+            else
+            {
+                Time.timeScale = standardTime;
+                moveSpeed = baseMoveSpeed;
+                isSlowed = false;
+            }
         }
 
         //Normalise vector to make sure moving diagonally doesn't double speed
