@@ -240,7 +240,6 @@ public class PlayerController : MonoBehaviour
             if (Input.GetButtonDown("Jump") && StaminaBar.instance.currentStamina >= 20)
             {
                 moveDirection.y = jumpForce;
-                TakeDamage(20);//just to test that damage gets inflicted and healthbar works, will be moved onto enemies when possible
                 StaminaBar.instance.UseStamina(20);//this reduces stamina bar
                 canJump = false;
             }
@@ -268,14 +267,10 @@ public class PlayerController : MonoBehaviour
 
 
         //print("Speed = " + Mathf.Abs(Input.GetAxis("Vertical")) + Mathf.Abs(Input.GetAxis("Horizontal")));
-        print("Can Jump = " + canJump);
         anim.SetBool("isGrounded", canJump);
         anim.SetFloat("Speed", (Mathf.Abs(Input.GetAxis("Vertical")) + Mathf.Abs(Input.GetAxis("Horizontal"))));
         ghost.UpdateCurrent(ghostTimer);
 
-        print(cController.isGrounded);
-
-        print(Time.deltaTime);
     }
 
     public void TakeDamage(int damage) // Take damage code

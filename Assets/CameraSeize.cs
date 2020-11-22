@@ -41,7 +41,6 @@ public class CameraSeize : MonoBehaviour
     {
         if(other.name == "Player")
         {
-            print("PLAYER");
             TakeCameraControl();
         }
     }
@@ -51,7 +50,6 @@ public class CameraSeize : MonoBehaviour
     {
         if(other.name == "Player")
         {
-            print("EXIT");
             RevertCameraControl();
         }
     }
