@@ -9,37 +9,97 @@ using UnityEngine.XR;
 
 public class PlayerController : MonoBehaviour
 {
-    public CharacterController cController;
-    public Healthbar Healthbar;
-    //flashimage script:
-    [SerializeField] FlashImage _flashImage = null;
-
-
-    //Player info
-    public float moveSpeed;
-    public float jumpForce;
-    public float gravityScale;
-    public int maxHealth = 100;
-    public int currentHealth;
+    [Header("GameInfo")]
+    CharacterController cController;
+    Healthbar Healthbar;
     public Animator anim;
+    [SerializeField]
+    FlashImage _flashImage = null;
 
+    [Header("Default Character Info")]
+    [Range(0, 50)]
+    [Tooltip("Define the base move speed of the character")]
+    public float baseMoveSpeed = 22;
 
+    [Tooltip("Defines the standard materials for the character")]
+    public Material[] standardMaterial;
 
-    //Ghost related variables
-    public bool ghostAbilityActive = false;
-    public bool canJump = true;
-    public bool canGhost = true;
-    public bool isGhost = false;
-    public float ghostTimer = 3.0f;
-    public float ghostTimerMax = 3.0f;
-    public float ghostTimerRegenMultipler = 1.0f;
-    public Material standardMaterial;
-    public Material ghostMaterial;
-    ProgressBar ghost;
+    [Header("Character Info")]
 
-    //Current direction of movement
     private Vector3 moveDirection;
 
+    [Range(0, 50)]
+    [Tooltip("Defines the move speed of the character")]
+    public float moveSpeed;
+
+    [Range(5, 20)]
+    [Tooltip("Defines the force of jumps of the character")]
+    public float jumpForce = 10;
+
+    [Range(0, 5)]
+    [Tooltip("Defines to what scale gravity effects the character")]
+    public float gravityScale = 2;
+
+    [Range(1, 300)]
+    [Tooltip("Defines maximum health of the character")]
+    public int maxHealth = 100;
+
+    [Range(1, 300)]
+    [Tooltip("Defines current health of the character")]
+    public int currentHealth;
+
+    [Tooltip("Defines if the character can jump")]
+    public bool canJump = true;
+
+    //Power Ghost
+    [Header("Power: Ghost")]
+    
+    [Tooltip("Defines if the ghost power can be activated")]
+    public bool ghostPowerActive = false;
+
+    [Tooltip("Defines if the ghost power is active")]
+    public bool isGhost = false;
+
+    [Range(1, 5)]
+    [Tooltip("Defines how long is remaining for the active ghost Power")]
+    public float ghostTimer;
+
+    [Range(1,5)]
+    [Tooltip("Defines how long is the maximum time a ghost power can be active")]
+    public float ghostTimerMax = 3.0f;
+
+    [Range(0,3)]
+    [Tooltip("Defines to what scale the ghostTimer regenerates")]
+    public float ghostTimerRegenMultipler = 1.0f;
+
+    [Tooltip("Defines how the material will change as a ghost")]
+    public Material[] ghostMaterial;
+
+    [Tooltip("Defines which progress bar is for the ghost power")]
+    ProgressBar ghost;
+
+
+    //Power Time
+    [Header("Power: Time")]
+
+    [Tooltip("Defines if the time power can be activated")]
+    public bool timePowerActive;
+
+
+    [Tooltip("Defines if the character is slowed")]
+    public bool isSlowed;
+
+    [Range(0, 50)]
+    [Tooltip("Define the speed of the character when slowed")]
+    public float slowMoveSpeed = 11;
+
+    [Range(0, 2)]
+    [Tooltip("Define the standard effect of delta time for the character")]
+    public float standardTime = 1.0f;
+
+    [Range(0, 2)]
+    [Tooltip("Define the standard effect of delta time for the character")]
+    public float slowTime = 0.5f;
 
     // Start is called before the first frame update
     void Start()
@@ -82,10 +142,13 @@ public class PlayerController : MonoBehaviour
 
         cController = GetComponent<CharacterController>();
         Healthbar.slider = Healthbar.gameObject.GetComponent<Slider>(); //initiate healthbar using variables from slider
-        currentHealth = maxHealth;//start game with max health
-        Healthbar.SetMaxHealth(maxHealth);//max health for player set to 100, so max health is 100
+        currentHealth = maxHealth;                                      //start game with max health
+        Healthbar.SetMaxHealth(maxHealth);                              //max health for player set to 100, so max health is 100
 
 
+        //Use defaults to set info
+        moveSpeed = baseMoveSpeed;
+        ghostTimer = ghostTimerMax;
     }
 
     // Update is called once per frame
@@ -99,15 +162,20 @@ public class PlayerController : MonoBehaviour
         moveDirection = (transform.forward * Input.GetAxis("Vertical")) +
             (transform.right * Input.GetAxis("Horizontal"));
 
-        if (Input.GetKey(KeyCode.T))
+        if (timePowerActive)
         {
-            Time.timeScale = 0.5f;
-            moveSpeed = 22;
-        }
-        else
-        {
-            Time.timeScale = 1;
-            moveSpeed = 11;
+            if (Input.GetButton("Time"))
+            {
+                Time.timeScale = slowTime;
+                moveSpeed = slowMoveSpeed;
+                isSlowed = true;
+            }
+            else
+            {
+                Time.timeScale = standardTime;
+                moveSpeed = baseMoveSpeed;
+                isSlowed = false;
+            }
         }
 
         //Normalise vector to make sure moving diagonally doesn't double speed
@@ -116,7 +184,7 @@ public class PlayerController : MonoBehaviour
         //Reapply yStore as moveDirection.y (as would be broken via normalisation)
         moveDirection.y = yStore;
 
-        if (ghostAbilityActive)
+        if (ghostPowerActive)
         {
             //If a ghost
             if (isGhost)
@@ -135,7 +203,7 @@ public class PlayerController : MonoBehaviour
                     isGhost = false;
 
                     //Go back to default look
-                    GetComponent<Renderer>().material = standardMaterial;
+                    //GetComponent<Renderer>().material = standardMaterial;
                 }
 
 
@@ -152,7 +220,7 @@ public class PlayerController : MonoBehaviour
                     isGhost = true;
 
                     //Change look into ghosty form
-                    GetComponent<Renderer>().material = ghostMaterial;
+                    //GetComponent<Renderer>().material = ghostMaterial;
                 }
                 else
                 {

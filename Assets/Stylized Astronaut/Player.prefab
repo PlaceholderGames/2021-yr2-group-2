@@ -134,7 +134,6 @@ GameObject:
   - component: {fileID: 4268597916284530}
   - component: {fileID: 95340733316770424}
   - component: {fileID: 143350241100547368}
-  - component: {fileID: 114551384804589004}
   - component: {fileID: 3976502994770938051}
   m_Layer: 0
   m_Name: Player
@@ -197,21 +196,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.125, z: -0.01}
---- !u!114 &114551384804589004
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1147752367711628}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33e19da6a22259d4299a67d51a3c65f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 7
-  turnSpeed: 150
-  gravity: 20
 --- !u!114 &3976502994770938051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -224,24 +208,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 869998b7d3a251b47bfbc11f8aaa3299, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cController: {fileID: 0}
-  Healthbar: {fileID: 0}
+  anim: {fileID: 95340733316770424}
   _flashImage: {fileID: 0}
+  baseMoveSpeed: 22
+  standardMaterial:
+  - {fileID: 0}
   moveSpeed: 5
   jumpForce: 10
   gravityScale: 2
   maxHealth: 100
   currentHealth: 0
-  anim: {fileID: 95340733316770424}
-  ghostAbilityActive: 0
   canJump: 1
+  ghostAbilityActive: 0
   canGhost: 1
   isGhost: 0
   ghostTimer: 3
   ghostTimerMax: 3
   ghostTimerRegenMultipler: 1
-  standardMaterial: {fileID: 0}
   ghostMaterial: {fileID: 0}
+  slowMoveSpeed: 11
+  standardTime: 1
+  slowTime: 0.5
 --- !u!1 &1158021920011488
 GameObject:
   m_ObjectHideFlags: 0
