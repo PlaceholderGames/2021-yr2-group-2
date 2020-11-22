@@ -240,7 +240,7 @@ public class PlayerController : MonoBehaviour
             if (Input.GetButtonDown("Jump") && StaminaBar.instance.currentStamina >= 20)
             {
                 moveDirection.y = jumpForce;
-                StaminaBar.instance.UseStamina(20);//this reduces stamina bar
+                //StaminaBar.instance.UseStamina(20);//this reduces stamina bar
                 canJump = false;
             }
         }
