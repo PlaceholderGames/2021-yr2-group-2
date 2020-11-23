@@ -45,9 +45,9 @@ public class DamageOnContact : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        timerCur = timerMax;
         if(other.gameObject.name == "Player")
         {
+            timerCur = timerMax;
             pcC.TakeDamage(sharpDamage);
         }
     }
