@@ -1,0 +1,27 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ActivateWhenDestroyed : MonoBehaviour
+{
+
+    public GameObject[] list;
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    private void OnDestroy()
+    {
+        if (list.Length != 0)
+        {
+            Debug.Log(list.Length);
+            for (int i = 0; i < list.Length; i++)
+            {
+                print(list[i]);
+                list[i].SetActive(true);
+            }
+        }
+    }
+}
