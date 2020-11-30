@@ -4,53 +4,62 @@ using System.Runtime.CompilerServices;
 using UnityEditor.UI;
 using UnityEngine;
 
+
+[RequireComponent(typeof(Camera))]
 public class CameraSeize : MonoBehaviour
 {
-    public CameraFollow cam;
-
+    public Camera OwnCam;
+    public Camera main;
+    public CameraFollow cm;
+    public bool MakeMeMain;
+    public bool ForceMain;
 
     private void Start()
     {
-        //Find the Main Camera
-        GameObject obj = GameObject.Find("Main Camera");
-        cam = obj.GetComponent<CameraFollow>();
+        OwnCam = this.GetComponent<Camera>();
+        main = Camera.main;
+        cm = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraFollow>();
+        OwnCam.enabled = false;
+    }
 
-        //Error message
-        if(obj == null)
+    private void Update()
+    {
+        if(MakeMeMain)
         {
-            print("Could not find camerafollow for Camera");
+            MakeOwnMain();
+            MakeMeMain = false;
         }
 
-    }
-
-    //Become the focus of the camera
-    void TakeCameraControl()
-    {
-        cam.NewTarget(this.transform);
-    }
-
-    //Make the previous focus the new focus of the camear0
-    void RevertCameraControl()
-    {
-        cam.RevertTarget();
-    }
-
-
-    //For testing obtain ownership of the camera when the player collides
-    private void OnTriggerEnter(Collider other)
-    {
-        if(other.name == "Player")
+        if(ForceMain)
         {
-            TakeCameraControl();
+            RevertToMain();
+            ForceMain = false;
         }
+   
     }
-    
-    //For testing revert camera control when the player leaves
-    private void OnTriggerExit(Collider other)
+
+    void MakeOwnMain()
     {
-        if(other.name == "Player")
+
+        if (cm.pcControlled)
         {
-            RevertCameraControl();
+            main.enabled = false;
+            cm.pcControlled = false;
+            cm.enabled = false;
         }
+        else
+        {
+            Camera.current.enabled = false;
+        }
+
+        OwnCam.enabled = true;
+    }
+
+    void RevertToMain()
+    {
+        main.enabled = true;
+        cm.pcControlled = true;
+        cm.enabled = true;
+        OwnCam.enabled = false;
     }
 }

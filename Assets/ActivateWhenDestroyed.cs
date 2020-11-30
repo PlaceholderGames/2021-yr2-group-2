@@ -19,8 +19,10 @@ public class ActivateWhenDestroyed : MonoBehaviour
             Debug.Log(list.Length);
             for (int i = 0; i < list.Length; i++)
             {
-                print(list[i]);
-                list[i].SetActive(true);
+                if (list != null)
+                {
+                    list[i].SetActive(true);
+                }
             }
         }
     }
