@@ -5,7 +5,7 @@ using UnityEngine;
 public class DamageOnContact : MonoBehaviour
 {
     public PlayerController pcC;
-
+    [Header("test")]
     [Range(0,10)]
     [Tooltip("The time between damage")]
     public float timerMax;
@@ -13,7 +13,7 @@ public class DamageOnContact : MonoBehaviour
     [Range(0,10)]
     [Tooltip("Current countdown to new damage")]
     public float timerCur;
-
+    [Header("Test 2")]
     [Range(0, 30)]
     [Tooltip("Damage initally taken")]
     public int sharpDamage;
