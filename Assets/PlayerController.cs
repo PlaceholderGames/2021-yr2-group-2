@@ -51,33 +51,10 @@ public class PlayerController : MonoBehaviour
     [Tooltip("Defines if the character can jump")]
     public bool canJump = true;
 
-    //Power Ghost
-    [Header("Power: Ghost")]
-    
-    [Tooltip("Defines if the ghost power can be activated")]
-    public bool ghostPowerActive = false;
 
-    [Tooltip("Defines if the ghost power is active")]
-    public bool isGhost = false;
-
-    [Range(1, 5)]
-    [Tooltip("Defines how long is remaining for the active ghost Power")]
-    public float ghostTimer;
-
-    [Range(1,5)]
-    [Tooltip("Defines how long is the maximum time a ghost power can be active")]
-    public float ghostTimerMax = 3.0f;
-
-    [Range(0,3)]
-    [Tooltip("Defines to what scale the ghostTimer regenerates")]
-    public float ghostTimerRegenMultipler = 1.0f;
-
-    [Tooltip("Defines how the material will change as a ghost")]
-    public Material[] ghostMaterial;
 
     [Tooltip("Defines which progress bar is for the ghost power")]
-    ProgressBar ghost;
-
+    ProgressBar PBGhost;
 
     //Power Time
     [Header("Power: Time")]
@@ -100,6 +77,9 @@ public class PlayerController : MonoBehaviour
     [Range(0, 2)]
     [Tooltip("Define the standard effect of delta time for the character")]
     public float slowTime = 0.5f;
+
+
+    public  GhostPower PowerGhost;
 
     // Start is called before the first frame update
     void Start()
@@ -127,7 +107,7 @@ public class PlayerController : MonoBehaviour
 
         //Find Ghost UI
         obj = GameObject.Find("GhostUI");
-        ghost = obj.GetComponent<ProgressBar>();
+        PBGhost = obj.GetComponent<ProgressBar>();
 
         if (obj == null)
         {
@@ -135,8 +115,8 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            ghost.maximum = (int)ghostTimerMax;
-            ghost.minimum = 0;
+            PBGhost.maximum = (int)PowerGhost.ghostTimerMax;
+            PBGhost.minimum = 0;
         }
 
 
@@ -148,7 +128,8 @@ public class PlayerController : MonoBehaviour
 
         //Use defaults to set info
         moveSpeed = baseMoveSpeed;
-        ghostTimer = ghostTimerMax;
+        PowerGhost.ghostTimer = PowerGhost.ghostTimerMax;
+
     }
 
     // Update is called once per frame
@@ -184,7 +165,7 @@ public class PlayerController : MonoBehaviour
         //Reapply yStore as moveDirection.y (as would be broken via normalisation)
         moveDirection.y = yStore;
 
-        HandleGhostPower(ghostPowerActive, Input.GetButtonDown("Ghost")) ;
+        PowerGhost.HandleGhostPower(PowerGhost.ghostPowerActive, Input.GetButtonDown("Ghost")) ;
 
         //Check if on ground
         if (canJump)
@@ -222,92 +203,8 @@ public class PlayerController : MonoBehaviour
         //print("Speed = " + Mathf.Abs(Input.GetAxis("Vertical")) + Mathf.Abs(Input.GetAxis("Horizontal")));
         anim.SetBool("isGrounded", canJump);
         anim.SetFloat("Speed", (Mathf.Abs(Input.GetAxis("Vertical")) + Mathf.Abs(Input.GetAxis("Horizontal"))));
-        ghost.UpdateCurrent(ghostTimer);
+        PBGhost.UpdateCurrent(PowerGhost.ghostTimer);
 
-    }
-
-    
-    private void HandleGhostPower(bool IsActive = false, bool IsTriggered = false)
-    {
-        if (IsActive)
-        {
-            //If a ghost
-            UpdateGhostPower(isGhost, IsTriggered);
-        }
-    }
-
-    private void UpdateGhostPower(bool isGhost, bool IsTriggered = false, int BaseLayer = 0, int IgnoredLayer = 8)
-    {
-
-        if (isGhost)
-        {
-            InteractAsGhost();
-        }
-        else //If not a ghost
-        {
-            //Restart collision with passable layer
-            Physics.IgnoreLayerCollision(BaseLayer, IgnoredLayer, false);
-
-            //If Ghost power is triggered
-            if (IsTriggered)
-            {
-                MakeGhost();
-            }
-            else
-            {
-                RegenerateGhostTimer();
-            }
-        }
-    }
-
-    //Disable collision between baselayer and ignoredlayer while timer >0
-    private void InteractAsGhost(int BaseLayer = 0, int IgnoredLayer = 8, bool HasTimeLimit = true)
-    {
-        //Turn off collision with passable terrain
-        Physics.IgnoreLayerCollision(BaseLayer, IgnoredLayer);
-
-        if (HasTimeLimit)
-        {
-            //Start counting down the ghost timer
-            ghostTimer -= Time.deltaTime;
-
-            //If you ghost timer -ve
-            if (ghostTimer <= 0.1f)
-            {
-                StopBeingGhost();
-            }
-        }
-    }
-
-    private void StopBeingGhost()
-    {
-        //Come out of ghost form
-        isGhost = false;
-
-        //Go back to default look
-        //GetComponent<Renderer>().material = standardMaterial;
-    }
-
-    private void MakeGhost()
-    {
-        //become a ghost
-        isGhost = true;
-
-        //Change look into ghosty form
-        //GetComponent<Renderer>().material = ghostMaterial;
-    }
-
-    private void RegenerateGhostTimer(float amount = 0)
-    {
-        //Go up by given amount
-        ghostTimer += amount;
-
-        //...increase the ghost time avaliable
-        ghostTimer += ghostTimerRegenMultipler * Time.deltaTime;
-
-        //within cap
-        if (ghostTimer > ghostTimerMax)
-            ghostTimer = ghostTimerMax;
     }
 
     public void TakeDamage(int damage) // Take damage code
