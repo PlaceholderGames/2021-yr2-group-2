@@ -1148,6 +1148,14 @@ PrefabInstance:
       propertyPath: PowerGhost
       value: 
       objectReference: {fileID: 1214757429}
+    - target: {fileID: 3976502994770938051, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
+      propertyPath: TimePowerActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976502994770938051, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
+      propertyPath: PowerTime
+      value: 
+      objectReference: {fileID: 1214757430}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
 --- !u!1 &111524021
@@ -9953,6 +9961,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1147752367711628, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
   m_PrefabInstance: {fileID: 105872686}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1214757424 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3976502994770938051, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
+  m_PrefabInstance: {fileID: 105872686}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214757423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869998b7d3a251b47bfbc11f8aaa3299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1214757428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9978,12 +9997,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bac559ad048458489b9391460dae61e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ghostPowerActive: 0
+  ghostPowerActive: 1
   isGhost: 0
   ghostTimer: 0
   ghostTimerMax: 3
   ghostTimerRegenMultipler: 1
   ghostMaterial: []
+--- !u!114 &1214757430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214757423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b3a1b6ebce9dc84caaf8c2d50571334, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimePowerActive: 0
+  IsSlowed: 0
+  slowMoveSpeed: 11
+  standardTime: 1
+  slowTime: 0.5
+  Player: {fileID: 1214757424}
 --- !u!1 &1222906133
 GameObject:
   m_ObjectHideFlags: 0

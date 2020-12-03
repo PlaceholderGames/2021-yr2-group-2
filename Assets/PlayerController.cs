@@ -56,30 +56,9 @@ public class PlayerController : MonoBehaviour
     [Tooltip("Defines which progress bar is for the ghost power")]
     ProgressBar PBGhost;
 
-    //Power Time
-    [Header("Power: Time")]
 
-    [Tooltip("Defines if the time power can be activated")]
-    public bool TimePowerActive;
-
-
-    [Tooltip("Defines if the character is slowed")]
-    public bool IsSlowed;
-
-    [Range(0, 50)]
-    [Tooltip("Define the speed of the character when slowed")]
-    public float slowMoveSpeed = 11;
-
-    [Range(0, 2)]
-    [Tooltip("Define the standard effect of delta time for the character")]
-    public float standardTime = 1.0f;
-
-    [Range(0, 2)]
-    [Tooltip("Define the standard effect of delta time for the character")]
-    public float slowTime = 0.5f;
-
-
-    public  GhostPower PowerGhost;
+    public GhostPower PowerGhost;
+    public TimePower PowerTime;
 
     // Start is called before the first frame update
     void Start()
@@ -142,9 +121,11 @@ public class PlayerController : MonoBehaviour
         //Adjust movement based on facing
         moveDirection = (transform.forward * Input.GetAxis("Vertical")) +
             (transform.right * Input.GetAxis("Horizontal"));
-               
-        
-        HandleTimePower(TimePowerActive, Input.GetButtonDown("Time"));
+
+        if (PowerTime != null)
+        {
+            PowerTime.HandleTimePower(PowerTime.TimePowerActive, Input.GetButtonDown("Time"));
+        }
 
         //Normalise vector to make sure moving diagonally doesn't double speed
         moveDirection = moveDirection.normalized * moveSpeed;
@@ -192,37 +173,6 @@ public class PlayerController : MonoBehaviour
         anim.SetFloat("Speed", (Mathf.Abs(Input.GetAxis("Vertical")) + Mathf.Abs(Input.GetAxis("Horizontal"))));
         PBGhost.UpdateCurrent(PowerGhost.ghostTimer);
         
-    }
-
-    private void HandleTimePower(bool IsActive = false, bool IsTriggered = false)
-    {
-        if (IsActive)
-        {
-            UpdateTimePower(IsTriggered, slowTime);
-        }
-    }
-
-    private void UpdateTimePower(bool IsTriggered = false, float SlowTime = 1.0f, float StandardTime = 1.0f)
-    {
-        if (IsTriggered)
-        {
-            IsSlowed = true;
-            SetTimeSlow(slowMoveSpeed, SlowTime, StandardTime);
-        }
-        else
-        {
-            if (Input.GetButtonUp("Time"))
-            {
-                IsSlowed = false;
-                SetTimeSlow(baseMoveSpeed);
-            }
-        }
-    }
-
-    private void SetTimeSlow(float Speed, float SlowTime = 1.0f, float StandardTime = 1.0f)
-    {
-        Time.timeScale = SlowTime;
-        moveSpeed = Speed;
     }
 
     public void TakeDamage(int damage) // Take damage code
