@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class slowOnContact : MonoBehaviour
 {
-    PlayerController pcC;
+    Entity pcC;
 
     [Range(0, 10)]
     [Tooltip("The time between slow reset")]
@@ -40,9 +40,9 @@ public class slowOnContact : MonoBehaviour
 
         if (other.gameObject.name == "Player" && timerCur < 0.1f)
         {
-            pcC.moveSpeed = pcC.moveSpeed * slowPercentage;
+            pcC.MovementController.moveSpeed = pcC.MovementController.moveSpeed * slowPercentage;
 
-            if (pcC.moveSpeed <= minSlowSpeed) pcC.moveSpeed = minSlowSpeed;
+            if (pcC.MovementController.moveSpeed <= minSlowSpeed) pcC.MovementController.moveSpeed = minSlowSpeed;
 
             timerCur = timerMax;
         }
@@ -59,7 +59,7 @@ public class slowOnContact : MonoBehaviour
     {
         if(other.gameObject.name == "Player")
         {
-            pcC.moveSpeed = pcC.baseMoveSpeed;
+            pcC.MovementController.moveSpeed = pcC.MovementController.baseMoveSpeed;
         }
 
     }

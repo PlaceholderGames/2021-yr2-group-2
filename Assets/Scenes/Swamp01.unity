@@ -9961,17 +9961,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1147752367711628, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
   m_PrefabInstance: {fileID: 105872686}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1214757424 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3976502994770938051, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
-  m_PrefabInstance: {fileID: 105872686}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1214757423}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 869998b7d3a251b47bfbc11f8aaa3299, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1214757428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10020,7 +10009,26 @@ MonoBehaviour:
   slowMoveSpeed: 11
   standardTime: 1
   slowTime: 0.5
-  Player: {fileID: 1214757424}
+  ControlledEntity: {fileID: 0}
+--- !u!114 &1214757431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214757423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76e3105ad7bd5374ea9b0ae188aee5c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseMoveSpeed: 22
+  moveDirection: {x: 0, y: 0, z: 0}
+  moveSpeed: 0
+  canJump: 1
+  jumpForce: 10
+  gravityScale: 2
+  ControlledEntity: {fileID: 0}
 --- !u!1 &1222906133
 GameObject:
   m_ObjectHideFlags: 0

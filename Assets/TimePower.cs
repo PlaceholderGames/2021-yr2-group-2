@@ -24,7 +24,12 @@ public class TimePower : MonoBehaviour
     [Tooltip("Define the standard effect of delta time for the character")]
     public float slowTime = 0.5f;
 
-    public PlayerController Player;
+    public Entity ControlledEntity;
+
+    private void Start()
+    {
+        ControlledEntity = GetComponentInParent<Entity>();
+    }
 
     public void HandleTimePower(bool IsActive = false, bool IsTriggered = false)
     {
@@ -46,7 +51,7 @@ public class TimePower : MonoBehaviour
             if (Input.GetButtonUp("Time"))
             {
                 IsSlowed = false;
-                SetTimeSlow(Player.baseMoveSpeed);
+                SetTimeSlow(ControlledEntity.MovementController.baseMoveSpeed);
             }
         }
     }
@@ -54,7 +59,7 @@ public class TimePower : MonoBehaviour
     private void SetTimeSlow(float Speed, float SlowTime = 1.0f, float StandardTime = 1.0f)
     {
         Time.timeScale = SlowTime;
-        Player.moveSpeed = Speed;
+        ControlledEntity.MovementController.moveSpeed = Speed;
     }
 
 }
