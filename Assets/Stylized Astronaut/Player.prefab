@@ -216,12 +216,14 @@ MonoBehaviour:
   MovementController: {fileID: 0}
   PowerGhost: {fileID: 8787238874684219328}
   PowerTime: {fileID: 7313722336639107285}
+  Paused: 0
   anim: {fileID: 95340733316770424}
   _flashImage: {fileID: 0}
   standardMaterial:
   - {fileID: 0}
   maxHealth: 100
   currentHealth: 0
+  pauseMenu: {fileID: 0}
 --- !u!114 &3183891745710469774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -247,7 +249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bac559ad048458489b9391460dae61e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ghostPowerActive: 1
+  ghostPowerActive: 0
   isGhost: 0
   ghostTimer: 0
   ghostTimerMax: 3
@@ -1168,6 +1170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be4b3c9136548ee4f8bfd7c5bbf247ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ETarget: {fileID: 0}
   target: {fileID: 0}
   oldTarget: {fileID: 0}
   offset: {x: 0, y: -10, z: 6}
