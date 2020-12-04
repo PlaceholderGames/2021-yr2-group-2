@@ -35,9 +35,16 @@ public class PlayerController : Entity
     [Tooltip("Defines which progress bar is for the ghost power")]
     ProgressBar PBGhost;
 
+    Canvas canvas;
+    public GameObject pauseMenu;
+
+
     // Start is called before the first frame update
     void Start()
     {
+        canvas = FindObjectOfType<Canvas>();
+        pauseMenu = GameObject.Find("PauseMenu");
+
         //Find the healthbar
         GameObject obj = GameObject.Find("Healthbar");
         Healthbar = obj.GetComponent<Healthbar>();
@@ -90,29 +97,41 @@ public class PlayerController : Entity
     // Update is called once per frame
     void Update()
     {
-        MovementController.HandleMovement(Input.GetAxis("Vertical"), Input.GetAxis("Horizontal"));
-
-        if (PowerTime != null)
+        if (!Paused)
         {
-            PowerTime.HandleTimePower(PowerTime.TimePowerActive, Input.GetButtonDown("Time"));
+            MovementController.HandleMovement(Input.GetAxis("Vertical"), Input.GetAxis("Horizontal"));
+
+            if (PowerTime != null)
+            {
+                PowerTime.HandleTimePower(PowerTime.TimePowerActive, Input.GetButtonDown("Time"));
+            }
+
+            if (PowerGhost != null)
+            {
+                PowerGhost.HandleGhostPower(PowerGhost.ghostPowerActive, Input.GetButtonDown("Ghost"));
+            }
+
+
+            //Handle Animation
+            anim.SetBool("isGrounded", !MovementController.canJump);
+            anim.SetFloat("Speed", Mathf.Abs(MovementController.moveDirection.x + MovementController.moveDirection.z));
+
+
+            //print("Speed = " + Mathf.Abs(Input.GetAxis("Vertical")) + Mathf.Abs(Input.GetAxis("Horizontal")));
+            anim.SetBool("isGrounded", MovementController.canJump);
+            anim.SetFloat("Speed", (Mathf.Abs(Input.GetAxis("Vertical")) + Mathf.Abs(Input.GetAxis("Horizontal"))));
+            PBGhost.UpdateCurrent(PowerGhost.ghostTimer);
+
+            if(Input.GetButtonDown("Pause"))
+            {
+                pauseMenu.SetActive(true);
+            }
         }
 
-        if (PowerGhost != null)
+        if (pauseMenu != null)
         {
-            PowerGhost.HandleGhostPower(PowerGhost.ghostPowerActive, Input.GetButtonDown("Ghost"));
+            Paused = pauseMenu.activeInHierarchy;
         }
-
-
-        //Handle Animation
-        anim.SetBool("isGrounded", !MovementController.canJump);
-        anim.SetFloat("Speed", Mathf.Abs(MovementController.moveDirection.x + MovementController.moveDirection.z));
-
-
-        //print("Speed = " + Mathf.Abs(Input.GetAxis("Vertical")) + Mathf.Abs(Input.GetAxis("Horizontal")));
-        anim.SetBool("isGrounded", MovementController.canJump);
-        anim.SetFloat("Speed", (Mathf.Abs(Input.GetAxis("Vertical")) + Mathf.Abs(Input.GetAxis("Horizontal"))));
-        PBGhost.UpdateCurrent(PowerGhost.ghostTimer);
-
     }
     public void TakeDamage(int damage) // Take damage code
     {

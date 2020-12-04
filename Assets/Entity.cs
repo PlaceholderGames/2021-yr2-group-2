@@ -10,6 +10,8 @@ public class Entity : MonoBehaviour
     public GhostPower PowerGhost;
     public TimePower PowerTime;
 
+
+    public bool Paused = false;
     private void Start()
     {
         MovementController = GetComponentInParent<Movement>();
