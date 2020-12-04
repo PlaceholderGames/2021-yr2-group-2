@@ -11,7 +11,6 @@ public class LvlCollectorPickup : MonoBehaviour
         if (other.tag == "Lvl Complete Pickup")
         {
             curCount++;
-            Debug.Log("Lvl Pickup Picked Up");
             Destroy(other.gameObject);
         }
     }

@@ -135,6 +135,10 @@ GameObject:
   - component: {fileID: 95340733316770424}
   - component: {fileID: 143350241100547368}
   - component: {fileID: 3976502994770938051}
+  - component: {fileID: 3183891745710469774}
+  - component: {fileID: 8787238874684219328}
+  - component: {fileID: 1529963266691653750}
+  - component: {fileID: 7313722336639107285}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -208,27 +212,84 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 869998b7d3a251b47bfbc11f8aaa3299, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cController: {fileID: 0}
+  MovementController: {fileID: 0}
+  PowerGhost: {fileID: 8787238874684219328}
+  PowerTime: {fileID: 7313722336639107285}
   anim: {fileID: 95340733316770424}
   _flashImage: {fileID: 0}
-  baseMoveSpeed: 22
   standardMaterial:
   - {fileID: 0}
-  moveSpeed: 5
-  jumpForce: 10
-  gravityScale: 2
   maxHealth: 100
   currentHealth: 0
-  canJump: 1
-  ghostAbilityActive: 0
-  canGhost: 1
+--- !u!114 &3183891745710469774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147752367711628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c79cd1e75fca3ad4e92480d183dca239, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curCount: 0
+--- !u!114 &8787238874684219328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147752367711628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bac559ad048458489b9391460dae61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ghostPowerActive: 1
   isGhost: 0
-  ghostTimer: 3
+  ghostTimer: 0
   ghostTimerMax: 3
   ghostTimerRegenMultipler: 1
-  ghostMaterial: {fileID: 0}
+  ghostMaterial: []
+--- !u!114 &1529963266691653750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147752367711628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76e3105ad7bd5374ea9b0ae188aee5c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseMoveSpeed: 22
+  moveDirection: {x: 0, y: 0, z: 0}
+  moveSpeed: 0
+  canJump: 1
+  jumpForce: 10
+  gravityScale: 2
+  ControlledEntity: {fileID: 0}
+--- !u!114 &7313722336639107285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147752367711628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b3a1b6ebce9dc84caaf8c2d50571334, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimePowerActive: 0
+  IsSlowed: 0
   slowMoveSpeed: 11
   standardTime: 1
   slowTime: 0.5
+  ControlledEntity: {fileID: 0}
 --- !u!1 &1158021920011488
 GameObject:
   m_ObjectHideFlags: 0
