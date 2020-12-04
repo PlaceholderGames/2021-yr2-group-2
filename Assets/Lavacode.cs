@@ -16,13 +16,6 @@ public class Lavacode : MonoBehaviour
         InvokeRepeating("lavadamage", 0, 0.5f);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
-
     private void OnTriggerEnter(Collider Col)
     {
         if (Col.gameObject.CompareTag("Player"))

@@ -28,7 +28,6 @@ public class PowerPickup : MonoBehaviour
                 //Ghost
                 case 1:
                     other.GetComponent<PlayerController>().PowerGhost.ghostPowerActive = true;
-                    Debug.Log("Ghost Power Activated");
                     break;
 
                 //UNSET

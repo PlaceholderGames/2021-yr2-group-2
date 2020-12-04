@@ -35,11 +35,6 @@ public class ProgressBar : MonoBehaviour
     public Color fill_color;
     public Color mask_color;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
 
     // Update is called once per frame
     void Update()
