@@ -5,12 +5,18 @@ using UnityEngine;
 public class PauseMenu : MonoBehaviour
 {
     GameObject menu;
-    float tempTimescale;
+    float tempTimescale = 1.0f;
 
     private void OnEnable()
-    {
-        tempTimescale = Time.timeScale;
+    { 
+        //Make sure previous is not 0 as to not cause multiple menus to override TempTimeScale
+        if (Time.timeScale != 0)
+        {
+            tempTimescale = Time.timeScale;
+        }
+
         Cursor.visible = true;
+
         Time.timeScale = 0.0f;
     }
     private void OnDisable()

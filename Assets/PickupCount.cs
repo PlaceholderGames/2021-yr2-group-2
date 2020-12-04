@@ -11,10 +11,16 @@ public class PickupCount : MonoBehaviour
     [Tooltip("The colour the bar will go when complete")]
     public Color CompletionColour;
 
+    //Contains script for next level
+    public NextLevel nextLvl;
+
     private void Start()
     {
         //Get the pickup progress bar 
         pickup = GetComponentInParent<ProgressBar>();
+
+        //Get the NextLevel script
+        nextLvl = GetComponentInParent<NextLevel>();
 
         //Set the maximum to be the total number of collectibles in the level
         pickup.maximum = GameObject.FindGameObjectsWithTag("Lvl Complete Pickup").Length;
@@ -35,6 +41,7 @@ public class PickupCount : MonoBehaviour
         if (pickup.current == pickup.maximum)
         {
             pickup.fill_color = CompletionColour;
+            nextLvl.GoToNextLevel();
         }
 
     }
