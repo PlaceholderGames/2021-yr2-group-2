@@ -92,6 +92,8 @@ public class PlayerController : Entity
         MovementController.moveSpeed = MovementController.baseMoveSpeed;
         PowerGhost.ghostTimer = PowerGhost.ghostTimerMax;
 
+        pauseMenu.SetActive(false);
+
     }
 
     // Update is called once per frame
@@ -122,7 +124,8 @@ public class PlayerController : Entity
             anim.SetFloat("Speed", (Mathf.Abs(Input.GetAxis("Vertical")) + Mathf.Abs(Input.GetAxis("Horizontal"))));
             PBGhost.UpdateCurrent(PowerGhost.ghostTimer);
 
-            if(Input.GetButtonDown("Pause"))
+
+            if (Input.GetButtonDown("Pause"))
             {
                 pauseMenu.SetActive(true);
             }
