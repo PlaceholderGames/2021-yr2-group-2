@@ -37,6 +37,7 @@ public class PlayerController : Entity
 
     Canvas canvas;
     public GameObject pauseMenu;
+    public GameObject gameOver;
 
 
     // Start is called before the first frame update
@@ -44,6 +45,8 @@ public class PlayerController : Entity
     {
         canvas = FindObjectOfType<Canvas>();
         pauseMenu = GameObject.Find("PauseMenu");
+        gameOver = GameObject.Find("GameOverMenu");
+
 
         //Find the healthbar
         GameObject obj = GameObject.Find("Healthbar");
@@ -93,12 +96,13 @@ public class PlayerController : Entity
         PowerGhost.ghostTimer = PowerGhost.ghostTimerMax;
 
         pauseMenu.SetActive(false);
+        gameOver.SetActive(false);
 
     }
-
+    
     // Update is called once per frame
     void Update()
-    {
+    {  
         if (!Paused)
         {
             MovementController.HandleMovement(Input.GetAxis("Vertical"), Input.GetAxis("Horizontal"));
@@ -129,11 +133,16 @@ public class PlayerController : Entity
             {
                 pauseMenu.SetActive(true);
             }
+
+            if (currentHealth <= 0)
+            {
+                gameOver.SetActive(true);
+            }
         }
 
-        if (pauseMenu != null)
+        if (pauseMenu != null && gameOver != null)
         {
-            Paused = pauseMenu.activeInHierarchy;
+            Paused = pauseMenu.activeInHierarchy || gameOver.activeInHierarchy;
         }
     }
     public void TakeDamage(int damage) // Take damage code
