@@ -224,6 +224,7 @@ MonoBehaviour:
   maxHealth: 100
   currentHealth: 0
   pauseMenu: {fileID: 0}
+  gameOver: {fileID: 0}
 --- !u!114 &3183891745710469774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -286,7 +287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b3a1b6ebce9dc84caaf8c2d50571334, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimePowerActive: 0
+  TimePowerActive: 1
   IsSlowed: 0
   slowMoveSpeed: 11
   standardTime: 1
