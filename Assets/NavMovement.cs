@@ -9,64 +9,82 @@ public class NavMovement : MonoBehaviour
     [SerializeField]
     GameObject CurrentTarget;
 
-    public  GameObject[] PatrolPoints;
+    [SerializeField]
+    bool HasGuardArea = false;
+
+    [SerializeField]
+    GameObject AssignedGuardArea;
+
+    GuardArea guardArea;
 
     NavMeshAgent NavAgent;
+
+    [SerializeField]
+    PatrolPoint LastOrder;
 
     public float timemax = 4;
     public int x;
     public float timeCur = 4;
+    public bool TimeBasedPatrol = false;
+
 
     private void Start()
     {
         NavAgent = this.GetComponent<NavMeshAgent>();
-        
-        CurrentTarget = PatrolPoints[0];
 
+        if(CurrentTarget == null)
+        {
+            Debug.Log("No Current Target for " +  this.gameObject.name);
+        }
+
+
+        if (AssignedGuardArea == null && HasGuardArea)
+        {
+            Debug.Log("No Current Guard Area for " + this.gameObject.name);
+        }
+        else
+        {
+            if(AssignedGuardArea.GetComponent<GuardArea>() != null)
+            {
+                guardArea = AssignedGuardArea.GetComponent<GuardArea>();
+            }
+            else
+            {
+                Debug.Log("No Current Guard Area script for " + this.gameObject.name);
+            }
+        }
     }
 
 
     private void Update()
     {
-        timeCur -= Time.deltaTime;
-
-        PatrolUpdate(timeCur <= 0.1f);
-
-        NavAgent.SetDestination(CurrentTarget.transform.position);
-       
-    }
-
-    public void OnCollisionEnter(Collision collision)
-    {
-        Debug.Log(collision.gameObject.name);
-        PatrolUpdate(collision.gameObject);
-    }
-
-    public void PatrolUpdate(bool changeNeeded)
-    {
-        if(changeNeeded)
+        if(guardArea != null && guardArea.Alerted())
         {
-
-            for (int i = 0; i < PatrolPoints.Length; i++)
-            {
-                if(CurrentTarget == PatrolPoints[i])
-                {
-                    x = i;
-                }
-            }
-
-            x++;
-
-            if(x >= PatrolPoints.Length)
-            {
-                x = 0;
-            }
-
-            CurrentTarget = PatrolPoints[x];
-
-            timeCur = timemax;
+            CurrentTarget = guardArea.GetTresspasser();
         }
-                
+        else
+        {
+            CurrentTarget = LastOrder.GiveNewPatrolPoint();
+        }
+
+
+        if(CurrentTarget != null)
+        {
+            NavAgent.SetDestination(CurrentTarget.transform.position);       
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "PatrolPoint")
+        {
+            if(other.GetComponent<PatrolPoint>() != null)
+            {
+                LastOrder = other.GetComponent<PatrolPoint>();
+            }
+
+            CurrentTarget = LastOrder.GiveNewPatrolPoint();
+        }
     }
 
 }
