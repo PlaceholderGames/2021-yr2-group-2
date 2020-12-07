@@ -5,6 +5,8 @@ using UnityEngine;
 public class TimePower : MonoBehaviour
 {
 
+
+    GameObject TimeFilter;
     [Tooltip("Defines if the time power can be activated")]
     public bool TimePowerActive;
 
@@ -29,6 +31,8 @@ public class TimePower : MonoBehaviour
     private void Start()
     {
         ControlledEntity = GetComponentInParent<Entity>();
+        TimeFilter = GameObject.Find("TimeFilter");
+        TimeFilter.SetActive(false);
     }
 
     public void HandleTimePower(bool IsActive = false, bool IsTriggered = false)
@@ -45,6 +49,7 @@ public class TimePower : MonoBehaviour
         {
             IsSlowed = true;
             SetTimeSlow(slowMoveSpeed, SlowTime, StandardTime);
+            TimeFilter.SetActive(true);
         }
         else
         {
@@ -52,6 +57,7 @@ public class TimePower : MonoBehaviour
             {
                 IsSlowed = false;
                 SetTimeSlow(ControlledEntity.MovementController.baseMoveSpeed);
+                TimeFilter.SetActive(false);
             }
         }
     }
