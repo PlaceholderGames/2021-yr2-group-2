@@ -15,6 +15,7 @@ public class PlayerController : Entity
     public Animator anim;
     [SerializeField]
     FlashImage _flashImage = null;
+    FlashImage _timeflash = null;
 
     [Header("Default Character Info")]
 
@@ -69,6 +70,9 @@ public class PlayerController : Entity
         {
             print("Could not find FlashImage for PlayerControlller");
         }
+
+        obj = GameObject.Find("TimeUI");
+        
 
         //Find Ghost UI
         obj = GameObject.Find("GhostUI");
