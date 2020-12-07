@@ -4418,6 +4418,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7669940036717515964, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+      propertyPath: m_Name
+      value: TimePowerUI
+      objectReference: {fileID: 0}
     - target: {fileID: 8594266668861151569, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -14713,6 +14717,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LeftRightDisks
       objectReference: {fileID: 0}
+    - target: {fileID: 8741002906814572600, guid: 073215ae088f2764189142ffbb9bcdf9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 073215ae088f2764189142ffbb9bcdf9, type: 3}
 --- !u!4 &1782121290 stripped
@@ -17688,5 +17696,9 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1272298092}
+    - target: {fileID: 8741002906814572600, guid: 073215ae088f2764189142ffbb9bcdf9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 073215ae088f2764189142ffbb9bcdf9, type: 3}

@@ -12,7 +12,7 @@ public class PatrolPoint : MonoBehaviour
     float CurTimer = 0.0f;
 
     [SerializeField]
-    GameObject NextPatrolPoint;
+    GameObject NextPatrolPoint = null;
 
     private void Start()
     {
