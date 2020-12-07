@@ -15,7 +15,6 @@ public class PlayerController : Entity
     public Animator anim;
     [SerializeField]
     FlashImage _flashImage = null;
-    FlashImage _timeflash = null;
 
     [Header("Default Character Info")]
 

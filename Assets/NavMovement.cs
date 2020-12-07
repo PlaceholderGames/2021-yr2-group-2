@@ -13,17 +13,17 @@ public class NavMovement : MonoBehaviour
     bool HasGuardArea = false;
 
     [SerializeField]
-    GameObject AssignedGuardArea;
+    GameObject AssignedGuardArea = null;
 
-    GuardArea guardArea;
+    GuardArea guardArea = null;
 
-    NavMeshAgent NavAgent;
+    NavMeshAgent NavAgent = null;
 
     [SerializeField]
-    PatrolPoint LastOrder;
+    PatrolPoint LastOrder = null;
 
     public float timemax = 4;
-    public int x;
+    public int x = 0;
     public float timeCur = 4;
     public bool TimeBasedPatrol = false;
 
