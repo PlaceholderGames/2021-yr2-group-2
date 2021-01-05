@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ControlsInstruction : MonoBehaviour
 {
+    //public GameObject p = null;
 
     public bool timePower = false;
     public bool ghostPower = false;
