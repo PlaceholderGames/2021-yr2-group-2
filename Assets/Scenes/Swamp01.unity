@@ -2757,6 +2757,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Ghost
       objectReference: {fileID: 0}
+    - target: {fileID: 1461897076674705512, guid: 232a85ff3bcb7c342a4058b3bb91289e, type: 3}
+      propertyPath: Gtext
+      value: 
+      objectReference: {fileID: 1094418738}
     - target: {fileID: 1461897076674705516, guid: 232a85ff3bcb7c342a4058b3bb91289e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 71.52304
@@ -9464,6 +9468,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1355071398559776338, guid: 6117c01581ad5dc439f11e5f08b2668f, type: 3}
   m_PrefabInstance: {fileID: 1540198110}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1094418738 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1878167097621512853, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+  m_PrefabInstance: {fileID: 8594266669922370920}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1097476890
 GameObject:
