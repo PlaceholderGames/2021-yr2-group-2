@@ -7,6 +7,7 @@ TagManager:
   - Lvl Complete Pickup
   - PatrolPoint
   - Enemy
+  - Platform
   layers:
   - Default
   - TransparentFX
