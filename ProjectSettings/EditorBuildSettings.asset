@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lava01.unity
     guid: 8181b6b8e190b17479f66906e9b680ff
+  - enabled: 1
+    path: Assets/Scenes/Lava02.unity
+    guid: 623ba418a0c99084bb858a610a23ef0c
   m_configObjects: {}
