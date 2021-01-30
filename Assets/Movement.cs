@@ -65,6 +65,8 @@ public class Movement : MonoBehaviour
 
             //So gravity build-up doesnt occur
             moveDirection.y = 0;
+
+
         }
     }
 
@@ -78,6 +80,7 @@ public class Movement : MonoBehaviour
                 moveDirection.y = jumpForce;
                 //StaminaBar.instance.UseStamina(20);//this reduces stamina bar
                 canJump = false;
+                GetComponent<AudioSource>().Play();
             }
         }
     }
