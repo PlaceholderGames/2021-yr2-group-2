@@ -12,6 +12,7 @@ public class PowerPickup : MonoBehaviour
     [Tooltip("How long after pick up to destroy self")]
     public float delayDestroy = 1.0f;
 
+    public GameObject Gtext;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -23,10 +24,12 @@ public class PowerPickup : MonoBehaviour
                 //Double Jump
                 case 0:
                     Debug.Log("Double Jump Power Activated");
+
                     break;
 
                 //Ghost
                 case 1:
+                    Gtext.SetActive(true);
                     other.GetComponent<PlayerController>().PowerGhost.ghostPowerActive = true;
                     break;
 
