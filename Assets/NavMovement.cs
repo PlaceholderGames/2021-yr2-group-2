@@ -81,9 +81,12 @@ public class NavMovement : MonoBehaviour
             if(other.GetComponent<PatrolPoint>() != null)
             {
                 LastOrder = other.GetComponent<PatrolPoint>();
+                
             }
 
             CurrentTarget = LastOrder.GiveNewPatrolPoint();
+            GetComponent<AudioSource>().Play();
+
         }
     }
 

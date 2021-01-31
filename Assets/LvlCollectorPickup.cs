@@ -12,6 +12,7 @@ public class LvlCollectorPickup : MonoBehaviour
         {
             curCount++;
             Destroy(other.gameObject);
+            GetComponent<AudioSource>().Play();
         }
     }
 }

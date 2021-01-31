@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 [RequireComponent(typeof(Entity))]
 public class Movement : MonoBehaviour
@@ -80,7 +81,6 @@ public class Movement : MonoBehaviour
                 moveDirection.y = jumpForce;
                 //StaminaBar.instance.UseStamina(20);//this reduces stamina bar
                 canJump = false;
-                GetComponent<AudioSource>().Play();
             }
         }
     }

@@ -5,16 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainMenu.unity
     guid: ed4e5c4b8a0131c4a9b8f9d1f5d69629
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/WinScreen.unity
     guid: 6f354d7beccc1a943abe896a8d76ead5
-  - enabled: 1
+  - enabled: 0
+    path: Assets/Scenes/Lava01.unity
+    guid: 8181b6b8e190b17479f66906e9b680ff
+  - enabled: 0
     path: Assets/Scenes/Swamp01.unity
     guid: 665b922f5e75d61409e104ed64237a66
   - enabled: 1
-    path: Assets/Scenes/Lava01.unity
-    guid: 8181b6b8e190b17479f66906e9b680ff
+    path: Assets/Scenes/HubWorld.unity
+    guid: 303d75880be0e8a4d9bc38b575d1252c
   m_configObjects: {}

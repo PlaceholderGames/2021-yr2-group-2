@@ -56,6 +56,7 @@ public class SetText : MonoBehaviour
         {
             TimerCurrent = TimerMax;
             ShowingCurrent = !ShowingCurrent;
+
             
       
         }
@@ -71,6 +72,7 @@ public class SetText : MonoBehaviour
             ShownText = Max.ToString();
         }
 
-        TMP.text = ShownText;        
+        TMP.text = ShownText;
+        
     }
 }
