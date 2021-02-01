@@ -8,19 +8,19 @@ public class slowOnContact : MonoBehaviour
 
     [Range(0, 10)]
     [Tooltip("The time between slow reset")]
-    public float timerMax;
+    public float timerMax = 0.75f;
 
     [Range(0, 10)]
     [Tooltip("The current time till slow reset")]
-    public float timerCur;
+    public float timerCur = 0.0f;
 
     [Range(0, 1)]
     [Tooltip("Slow percentage of speed")]
-    public float slowPercentage;
+    public float slowPercentage = 0.3f;
 
     [Range(0, 10)]
     [Tooltip("Damage taken on end of countdown")]
-    public int minSlowSpeed;
+    public int minSlowSpeed = 1;
 
     // Start is called before the first frame update
     void Start()

@@ -32,10 +32,15 @@ public class NavMovement : MonoBehaviour
     {
         NavAgent = this.GetComponent<NavMeshAgent>();
 
-        if(CurrentTarget == null)
+        if (CurrentTarget == null)
         {
-            Debug.Log("No Current Target for " +  this.gameObject.name);
+            Debug.Log("No Current Target for " + this.gameObject.name);
         }
+        else
+        {
+            LastOrder = CurrentTarget.GetComponent<PatrolPoint>();
+        }
+
 
 
         if (AssignedGuardArea == null && HasGuardArea)
@@ -53,6 +58,7 @@ public class NavMovement : MonoBehaviour
                 Debug.Log("No Current Guard Area script for " + this.gameObject.name);
             }
         }
+
     }
 
 

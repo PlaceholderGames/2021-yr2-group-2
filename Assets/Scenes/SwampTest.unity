@@ -5961,7 +5961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pcC: {fileID: 0}
-  timerMax: 1
+  timerMax: 2
   timerCur: 0
   sharpDamage: 10
   counterDamage: 2
