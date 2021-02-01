@@ -249,7 +249,7 @@ PrefabInstance:
     - target: {fileID: 1461897076674705512, guid: 232a85ff3bcb7c342a4058b3bb91289e, type: 3}
       propertyPath: Gtext
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2114431761}
     - target: {fileID: 1461897076674705516, guid: 232a85ff3bcb7c342a4058b3bb91289e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 28.816452
@@ -6891,6 +6891,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+--- !u!1 &2114431761 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2165279785605596668, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+  m_PrefabInstance: {fileID: 2114431760}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2127835170
 PrefabInstance:
   m_ObjectHideFlags: 0
