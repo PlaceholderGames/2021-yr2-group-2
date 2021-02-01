@@ -35,6 +35,9 @@ public class PlayerController : Entity
     [Tooltip("Defines which progress bar is for the ghost power")]
     ProgressBar PBGhost;
 
+    [Tooltip("Defines which progress bar is for the Time power")]
+    ProgressBar TimePower;
+
     Canvas canvas;
     public GameObject pauseMenu;
     public GameObject gameOver;
@@ -70,8 +73,8 @@ public class PlayerController : Entity
             print("Could not find FlashImage for PlayerControlller");
         }
 
-        obj = GameObject.Find("TimeUI");
-        
+
+
 
         //Find Ghost UI
         obj = GameObject.Find("GhostUI");
@@ -87,6 +90,20 @@ public class PlayerController : Entity
             PBGhost.minimum = 0;
         }
 
+        //Find Time UI
+        obj = GameObject.Find("TimeUI");
+        TimePower = obj.GetComponent<ProgressBar>();
+
+        if (obj == null)
+        {
+            print("Could not find TimePowerUI for PlayerController");
+        }
+        else
+        {
+            TimePower.maximum = (int)PowerTime.TimePowerMax;
+            TimePower.minimum = 0;
+        }
+
 
         cController = GetComponent<CharacterController>();
         Healthbar.slider = Healthbar.gameObject.GetComponent<Slider>(); //initiate healthbar using variables from slider
@@ -97,15 +114,16 @@ public class PlayerController : Entity
         //Use defaults to set info
         MovementController.moveSpeed = MovementController.baseMoveSpeed;
         PowerGhost.ghostTimer = PowerGhost.ghostTimerMax;
+        PowerTime.TimeTimer = PowerTime.TimePowerMax;
 
         pauseMenu.SetActive(false);
         gameOver.SetActive(false);
 
     }
-    
+
     // Update is called once per frame
     void Update()
-    {  
+    {
         if (!Paused)
         {
             MovementController.HandleMovement(Input.GetAxis("Vertical"), Input.GetAxis("Horizontal"));
@@ -130,7 +148,7 @@ public class PlayerController : Entity
             anim.SetBool("isGrounded", MovementController.canJump);
             anim.SetFloat("Speed", (Mathf.Abs(Input.GetAxis("Vertical")) + Mathf.Abs(Input.GetAxis("Horizontal"))));
             PBGhost.UpdateCurrent(PowerGhost.ghostTimer);
-
+            TimePower.UpdateCurrent(PowerTime.TimeTimer);
 
             if (Input.GetButtonDown("Pause"))
             {
