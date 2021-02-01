@@ -5,22 +5,23 @@ using UnityEngine;
 public class DamageOnContact : MonoBehaviour
 {
     public PlayerController pcC;
-    [Header("test")]
-    [Range(0,10)]
+    [Header("Timer")]
+    [Range(0, 10)]
     [Tooltip("The time between damage")]
-    public float timerMax;
+    public float timerMax = 1.0f;
 
-    [Range(0,10)]
+    [Range(0, 10)]
     [Tooltip("Current countdown to new damage")]
-    public float timerCur;
-    [Header("Test 2")]
+    public float timerCur = 0.0f;
+
+    [Header("Damage")]
     [Range(0, 30)]
     [Tooltip("Damage initally taken")]
-    public int sharpDamage;
+    public int sharpDamage = 10;
 
     [Range(0, 10)]
     [Tooltip("Damage taken on end of countdown")]
-    public int counterDamage;
+    public int counterDamage = 2;
 
     // Start is called before the first frame update
     void Start()
