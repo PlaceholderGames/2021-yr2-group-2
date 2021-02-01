@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/WinScreen.unity
     guid: 6f354d7beccc1a943abe896a8d76ead5
   - enabled: 1
+    path: Assets/Scenes/HubWorld.unity
+    guid: 303d75880be0e8a4d9bc38b575d1252c
+  - enabled: 1
+    path: Assets/Scenes/Swamp00.unity
+    guid: 55356cb4dbc77ad499b72adacd173e8c
+  - enabled: 1
     path: Assets/Scenes/Swamp01.unity
     guid: 665b922f5e75d61409e104ed64237a66
   - enabled: 1
@@ -20,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lava02.unity
     guid: 623ba418a0c99084bb858a610a23ef0c
+  - enabled: 1
+    path: Assets/Scenes/Lava03.unity
+    guid: e781beda4416ef646b419a05f1f01806
   m_configObjects: {}
