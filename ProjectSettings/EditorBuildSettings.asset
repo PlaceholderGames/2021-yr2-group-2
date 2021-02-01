@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/WinScreen.unity
     guid: 6f354d7beccc1a943abe896a8d76ead5
   - enabled: 1
-    path: Assets/Scenes/SwampTest.unity
+    path: Assets/Scenes/Swamp01.unity
     guid: 665b922f5e75d61409e104ed64237a66
   - enabled: 1
     path: Assets/Scenes/Lava01.unity
