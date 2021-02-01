@@ -4418,6 +4418,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4254191180845478060, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7669940036717515964, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
       propertyPath: m_Name
       value: TimePowerUI
