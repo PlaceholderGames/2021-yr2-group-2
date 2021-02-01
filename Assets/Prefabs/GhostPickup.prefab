@@ -101,6 +101,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 0.76682436
       objectReference: {fileID: 0}
+    - target: {fileID: 7583302877293142274, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
 --- !u!4 &2441077824084221615 stripped
@@ -171,9 +175,13 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.4154534
       objectReference: {fileID: 0}
+    - target: {fileID: 1355071398559776339, guid: 6117c01581ad5dc439f11e5f08b2668f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
     - target: {fileID: 1355071398559776342, guid: 6117c01581ad5dc439f11e5f08b2668f, type: 3}
       propertyPath: m_Name
-      value: Passable
+      value: GhostPickup
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6117c01581ad5dc439f11e5f08b2668f, type: 3}
