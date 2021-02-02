@@ -159,6 +159,11 @@ public class PlayerController : Entity
             {
                 gameOver.SetActive(true);
             }
+
+            if(Input.GetButtonDown("LevelSkip"))
+            {
+                Destroy(GameObject.FindGameObjectWithTag("Lvl Complete Pickup").gameObject);
+            }
         }
 
         if (pauseMenu != null && gameOver != null)
