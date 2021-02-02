@@ -128,6 +128,8 @@ public class PlayerController : Entity
         {
             MovementController.HandleMovement(Input.GetAxis("Vertical"), Input.GetAxis("Horizontal"));
 
+            Cursor.visible = false;
+
             if (PowerTime != null)
             {
                 PowerTime.HandleTimePower(PowerTime.TimePowerActive, Input.GetButtonDown("Time"));

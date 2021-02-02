@@ -7,23 +7,21 @@ public class CompleteLevelSet : MonoBehaviour
     public bool LavaCompleted;
     public bool SwampCompleted;
 
-    private void Start()
+    private void LateUpdate()
     {
-        if(PlayerPrefs.GetInt("Lava") == 3 || LavaCompleted)
+        if (PlayerPrefs.GetInt("Swamp") >= 2 && !SwampCompleted)
         {
-            FindObjectOfType<LvlCollectorPickup>().curCount++;
-        }
-
-        if (PlayerPrefs.GetInt("Swamp") == 3 || SwampCompleted)
-        {
-            FindObjectOfType<LvlCollectorPickup>().curCount++;
+            Destroy(GameObject.FindGameObjectWithTag("Lvl Complete Pickup").gameObject);
+            SwampCompleted = true;
         }
     }
 
     private void Update()
     {
-        print("Lava" + PlayerPrefs.GetInt("Lava").ToString());
-
-        print("Swamp" + PlayerPrefs.GetInt("Swamp").ToString());
+        if (PlayerPrefs.GetInt("Lava") >= 3 && !LavaCompleted)
+        {
+            Destroy(GameObject.FindGameObjectWithTag("Lvl Complete Pickup").gameObject);
+            LavaCompleted = true;
+        }
     }
 }
