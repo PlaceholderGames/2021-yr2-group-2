@@ -14,6 +14,9 @@ public class PickupCount : MonoBehaviour
     //Contains script for next level
     public NextLevel nextLvl;
 
+    public string LvlType = null;
+    public int LvlNum = 0;
+
     private void Start()
     {
         //Get the pickup progress bar 
@@ -41,6 +44,12 @@ public class PickupCount : MonoBehaviour
         if (pickup.current == pickup.maximum)
         {
             pickup.fill_color = CompletionColour;
+            
+            if(LvlType != null && LvlNum != 0)
+            {
+                PlayerPrefs.SetInt(LvlType, LvlNum);
+            }           
+            
             nextLvl.GoToNextLevel();
         }
 
