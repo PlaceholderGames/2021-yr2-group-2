@@ -49,7 +49,7 @@ public class GhostPower : MonoBehaviour
             Physics.IgnoreLayerCollision(BaseLayer, IgnoredLayer, false);
 
             //If Ghost power is triggered
-            if (IsTriggered)
+            if (IsTriggered && (ghostTimer==ghostTimerMax))
             {
                 MakeGhost();
             }
