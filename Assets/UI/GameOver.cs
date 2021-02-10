@@ -2,13 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PauseMenu : MonoBehaviour
+public class GameOver : MonoBehaviour
 {
-    public GameObject _optionsMenu;
-    public CameraFollow _camera;
     bool _initialCall = true;
-
-
+    public CameraFollow _camera;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +14,7 @@ public class PauseMenu : MonoBehaviour
 
     private void OnEnable()
     {
-        print("pause");
+        print(_initialCall);
         if (_initialCall)
         {
             _initialCall = false;
@@ -29,21 +26,5 @@ public class PauseMenu : MonoBehaviour
             UnityEngine.Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
         }
-    }
-
-    public void ResumeButtonFunc()
-    {
-        _camera.enabled = true;
-        print("resume");
-        Time.timeScale = 1.0f;
-        UnityEngine.Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
-        gameObject.SetActive(false);
-    }
-
-    public void OptionButtonClose()
-    {
-        _optionsMenu.SetActive(false);
-        gameObject.SetActive(true);
     }
 }

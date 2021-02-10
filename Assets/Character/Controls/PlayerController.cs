@@ -47,9 +47,6 @@ public class PlayerController : Entity
     void Start()
     {
         canvas = FindObjectOfType<Canvas>();
-        pauseMenu = GameObject.Find("PauseMenu");
-        gameOver = GameObject.Find("GameOverMenu");
-
 
         //Find the healthbar
         GameObject obj = GameObject.Find("Healthbar");
@@ -72,9 +69,6 @@ public class PlayerController : Entity
         {
             print("Could not find FlashImage for PlayerControlller");
         }
-
-
-
 
         //Find Ghost UI
         obj = GameObject.Find("GhostUI");
@@ -104,12 +98,10 @@ public class PlayerController : Entity
             TimePower.minimum = 0;
         }
 
-
         cController = GetComponent<CharacterController>();
         Healthbar.slider = Healthbar.gameObject.GetComponent<Slider>(); //initiate healthbar using variables from slider
         currentHealth = maxHealth;                                      //start game with max health
         Healthbar.SetMaxHealth(maxHealth);                              //max health for player set to 100, so max health is 100
-
 
         //Use defaults to set info
         MovementController.moveSpeed = MovementController.baseMoveSpeed;
@@ -118,61 +110,51 @@ public class PlayerController : Entity
 
         pauseMenu.SetActive(false);
         gameOver.SetActive(false);
-
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!Paused)
+        MovementController.HandleMovement(Input.GetAxis("Vertical"), Input.GetAxis("Horizontal"));
+
+        if (PowerTime != null)
         {
-            MovementController.HandleMovement(Input.GetAxis("Vertical"), Input.GetAxis("Horizontal"));
-
-            Cursor.visible = false;
-
-            if (PowerTime != null)
-            {
-                PowerTime.HandleTimePower(PowerTime.TimePowerActive, Input.GetButtonDown("Time"));
-            }
-
-            if (PowerGhost != null)
-            {
-                PowerGhost.HandleGhostPower(PowerGhost.ghostPowerActive, Input.GetButtonDown("Ghost"));
-            }
-
-
-            //Handle Animation
-            anim.SetBool("isGrounded", !MovementController.canJump);
-            anim.SetFloat("Speed", Mathf.Abs(MovementController.moveDirection.x + MovementController.moveDirection.z));
-
-
-            //print("Speed = " + Mathf.Abs(Input.GetAxis("Vertical")) + Mathf.Abs(Input.GetAxis("Horizontal")));
-            anim.SetBool("isGrounded", MovementController.canJump);
-            anim.SetFloat("Speed", (Mathf.Abs(Input.GetAxis("Vertical")) + Mathf.Abs(Input.GetAxis("Horizontal"))));
-            PBGhost.UpdateCurrent(PowerGhost.ghostTimer);
-            TimePower.UpdateCurrent(PowerTime.TimeTimer);
-
-            if (Input.GetButtonDown("Pause"))
-            {
-                pauseMenu.SetActive(true);
-            }
-
-            if (currentHealth <= 0)
-            {
-                gameOver.SetActive(true);
-            }
-
-            if(Input.GetButtonDown("LevelSkip"))
-            {
-                Destroy(GameObject.FindGameObjectWithTag("Lvl Complete Pickup").gameObject);
-            }
+            PowerTime.HandleTimePower(PowerTime.TimePowerActive, Input.GetButtonDown("Time"));
         }
 
-        if (pauseMenu != null && gameOver != null)
+        if (PowerGhost != null)
         {
-            Paused = pauseMenu.activeInHierarchy || gameOver.activeInHierarchy;
+            PowerGhost.HandleGhostPower(PowerGhost.ghostPowerActive, Input.GetButtonDown("Ghost"));
+        }
+
+
+        //Handle Animation
+        anim.SetBool("isGrounded", !MovementController.canJump);
+        anim.SetFloat("Speed", Mathf.Abs(MovementController.moveDirection.x + MovementController.moveDirection.z));
+
+
+        //print("Speed = " + Mathf.Abs(Input.GetAxis("Vertical")) + Mathf.Abs(Input.GetAxis("Horizontal")));
+        anim.SetBool("isGrounded", MovementController.canJump);
+        anim.SetFloat("Speed", (Mathf.Abs(Input.GetAxis("Vertical")) + Mathf.Abs(Input.GetAxis("Horizontal"))));
+        PBGhost.UpdateCurrent(PowerGhost.ghostTimer);
+        TimePower.UpdateCurrent(PowerTime.TimeTimer);
+
+        if (Input.GetButtonDown("Pause"))
+        {
+            pauseMenu.SetActive(true);
+        }
+
+        if (currentHealth <= 0)
+        {
+            gameOver.SetActive(true);
+        }
+
+        if(Input.GetButtonDown("LevelSkip"))
+        {
+            Destroy(GameObject.FindGameObjectWithTag("Lvl Complete Pickup").gameObject);
         }
     }
+
     public void TakeDamage(int damage) // Take damage code
     {
         if (currentHealth >= 0)
