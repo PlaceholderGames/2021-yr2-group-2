@@ -1556,12 +1556,31 @@ PrefabInstance:
       propertyPath: TimePowerActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3976502994770938051, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
+      propertyPath: pauseMenu
+      value: 
+      objectReference: {fileID: 407945692}
+    - target: {fileID: 3976502994770938051, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
+      propertyPath: gameOver
+      value: 
+      objectReference: {fileID: 407945693}
     - target: {fileID: 7313722336639107285, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: TimePowerActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
+--- !u!114 &105872687 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2177858182337445959, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
+  m_PrefabInstance: {fileID: 105872686}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4b3c9136548ee4f8bfd7c5bbf247ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &111524021
 GameObject:
   m_ObjectHideFlags: 0
@@ -3844,6 +3863,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: -66.9
       objectReference: {fileID: 0}
+    - target: {fileID: 1838416171131901843, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+      propertyPath: _camera
+      value: 
+      objectReference: {fileID: 105872687}
+    - target: {fileID: 4582712400880159866, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+      propertyPath: _camera
+      value: 
+      objectReference: {fileID: 105872687}
     - target: {fileID: 8594266668861151571, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
       propertyPath: LvlType
       value: Swamp
@@ -3854,6 +3881,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+--- !u!1 &407945692 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 568406801887157144, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+  m_PrefabInstance: {fileID: 407945691}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &407945693 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 967362440405528933, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+  m_PrefabInstance: {fileID: 407945691}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &413491375
 GameObject:
   m_ObjectHideFlags: 0

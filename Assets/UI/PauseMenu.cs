@@ -4,39 +4,51 @@ using UnityEngine;
 
 public class PauseMenu : MonoBehaviour
 {
-    GameObject menu;
-    float tempTimescale = 1.0f;
+    public GameObject _optionsMenu;
+    public CameraFollow _camera;
+    bool _initialCall = true;
+
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        gameObject.SetActive(false);
+    }
 
     private void OnEnable()
-    { 
-        //Make sure previous is not 0 as to not cause multiple menus to override TempTimeScale
-        if (Time.timeScale != 0)
-        {
-            tempTimescale = Time.timeScale;
-        }
-
-        Cursor.visible = true;
-
-        Time.timeScale = 0.0f;
-    }
-    private void OnDisable()
     {
-        Time.timeScale = tempTimescale;
-
-        UnityEngine.Cursor.lockState = CursorLockMode.Locked;
-    }
-
-    private void Update()
-    {       
-        if(!Cursor.visible)
+        if (_initialCall)
         {
+            _initialCall = false;
+        }
+        else
+        {
+            _camera.enabled = false;
+            Time.timeScale = 0.0f;
+            UnityEngine.Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
         }
-        
-        if (UnityEngine.Cursor.lockState != CursorLockMode.None)
-        {
-            UnityEngine.Cursor.lockState = CursorLockMode.None;
-        }
-  
+    }
+
+    void Update() { 
+        _camera.enabled = false;
+        Time.timeScale = 0.0f;
+        UnityEngine.Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
+
+    public void ResumeButtonFunc()
+    {
+        _camera.enabled = true;
+        Time.timeScale = 1.0f;
+        UnityEngine.Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        gameObject.SetActive(false);
+    }
+
+    public void OptionButtonClose()
+    {
+        _optionsMenu.SetActive(false);
+        gameObject.SetActive(true);
     }
 }
