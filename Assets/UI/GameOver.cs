@@ -12,9 +12,16 @@ public class GameOver : MonoBehaviour
         gameObject.SetActive(false);
     }
 
+    void Update()
+    {
+        _camera.enabled = false;
+        Time.timeScale = 0.0f;
+        UnityEngine.Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
+
     private void OnEnable()
     {
-        print(_initialCall);
         if (_initialCall)
         {
             _initialCall = false;

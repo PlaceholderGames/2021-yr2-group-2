@@ -8,6 +8,7 @@ public class OptionsScript : MonoBehaviour
     public Slider _Mouse;
     public Slider _Volume;
     public GameObject _PauseMenu;
+    public CameraFollow _camera;
 
     //public GameObject _OptionsMenu;
 
@@ -15,6 +16,29 @@ public class OptionsScript : MonoBehaviour
     void Start()
     {
         gameObject.SetActive(false);
+
+        //Adds a listener to the _Mouse slider and invokes a method when the value changes.
+        _Mouse.onValueChanged.AddListener(delegate { MouseChangeCheck(); });
+
+        //Adds a listener to the _Volume slider and invokes a method when the value changes.
+        _Volume.onValueChanged.AddListener(delegate { VolumeChangeCheck(); });
+    }
+
+    void Update()
+    {
+        Time.timeScale = 0.0f;
+        UnityEngine.Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;  
+    }
+
+    public void MouseChangeCheck()
+    {
+        _camera.rotateSpeed = _Mouse.value;
+    }
+
+    public void VolumeChangeCheck()
+    {
+        //change volue here
     }
 
     public void OptionButtonOpen()

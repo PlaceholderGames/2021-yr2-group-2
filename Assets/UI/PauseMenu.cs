@@ -17,7 +17,6 @@ public class PauseMenu : MonoBehaviour
 
     private void OnEnable()
     {
-        print("pause");
         if (_initialCall)
         {
             _initialCall = false;
@@ -31,10 +30,16 @@ public class PauseMenu : MonoBehaviour
         }
     }
 
+    void Update() { 
+        _camera.enabled = false;
+        Time.timeScale = 0.0f;
+        UnityEngine.Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
+
     public void ResumeButtonFunc()
     {
         _camera.enabled = true;
-        print("resume");
         Time.timeScale = 1.0f;
         UnityEngine.Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
