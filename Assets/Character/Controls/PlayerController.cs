@@ -41,7 +41,7 @@ public class PlayerController : Entity
     Canvas canvas;
     public GameObject pauseMenu;
     public GameObject gameOver;
-
+    public OptionsScript optionMenu;
 
     // Start is called before the first frame update
     void Start()
@@ -139,7 +139,7 @@ public class PlayerController : Entity
         PBGhost.UpdateCurrent(PowerGhost.ghostTimer);
         TimePower.UpdateCurrent(PowerTime.TimeTimer);
 
-        if (Input.GetButtonDown("Pause"))
+        if (Input.GetButtonDown("Pause") && !(optionMenu.IsActive()))
         {
             pauseMenu.SetActive(true);
         }
