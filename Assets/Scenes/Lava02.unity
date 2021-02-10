@@ -2218,6 +2218,10 @@ PrefabInstance:
       propertyPath: pauseMenu
       value: 
       objectReference: {fileID: 1072493985}
+    - target: {fileID: 3976502994770938051, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
+      propertyPath: optionMenu
+      value: 
+      objectReference: {fileID: 1072493986}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
 --- !u!114 &792081550 stripped
@@ -3342,6 +3346,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 568406801887157144, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
   m_PrefabInstance: {fileID: 1072493983}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1072493986 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1838416171131901843, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+  m_PrefabInstance: {fileID: 1072493983}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b802ad8fb5bc6444b9f26a87b8bd653f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1080241922
 PrefabInstance:
   m_ObjectHideFlags: 0
