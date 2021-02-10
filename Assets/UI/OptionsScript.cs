@@ -46,5 +46,10 @@ public class OptionsScript : MonoBehaviour
         _PauseMenu.SetActive(false);
         gameObject.SetActive(true);
     }
+
+    public bool IsActive()
+    {
+        return gameObject.activeSelf;
+    }
 }
 
