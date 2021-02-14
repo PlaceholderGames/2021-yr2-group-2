@@ -3871,6 +3871,10 @@ PrefabInstance:
       propertyPath: _camera
       value: 
       objectReference: {fileID: 105872687}
+    - target: {fileID: 1838416171131901843, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+      propertyPath: _music
+      value: 
+      objectReference: {fileID: 1568345511}
     - target: {fileID: 4028283111290228658, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
       propertyPath: m_AnchorMin.x
       value: 0
