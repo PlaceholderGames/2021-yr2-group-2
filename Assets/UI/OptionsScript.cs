@@ -9,6 +9,7 @@ public class OptionsScript : MonoBehaviour
     public Slider _Volume;
     public GameObject _PauseMenu;
     public CameraFollow _camera;
+    public AudioSource _music;
 
     //public GameObject _OptionsMenu;
 
@@ -38,7 +39,7 @@ public class OptionsScript : MonoBehaviour
 
     public void VolumeChangeCheck()
     {
-        //change volue here
+        _music.volume = _Volume.value;
     }
 
     public void OptionButtonOpen()
