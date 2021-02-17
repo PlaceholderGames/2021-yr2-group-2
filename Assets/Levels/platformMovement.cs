@@ -4,44 +4,58 @@ using UnityEngine;
 
 public class platformMovement : MonoBehaviour
 {
+    [Header("Targetting Info")]
+
+    [Tooltip("Will the platform automatically move between points")]
     [SerializeField]
-    GameObject CurrentTarget;
+    private bool automatic = true;
 
-    GameObject player;
-
+    [Tooltip("Current goal location for platform")]
     [SerializeField]
-    PatrolPoint LastOrder = null;
+    private GameObject CurrentTarget = null;
 
-    float tolerance;
-
-
+    [Tooltip("Speed of platform movement")]
+    [SerializeField]
     [Range(0, 5)]
-    public float speed;
-
-
+    private float speed = 1.0f;
+    
+    [Tooltip("Delay time at location")]
     [SerializeField]
     [Range(0, 20)]
-    float delayTime = 1.0f;
+    private float delayTime = 1.0f;
 
+    [Tooltip("Current count for triggered delay")]
     [SerializeField]
-    float delayCur;
+    private float delayCur = 1.0f;
 
-    Vector3 heading;
-
-
+    [Tooltip("Previous target for platform")]
     [SerializeField]
-    bool automatic = true;
+    private PatrolPoint LastOrder = null;
+
+    [Tooltip("Acceptable leeway to count as 'at location'")]
+    [SerializeField]
+    private float tolerance = 0.0f;
+
+    //Current movement direction
+    private Vector3 heading;
+
+    [Header("References")]
+    [Tooltip("Reference to the player")]
+    [SerializeField]
+    private GameObject player = null;
 
     private void Start()
     {
+        //Should there be no target - alert via debug log
         if(CurrentTarget == null)
         {
-            Debug.Log("No Current Target for " + this.gameObject.name);
+            Debug.Log(this.gameObject.name + ": has no target");
         }
 
-        LastOrder = CurrentTarget.GetComponent<PatrolPoint>();
-        tolerance = speed * Time.deltaTime;
-        delayCur = delayTime;
+        //Set the last order as current
+        SetLastOrder(GetTarget());
+        SetTolerance(speed * Time.deltaTime);
+        SetCurDelay(delayTime);
     }
 
     private void Update()
@@ -56,12 +70,17 @@ public class platformMovement : MonoBehaviour
         }
 
     }
-    void MovePlatform()
+    
+    //Move Platform to new target
+    private void MovePlatform()
     {
+        //Work out current heading
         heading = CurrentTarget.transform.position - transform.position;
 
+        //Move based on heading and speed
         transform.position += (heading / heading.magnitude) * speed * Time.deltaTime;
-
+        
+        //If in tolerable range set to exact location
         if(heading.magnitude < tolerance)
         {
             transform.position = CurrentTarget.transform.position;
@@ -69,20 +88,86 @@ public class platformMovement : MonoBehaviour
         }
 
     }
-
-    void UpdatePlatform()
+   
+    //Update self
+    private void UpdatePlatform()
     {
+        //Should the platform move automatically
         if (automatic)
         {
+            //Update timer
             delayCur -= Time.deltaTime;
 
+            //Should timer expire update target
             if (delayCur <= 0)
             {
-                LastOrder = CurrentTarget.GetComponent<PatrolPoint>();
+                LastOrder = GetTarget();
                 CurrentTarget = LastOrder.GiveNewPatrolPoint();
                 delayCur = delayTime;
             }
         }
+    }
+
+    //Set a new target
+    public void SetTarget(GameObject target)
+    {
+        CurrentTarget = target;
+    }
+
+    //Set a new target
+    public void SetTarget(PatrolPoint target)
+    {
+        LastOrder = target;
+        SetTarget(target.gameObject);
+    }
+
+    //Set the last order
+    public void SetLastOrder(PatrolPoint target)
+    {
+        LastOrder = target;
+    }
+
+    //Get the current target
+    public PatrolPoint GetTarget()
+    {
+        PatrolPoint tmp = CurrentTarget.GetComponent<PatrolPoint>();
+
+        if (tmp == null)
+        {
+            Debug.LogError("Target is not patrol point");
+        }
+
+        return tmp;
+    }
+
+    //Get the last order
+    public PatrolPoint GetLastOrder()
+    {
+        return LastOrder;
+    }
+
+    //Set the tolerable leeway for the target
+    public void SetTolerance(float value)
+    {
+        tolerance = value;
+    }
+
+    //Set the tolerable leeway for the target
+    public void SetTolerance(int value)
+    {
+        SetTolerance((float)value);
+    }
+
+    //Set the current delay on the timer
+    public void SetCurDelay(float value)
+    {
+        delayCur = value;
+    }
+
+    //Set the current delay on the timer
+    public void SetCurDelay(int value)
+    {
+        SetCurDelay((float)value);
     }
 
 }
