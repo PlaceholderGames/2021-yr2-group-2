@@ -4,57 +4,87 @@ using UnityEngine;
 
 public class slowOnContact : MonoBehaviour
 {
-    Entity pcC;
-
-    [Range(0, 10)]
-    [Tooltip("The time between slow reset")]
-    public float timerMax = 0.75f;
-
-    [Range(0, 10)]
-    [Tooltip("The current time till slow reset")]
-    public float timerCur = 0.0f;
-
+    [Header("Effect Info")]
     [Range(0, 1)]
     [Tooltip("Slow percentage of speed")]
-    public float slowPercentage = 0.3f;
+    [SerializeField]
+    private float slowPercentage = 0.3f;
 
     [Range(0, 10)]
     [Tooltip("Damage taken on end of countdown")]
-    public int minSlowSpeed = 1;
+    [SerializeField]
+    private int minSlowSpeed = 1;
 
-    // Start is called before the first frame update
+    [Header("Timer")]
+    [Range(0, 10)]
+    [Tooltip("The time between slow reset")]
+    [SerializeField]
+    private float timerMax = 0.75f;
+
+    [Range(0, 10)]
+    [Tooltip("The current time till slow reset")]
+    [SerializeField]
+    private float timerCur = 0.0f;
+
+    [Header("References")]
+    [Tooltip("Reference to player")]
+    [SerializeField]
+    private Entity player = null;
+
+
     void Start()
     {
-        pcC = FindObjectOfType<PlayerController>();
+        player = FindObjectOfType<PlayerController>();
+
+        //If player not found notify console
+        if(player == null)
+        {
+            Debug.LogError(this.gameObject.name + ": player not found");
+        }
     }
 
     private void OnTriggerStay(Collider other)
     {
+        //Update Timer
         timerCur -= Time.deltaTime;
 
-        if (other.gameObject.name == "Player" && timerCur < 0.1f)
+        //When timer expires on the player
+        if (timerCur < 0.1f)
         {
-            pcC.MovementController.moveSpeed = pcC.MovementController.moveSpeed * slowPercentage;
+            //Effect the player
+            if (other.gameObject.name == "Player")
+            {
+                //Slow player movement by slow percentage
+                player.MovementController.moveSpeed = player.MovementController.moveSpeed * slowPercentage;
 
-            if (pcC.MovementController.moveSpeed <= minSlowSpeed) pcC.MovementController.moveSpeed = minSlowSpeed;
+                //Clamp movement speed by a minimum value
+                if (player.MovementController.moveSpeed <= minSlowSpeed) player.MovementController.moveSpeed = minSlowSpeed;
 
-            timerCur = timerMax;
+                //Reset Timer
+                timerCur = timerMax;
+            }
         }
     }
     private void OnTriggerEnter(Collider other)
     {
+        //If the player has has entered the trigger
         if (other.gameObject.name == "Player")
         {
+            //Reset the timer
             timerCur = timerMax;
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
+        //If the player has left the trigger reset their speed
         if(other.gameObject.name == "Player")
         {
-            pcC.MovementController.moveSpeed = pcC.MovementController.baseMoveSpeed;
+            player.MovementController.moveSpeed = player.MovementController.baseMoveSpeed;
         }
+
+        //Reset timer
+        timerCur = timerMax;
 
     }
 }

@@ -1,23 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Teleport_to_Swamp : MonoBehaviour
 {
+    [Tooltip("The level chosen to teleport to")]
     [SerializeField]
-    string Level = null;
+    private string Level = null;
 
 
     private void OnTriggerEnter(Collider other)
     {
         if (Level != null)
         {
-            Application.LoadLevel(Level);
+            SceneManager.LoadScene(Level);
         }
 
+        //Should no level be selected send error message to console
         else
         {
-            Debug.Log("Level not set");
+            Debug.LogError("Level not set");
         }
     }
 
