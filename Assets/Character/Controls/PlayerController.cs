@@ -31,6 +31,8 @@ public class PlayerController : Entity
     [Tooltip("Defines current health of the character")]
     public int currentHealth;
 
+    [Tooltip("Defines the amount of times the player has died")]
+    public int AmountOfDeaths = 0;
 
     [Tooltip("Defines which progress bar is for the ghost power")]
     ProgressBar PBGhost;
@@ -147,6 +149,7 @@ public class PlayerController : Entity
         if (currentHealth <= 0)
         {
             gameOver.SetActive(true);
+            AmountOfDeaths++;
         }
 
         if(Input.GetButtonDown("LevelSkip"))

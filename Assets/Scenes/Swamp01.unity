@@ -3296,6 +3296,10 @@ PrefabInstance:
       propertyPath: Gtext
       value: 
       objectReference: {fileID: 781155120}
+    - target: {fileID: 1461897076674705512, guid: 232a85ff3bcb7c342a4058b3bb91289e, type: 3}
+      propertyPath: _UIGhostPower
+      value: 
+      objectReference: {fileID: 781155120}
     - target: {fileID: 1461897076674705516, guid: 232a85ff3bcb7c342a4058b3bb91289e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.03299866
@@ -3875,6 +3879,18 @@ PrefabInstance:
       propertyPath: _music
       value: 
       objectReference: {fileID: 1568345511}
+    - target: {fileID: 2165279785605596668, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3586557728156844251, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+      propertyPath: _camera
+      value: 
+      objectReference: {fileID: 105872687}
+    - target: {fileID: 3639842686428063226, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -34
+      objectReference: {fileID: 0}
     - target: {fileID: 4028283111290228658, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
       propertyPath: m_AnchorMin.x
       value: 0
@@ -3906,6 +3922,10 @@ PrefabInstance:
     - target: {fileID: 5010462665716549776, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265171535211174478, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 304
       objectReference: {fileID: 0}
     - target: {fileID: 7213570049793106076, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
       propertyPath: m_AnchorMin.x
@@ -6845,10 +6865,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ccfab6a7db0eb49ab73ec621b057fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timerMax: 0.75
-  timerCur: 0
   slowPercentage: 0.3
   minSlowSpeed: 1
+  timerMax: 0.75
+  timerCur: 0
+  player: {fileID: 0}
 --- !u!1 &715430307 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8199415185275795377, guid: cc8fe18043d4f4c498885a810cc0f95d, type: 3}
@@ -15784,30 +15805,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1681668837}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1684110857 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1461897076674705495, guid: 232a85ff3bcb7c342a4058b3bb91289e, type: 3}
-  m_PrefabInstance: {fileID: 373267528}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1684110862 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1461897076674705516, guid: 232a85ff3bcb7c342a4058b3bb91289e, type: 3}
   m_PrefabInstance: {fileID: 373267528}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1684110863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1684110857}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e35531ad986a9144a5f33906843bd06, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  list:
-  - {fileID: 0}
 --- !u!1001 &1685744067
 PrefabInstance:
   m_ObjectHideFlags: 0
