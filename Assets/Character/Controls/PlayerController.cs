@@ -32,7 +32,7 @@ public class PlayerController : Entity
     public int currentHealth;
 
     [Tooltip("Defines the amount of times the player has died")]
-    public int AmountOfDeaths = 0;
+    public static int AmountOfDeaths = 0;
 
     [Tooltip("Defines which progress bar is for the ghost power")]
     ProgressBar PBGhost;
@@ -43,13 +43,15 @@ public class PlayerController : Entity
     Canvas canvas;
     public GameObject pauseMenu;
     public GameObject gameOver;
+    GameOver _GameOverScript;
+    public DeathAmount _deaths;
     public OptionsScript optionMenu;
 
     // Start is called before the first frame update
     void Start()
     {
         canvas = FindObjectOfType<Canvas>();
-
+        _GameOverScript = gameOver.GetComponent<GameOver>();
         //Find the healthbar
         GameObject obj = GameObject.Find("Healthbar");
         Healthbar = obj.GetComponent<Healthbar>();
@@ -110,8 +112,6 @@ public class PlayerController : Entity
         PowerGhost.ghostTimer = PowerGhost.ghostTimerMax;
         PowerTime.TimeTimer = PowerTime.TimePowerMax;
 
-        pauseMenu.SetActive(false);
-        gameOver.SetActive(false);
     }
 
     // Update is called once per frame
@@ -148,8 +148,10 @@ public class PlayerController : Entity
 
         if (currentHealth <= 0)
         {
+            if (!gameOver.activeSelf && _GameOverScript._initialCall==false) { AmountOfDeaths++; }
             gameOver.SetActive(true);
-            AmountOfDeaths++;
+            _deaths.deathInc(AmountOfDeaths);
+            //this.enabled = false;
         }
 
         if(Input.GetButtonDown("LevelSkip"))

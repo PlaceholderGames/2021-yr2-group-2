@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameOver : MonoBehaviour
 {
-    bool _initialCall = true;
+    public bool _initialCall = true;
     public CameraFollow _camera;
     // Start is called before the first frame update
     void Start()
@@ -22,6 +22,7 @@ public class GameOver : MonoBehaviour
 
     private void OnEnable()
     {
+        print(_initialCall);
         if (_initialCall)
         {
             _initialCall = false;
