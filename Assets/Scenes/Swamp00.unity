@@ -1145,6 +1145,10 @@ PrefabInstance:
       propertyPath: optionMenu
       value: 
       objectReference: {fileID: 2114431762}
+    - target: {fileID: 3976502994770938051, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
+      propertyPath: _deaths
+      value: 
+      objectReference: {fileID: 2114431763}
     - target: {fileID: 7313722336639107285, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: TimePowerActive
       value: 0
@@ -6715,6 +6719,10 @@ PrefabInstance:
       propertyPath: _resume
       value: 
       objectReference: {fileID: 60103653}
+    - target: {fileID: 6990111864111921003, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+      propertyPath: m_Text
+      value: 00:00
+      objectReference: {fileID: 0}
     - target: {fileID: 7213570049793106076, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -6759,6 +6767,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b802ad8fb5bc6444b9f26a87b8bd653f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2114431763 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4423185339759582368, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+  m_PrefabInstance: {fileID: 2114431760}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3780e8404d903be4fbebc277bcd5bde0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &2127835170
