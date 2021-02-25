@@ -34,6 +34,7 @@ public class PlayerController : Entity
     [Tooltip("Defines the amount of times the player has died")]
     public static int AmountOfDeaths = 0;
 
+
     [Tooltip("Defines which progress bar is for the ghost power")]
     ProgressBar PBGhost;
 

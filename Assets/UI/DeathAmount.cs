@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class DeathAmount : MonoBehaviour
 {
     Text _deaths;
+    static string num = 0.ToString();
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +15,12 @@ public class DeathAmount : MonoBehaviour
 
     public void deathInc(int d)
     {
-        _deaths.text = d.ToString();
+        num = d.ToString();
     }
+
+    void Update()
+    {
+        _deaths.text = num;
+    }
+    
 }
