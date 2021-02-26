@@ -22,7 +22,6 @@ public class GameOver : MonoBehaviour
 
     private void OnEnable()
     {
-        print(_initialCall);
         if (_initialCall)
         {
             _initialCall = false;
