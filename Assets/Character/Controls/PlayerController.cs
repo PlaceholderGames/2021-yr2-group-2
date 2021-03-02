@@ -152,7 +152,6 @@ public class PlayerController : Entity
             if (!gameOver.activeSelf && _GameOverScript._initialCall==false) { AmountOfDeaths++; }
             gameOver.SetActive(true);
             _deaths.deathInc(AmountOfDeaths);
-            //this.enabled = false;
         }
 
         if(Input.GetButtonDown("LevelSkip"))
