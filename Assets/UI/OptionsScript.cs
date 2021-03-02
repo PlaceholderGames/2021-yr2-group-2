@@ -5,8 +5,12 @@ using UnityEngine.UI;
 
 public class OptionsScript : MonoBehaviour
 {
+    [Tooltip("Slider for mouse sensitivity")]
     public Slider _Mouse;
+
+    [Tooltip("Slider for the volume")]
     public Slider _Volume;
+
     public GameObject _PauseMenu;
     public CameraFollow _camera;
     public AudioSource _music;
