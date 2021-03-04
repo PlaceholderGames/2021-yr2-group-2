@@ -1059,6 +1059,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 430540258}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &449634250 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 479386284561133561, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+  m_PrefabInstance: {fileID: 1072493983}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &493970105
 GameObject:
   m_ObjectHideFlags: 0
@@ -6139,6 +6144,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2129697830}
+  - component: {fileID: 2129697831}
   m_Layer: 0
   m_Name: Area
   m_TagString: Untagged
@@ -6164,6 +6170,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2129697831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129697829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1304cd4eedad45a4f9d5e5eb584b156b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  helpimage: {fileID: 449634250}
+  offtimer: 5
 --- !u!4 &2146237534 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3348665455290596284, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
