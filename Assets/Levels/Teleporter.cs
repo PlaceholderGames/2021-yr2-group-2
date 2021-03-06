@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Teleporter : MonoBehaviour
 {
     [Header("General Info")]
-    [Tooltip("Speed of platform movement")]
+    [Tooltip("Enables teleportation on contact")]
     [SerializeField]
     bool allowTeleport = true;
 
@@ -22,6 +22,7 @@ public class Teleporter : MonoBehaviour
     private string Level = null;
 
     [Header("Internal Info")]
+    [Tooltip("Linked teleporter if internal")]
     [SerializeField]
     Teleporter teleportPosition = null;
 
