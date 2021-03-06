@@ -1,48 +1,70 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Teleporter : MonoBehaviour
 {
-    public Teleporter teleportposition;
-    public bool allowteleport = true;
-    public Coroutine delay;
+    [Header("General Info")]
+    [Tooltip("Speed of platform movement")]
+    [SerializeField]
+    bool allowTeleport = true;
 
+    [Tooltip("If false teleports between levels")]
+    [SerializeField]
+    bool internalTeleport = true;
 
+    Coroutine delay;
 
+    [Header("External Info")]
+    [Tooltip("The level chosen to teleport to if external")]
+    [SerializeField]
+    private string Level = null;
 
+    [Header("Internal Info")]
+    [SerializeField]
+    Teleporter teleportPosition = null;
+
+    //Delay to stop teleporting rapidly between teleporters
     public void timedelay()
     {
-        allowteleport = false;
+        allowTeleport = false;
         StartCoroutine(teleportCD());
     }
 
 
+    //Trigger teleport
     private void OnTriggerEnter(Collider Col)
     {
-
-        if (allowteleport == true)
+        if (allowTeleport == true)
         {
-            teleportposition.timedelay();
-
-            Debug.Log("SHAAAAAATINGGGGG");
-            //Col.transform.SetPositionAndRotation(teleportposition.position, teleportposition.rotation);
-            //Col.transform.position = teleportposition.position;
-            Col.GetComponent<CharacterController>().enabled = false;
-            Col.transform.SetPositionAndRotation(teleportposition.transform.position, teleportposition.transform.rotation);
-            Col.GetComponent<CharacterController>().enabled = true;
-
+            //If internal begin delay timer and teleport character
+            if (internalTeleport)
+            {
+                teleportPosition.timedelay();
+                Col.GetComponent<CharacterController>().enabled = false;
+                Col.transform.SetPositionAndRotation(teleportPosition.transform.position, teleportPosition.transform.rotation);
+                Col.GetComponent<CharacterController>().enabled = true;
+            }
+            //If non internal and level chosen - load scene
+            else if (Level != null)
+            {
+                Debug.Log(Level + " loaded via teleporter");
+                SceneManager.LoadScene(Level);
+            }
+            else
+            {
+                Debug.LogError(this + "Error: No Level chosen for external portal");
+            }
 
         }
     }
 
     public IEnumerator teleportCD()
     {
-        allowteleport = false;
-
+        allowTeleport = false;
         yield return new WaitForSeconds(3);
-
-        allowteleport = true;
+        allowTeleport = true;
     }
 
 }

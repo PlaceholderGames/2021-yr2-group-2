@@ -236,8 +236,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f03b8a3d34ce6b47b74201e8cc6439a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  teleportposition: {fileID: 0}
-  allowteleport: 1
+  allowTeleport: 1
+  internalTeleport: 1
+  Level: 
+  teleportPosition: {fileID: 5025579387268363699}
 --- !u!1 &6716300759548145420
 GameObject:
   m_ObjectHideFlags: 0
