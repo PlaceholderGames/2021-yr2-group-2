@@ -44,6 +44,8 @@ public class platformMovement : MonoBehaviour
     [SerializeField]
     private GameObject player = null;
 
+    private Vector3 lastPos; //store the platform's position from during the last Update loop
+
     private void Start()
     {
         //Should there be no target - alert via debug log
@@ -68,9 +70,33 @@ public class platformMovement : MonoBehaviour
         {
             UpdatePlatform();
         }
-
+        if (player)
+        {
+            Vector3 dir = (transform.position - lastPos).normalized;
+            player.GetComponent<CharacterController>().Move((dir * speed) * Time.deltaTime);
+        }
+        lastPos = transform.position;
     }
     
+    private void OnTriggerStay(Collider collider)
+    {
+        print("Stay");
+        //Capture a ref to player only if the player variable is currently null/unassigned to prevent recapturing if the player tries to move again
+        if (collider.gameObject.tag=="Player" & !player)
+        {
+            player = collider.gameObject;
+        }
+    }
+
+    private void OnTriggerExit(Collider collider)
+    {
+        print("exit");
+        if (collider.gameObject.tag == " Player" && player)
+        {
+            player = null;
+        }
+    }
+
     //Move Platform to new target
     private void MovePlatform()
     {

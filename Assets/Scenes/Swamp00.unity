@@ -2741,6 +2741,10 @@ PrefabInstance:
       propertyPath: delayTime
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2575116822004227631, guid: 2815f39cc4f5d4543adb310fc89b369c, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1292266290}
     - target: {fileID: 2575116822004227634, guid: 2815f39cc4f5d4543adb310fc89b369c, type: 3}
       propertyPath: m_LocalScale.x
       value: 5.8814
@@ -3804,6 +3808,11 @@ PrefabInstance:
       objectReference: {fileID: 480550661}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4eaae7b686834704f9cef14f5ac2d1cf, type: 3}
+--- !u!1 &1292266290 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1147752367711628, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
+  m_PrefabInstance: {fileID: 351204588}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1306038291 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2995928686964257364, guid: 4eaae7b686834704f9cef14f5ac2d1cf, type: 3}
@@ -6473,7 +6482,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3976502994770938051, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
   m_PrefabInstance: {fileID: 351204588}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1292266290}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 869998b7d3a251b47bfbc11f8aaa3299, type: 3}
