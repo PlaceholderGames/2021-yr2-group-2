@@ -13,19 +13,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.3800001, y: 4.946827, z: 3.7871296}
   m_Center: {x: 3.689999, y: 3.8157616, z: -0.37856498}
---- !u!114 &87322344
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4950341670879335195}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93cab9d3fc8aebb4ca14b3495eacff30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Level: 
 --- !u!1001 &1235997019289731940
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -79,9 +66,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6166555129935253631, guid: 33ede0435ceea9942a6af0e9092f0eb4, type: 3}
       propertyPath: m_Name
-      value: Teleporter 1 (2)
+      value: Level Teleporter
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8981253975946142405, guid: 33ede0435ceea9942a6af0e9092f0eb4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 33ede0435ceea9942a6af0e9092f0eb4, type: 3}
 --- !u!1 &4950341670879335195 stripped
 GameObject:
