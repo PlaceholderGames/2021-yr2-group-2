@@ -38,10 +38,16 @@ public class GhostPower : MonoBehaviour
 
     private void UpdateGhostPower(bool isGhost, bool IsTriggered = false, int BaseLayer = 0, int IgnoredLayer = 8)
     {
-
         if (isGhost)
         {
-            InteractAsGhost();
+            if(this.tag == "Ghost")
+            {
+                InteractAsGhost(0, 8, false);
+            }
+            else
+            {
+                InteractAsGhost();
+            }
         }
         else //If not a ghost
         {
@@ -83,6 +89,7 @@ public class GhostPower : MonoBehaviour
     {
         //Come out of ghost form
         isGhost = false;
+        print("no longer ghost");
 
         //Go back to default look
         //GetComponent<Renderer>().material = standardMaterial;
