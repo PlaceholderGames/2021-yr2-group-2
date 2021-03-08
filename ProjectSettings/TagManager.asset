@@ -8,6 +8,7 @@ TagManager:
   - PatrolPoint
   - Enemy
   - Platform
+  - Ghost
   layers:
   - Default
   - TransparentFX
