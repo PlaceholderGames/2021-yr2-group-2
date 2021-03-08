@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+[RequireComponent(typeof(Collider))]
 public class NewEnemyMovement : MonoBehaviour
 {
     //Current location of the target the enemy is aiming for
