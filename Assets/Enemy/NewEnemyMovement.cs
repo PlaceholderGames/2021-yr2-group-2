@@ -5,44 +5,56 @@ using UnityEngine.AI;
 
 public class NewEnemyMovement : MonoBehaviour
 {
-    public float LookRadius = 10f;
-
+    //Current location of the target the enemy is aiming for
     Transform target;
 
-    public bool found = false;
+    //Check to see if enemy has target
+    bool found = false;
 
-    NavMeshAgent agent;
+    [Tooltip("Reference for the player")]
+    [SerializeField]
+    GameObject player;
 
-    public GameObject player;
+    [Tooltip("Reference for the player")]
+    [SerializeField]
+    float speed = 5.0f;
 
     void Start()
     {
         //allows ai to find player and recognise where the player is 
         GameObject obj = GameObject.Find("Player");
-        target = obj.transform;
+
         //error showing if enemy cannot find player
-        if(obj = null)
+        if (obj == null)
         {
             print("Error enemy finding player");
+        }
+        else
+        {
+            target = obj.transform;
         }
     }
     //movement of the character
     void Update()
     {
+        //Whilst the enemy has found a target
         if (found == true)
         {
+            //Look towards the target 
             transform.LookAt(target.transform);
-            transform.position += transform.forward * 5f * Time.deltaTime;
+
+            //Move towards the position in scale to speed
+            transform.position += transform.forward * speed * Time.deltaTime;
         }
     }
-//allowing trigger to recognise player
+       
+    //allowing trigger to recognise player
     private void OnTriggerEnter(Collider other)
     {
         if(other.name == "Player")
         {
             found = true;
         }
-    }
-    
+    }  
 
 }

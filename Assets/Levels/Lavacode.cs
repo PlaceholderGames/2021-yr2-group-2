@@ -4,12 +4,8 @@ using UnityEngine;
 
 public class Lavacode : MonoBehaviour
 {
-
-
     public List<PlayerController> Playerinlava = new List<PlayerController>();
-
-
-   
+       
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +17,6 @@ public class Lavacode : MonoBehaviour
         if (Col.gameObject.CompareTag("Player"))
 
         {
-
             Playerinlava.Add(Col.gameObject.GetComponent<PlayerController>());
         }
     }
@@ -32,10 +27,8 @@ public class Lavacode : MonoBehaviour
 
         {
             Playerinlava.Remove(Col.gameObject.GetComponent<PlayerController>());
-
         }
     }
-
 
     void lavadamage()
     {
@@ -43,8 +36,5 @@ public class Lavacode : MonoBehaviour
         {
             Playerinlava[i].TakeDamage(1);
         }
-
-
-
     }
 }
