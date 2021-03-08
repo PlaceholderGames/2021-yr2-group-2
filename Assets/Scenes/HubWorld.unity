@@ -1589,27 +1589,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 967362440405528933, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
   m_PrefabInstance: {fileID: 2070553999}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &703787071 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4950341670879335195, guid: 9b2bc154460528749b8650cc8bdb9082, type: 3}
-  m_PrefabInstance: {fileID: 1235997020103434098}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &703787072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 703787071}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f03b8a3d34ce6b47b74201e8cc6439a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  allowTeleport: 1
-  internalTeleport: 0
-  Level: Lava02
-  teleportPosition: {fileID: 0}
 --- !u!1001 &711040322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1629,6 +1608,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: cd3711c64dca56d48abe1216355d0bf3, type: 2}
+    - target: {fileID: 6095997505694283479, guid: 9b2bc154460528749b8650cc8bdb9082, type: 3}
+      propertyPath: internalTeleport
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6095997505694283479, guid: 9b2bc154460528749b8650cc8bdb9082, type: 3}
+      propertyPath: Level
+      value: Swamp00
+      objectReference: {fileID: 0}
     - target: {fileID: 6761412656162334788, guid: 9b2bc154460528749b8650cc8bdb9082, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.483837
@@ -3097,27 +3084,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: fe654bfd67235493e84db277df9c5c1e, type: 3}
   m_PrefabInstance: {fileID: 1151655998}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1402571333 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4950341670879335195, guid: 9b2bc154460528749b8650cc8bdb9082, type: 3}
-  m_PrefabInstance: {fileID: 711040322}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1402571334
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1402571333}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f03b8a3d34ce6b47b74201e8cc6439a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  allowTeleport: 1
-  internalTeleport: 0
-  Level: Swamp00
-  teleportPosition: {fileID: 0}
 --- !u!4 &1407448312 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: fe654bfd67235493e84db277df9c5c1e, type: 3}
@@ -4364,6 +4330,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 1e03af6425aa6234c8e4e6df634823b6, type: 2}
+    - target: {fileID: 6095997505694283479, guid: 9b2bc154460528749b8650cc8bdb9082, type: 3}
+      propertyPath: Level
+      value: Lava02
+      objectReference: {fileID: 0}
+    - target: {fileID: 6095997505694283479, guid: 9b2bc154460528749b8650cc8bdb9082, type: 3}
+      propertyPath: internalTeleport
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6761412656162334788, guid: 9b2bc154460528749b8650cc8bdb9082, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21.786163
@@ -4408,6 +4382,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 87322344, guid: 9b2bc154460528749b8650cc8bdb9082, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b2bc154460528749b8650cc8bdb9082, type: 3}
