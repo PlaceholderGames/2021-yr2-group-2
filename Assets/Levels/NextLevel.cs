@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class NextLevel : MonoBehaviour
 {
+    [SerializeField]
+    [Tooltip("Next Level to trigger when level over")]
     public int nextLevel;
     public void GoToNextLevel()
     {
