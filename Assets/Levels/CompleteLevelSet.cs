@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class CompleteLevelSet : MonoBehaviour
 {
-    public bool LavaCompleted;
-    public bool SwampCompleted;
+    [SerializeField]
+    bool LavaCompleted = false;
+
+
+    [SerializeField]
+    bool SwampCompleted = false;
 
     private void LateUpdate()
     {

@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class LvlCollectorPickup : MonoBehaviour
 {
+    [SerializeField]
     [Tooltip("Tracks current count of picked up Collectables")]
-    public int curCount = 0;
+    int curCount = 0;
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Lvl Complete Pickup")
