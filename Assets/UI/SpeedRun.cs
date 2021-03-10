@@ -11,13 +11,18 @@ public class SpeedRun : MonoBehaviour
     Text _timeText;
     float startingTime = 0f;
     static string textTime;
+    static bool init = false;
 
     // Update is called once per frame
 
     void Start()
     {
         _timeText=gameObject.GetComponent<Text>(); //finds the text component
-        startingTime = Time.time;
+        if ((SceneManager.GetActiveScene().name == "HubWorld") && init == false)
+        {
+            startingTime = Time.time;
+            init = true;
+        }
     }
 
     void Update()
