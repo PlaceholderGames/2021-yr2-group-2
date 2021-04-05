@@ -10,6 +10,12 @@ public class OptionsScript : MonoBehaviour
     public GameObject _PauseMenu;
     public CameraFollow _camera;
     public AudioSource _music;
+    public AudioSource _collectSound;
+    public AudioSource _lavaSound;
+
+    private static float masterVolume = 0.9f;
+
+    private static float sensitivity = 5.0f;
 
     //public GameObject _OptionsMenu;
 
@@ -17,6 +23,12 @@ public class OptionsScript : MonoBehaviour
     void Start()
     {
         gameObject.SetActive(false);
+
+        _Volume.value = masterVolume;
+
+        _Mouse.value = sensitivity;
+
+        _camera.rotateSpeed = sensitivity;
 
         //Adds a listener to the _Mouse slider and invokes a method when the value changes.
         _Mouse.onValueChanged.AddListener(delegate { MouseChangeCheck(); });
@@ -29,17 +41,25 @@ public class OptionsScript : MonoBehaviour
     {
         Time.timeScale = 0.0f;
         UnityEngine.Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;  
+        Cursor.visible = true;
+
+        _music.volume = masterVolume;
+
+        _camera.rotateSpeed = sensitivity;
+
+        if (_lavaSound != null) { _lavaSound.volume = masterVolume; }
+        if (_collectSound != null) { _collectSound.volume = masterVolume; }
     }
 
     public void MouseChangeCheck()
     {
-        _camera.rotateSpeed = _Mouse.value;
+        sensitivity = _Mouse.value;
     }
 
     public void VolumeChangeCheck()
     {
-        _music.volume = _Volume.value;
+        masterVolume = _Volume.value;
+
     }
 
     public void OptionButtonOpen()

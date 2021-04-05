@@ -910,6 +910,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be4b3c9136548ee4f8bfd7c5bbf247ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &115528527 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3686065622330048452, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
+  m_PrefabInstance: {fileID: 115528525}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &115813555
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4668,6 +4673,14 @@ PrefabInstance:
       objectReference: {fileID: 115528526}
     - target: {fileID: 1838416171131901843, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
       propertyPath: _music
+      value: 
+      objectReference: {fileID: 2043480442}
+    - target: {fileID: 1838416171131901843, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+      propertyPath: _collectSound
+      value: 
+      objectReference: {fileID: 115528527}
+    - target: {fileID: 1838416171131901843, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+      propertyPath: _lavaSound
       value: 
       objectReference: {fileID: 2043480442}
     - target: {fileID: 1964043973385800328, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}

@@ -4278,6 +4278,10 @@ PrefabInstance:
       propertyPath: _camera
       value: 
       objectReference: {fileID: 47017502}
+    - target: {fileID: 4889416178846337726, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+      propertyPath: m_WholeNumbers
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5010462665716549776, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0

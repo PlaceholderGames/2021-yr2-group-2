@@ -6026,6 +6026,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1395990474172773537, guid: 34e9fb7680a7ba543b58f2823ad65aa0, type: 3}
   m_PrefabInstance: {fileID: 2043472501}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1935971932 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3686065622330048452, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
+  m_PrefabInstance: {fileID: 351204588}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1945598761 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3348665455290596284, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
@@ -6847,6 +6852,10 @@ PrefabInstance:
       propertyPath: _music
       value: 
       objectReference: {fileID: 1659933233}
+    - target: {fileID: 1838416171131901843, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+      propertyPath: _collectSound
+      value: 
+      objectReference: {fileID: 1935971932}
     - target: {fileID: 1964043973385800328, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
       propertyPath: nextLevel
       value: 4
