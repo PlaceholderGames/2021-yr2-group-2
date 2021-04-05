@@ -3883,6 +3883,10 @@ PrefabInstance:
       propertyPath: _music
       value: 
       objectReference: {fileID: 1568345511}
+    - target: {fileID: 1838416171131901843, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+      propertyPath: _collectSound
+      value: 
+      objectReference: {fileID: 1798445796}
     - target: {fileID: 2165279785605596668, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -16668,6 +16672,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2995928686964257364, guid: 4eaae7b686834704f9cef14f5ac2d1cf, type: 3}
   m_PrefabInstance: {fileID: 1080894459}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1798445796 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3686065622330048452, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
+  m_PrefabInstance: {fileID: 105872686}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1800165227
 GameObject:

@@ -38,6 +38,7 @@ public class platformMovement : MonoBehaviour
 
     //Current movement direction
     private Vector3 heading;
+    Vector3 lastPos;
 
     [Header("References")]
     [Tooltip("Reference to the player")]
@@ -46,8 +47,9 @@ public class platformMovement : MonoBehaviour
 
     private void Start()
     {
+        player = GameObject.FindWithTag("Player");
         //Should there be no target - alert via debug log
-        if(CurrentTarget == null)
+        if (CurrentTarget == null)
         {
             Debug.Log(this.gameObject.name + ": has no target");
         }
@@ -68,9 +70,30 @@ public class platformMovement : MonoBehaviour
         {
             UpdatePlatform();
         }
-
+        //if (player)
+        //{
+        //    Vector3 dir = (transform.position - lastPos).normalized;
+        //    player.GetComponent<CharacterController>().Move((dir * speed) * Time.deltaTime);
+        //    print("pl");
+        //}
+        lastPos = transform.position;
     }
     
+    private void OnTriggerStay(Collider collider)
+    {
+        //Capture a ref to player only if the player variable is currently null/unassigned to prevent recapturing if the player tries to move again.
+        if (collider.gameObject.tag == "Player" /*&& !player*/) {
+            Vector3 dir = (transform.position - lastPos).normalized;
+            player.GetComponent<CharacterController>().Move((dir * speed) * Time.deltaTime);
+            print("pl");
+        }
+    }
+
+    private void OnTriggerExit(Collider collider)
+    {
+        if (collider.gameObject.tag == "Player" && player) { player = null; }
+    }
+
     //Move Platform to new target
     private void MovePlatform()
     {
