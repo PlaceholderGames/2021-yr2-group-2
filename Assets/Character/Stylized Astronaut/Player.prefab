@@ -85,8 +85,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1121172171534560}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 0.016786404, y: -0.44, z: 0.03247326}
-  m_LocalScale: {x: 437.66992, y: 437.6699, z: 437.6699}
+  m_LocalPosition: {x: 0.016786404, y: 0.033, z: 0.03247326}
+  m_LocalScale: {x: 43.76699, y: 43.76699, z: 43.76699}
   m_Children:
   - {fileID: 4175513801994356}
   m_Father: {fileID: 31837143142881773}
@@ -224,6 +224,8 @@ MonoBehaviour:
   currentHealth: 0
   pauseMenu: {fileID: 0}
   gameOver: {fileID: 0}
+  _deaths: {fileID: 0}
+  optionMenu: {fileID: 0}
 --- !u!114 &3183891745710469774
 MonoBehaviour:
   m_ObjectHideFlags: 0
