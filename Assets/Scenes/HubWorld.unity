@@ -3168,6 +3168,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: fe654bfd67235493e84db277df9c5c1e, type: 3}
   m_PrefabInstance: {fileID: 1047065051}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1432110665 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6990111864111921003, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+  m_PrefabInstance: {fileID: 2070553999}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1432437454
 GameObject:
   m_ObjectHideFlags: 0
@@ -4242,6 +4253,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1744077587782708918, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+      propertyPath: _timeText
+      value: 
+      objectReference: {fileID: 1432110665}
     - target: {fileID: 1838416171131901843, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
       propertyPath: _camera
       value: 
