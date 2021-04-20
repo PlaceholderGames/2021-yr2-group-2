@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1461897076674705512}
   m_Layer: 0
   m_Name: PP_Ghost
-  m_TagString: Untagged
+  m_TagString: PP Ghost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
