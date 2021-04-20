@@ -20,6 +20,12 @@ public class GhostAI : MonoBehaviour
     }
 #endif
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "Player")
+        {
 
+        }
+    }
 
 }
