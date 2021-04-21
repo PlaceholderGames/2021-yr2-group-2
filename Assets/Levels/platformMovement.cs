@@ -18,7 +18,7 @@ public class platformMovement : MonoBehaviour
     [SerializeField]
     [Range(0, 5)]
     private float speed = 1.0f;
-    
+
     [Tooltip("Delay time at location")]
     [SerializeField]
     [Range(0, 20)]
@@ -47,7 +47,7 @@ public class platformMovement : MonoBehaviour
 
     private void Start()
     {
-        player = GameObject.FindWithTag("Player");
+        //player = GameObject.FindWithTag("Player");
         //Should there be no target - alert via debug log
         if (CurrentTarget == null)
         {
@@ -70,23 +70,31 @@ public class platformMovement : MonoBehaviour
         {
             UpdatePlatform();
         }
-        //if (player)
+        if (player)
+        {
+            Vector3 dir = (transform.position - lastPos).normalized;
+            player.GetComponent<CharacterController>().Move((dir * speed) * Time.deltaTime);
+            print("pl");
+        }
+        lastPos = transform.position;
+    }
+
+
+    private void OnTriggerStay(Collider collider)
+    {
+        //Capture a ref to player only if the player variable is currently null / unassigned to prevent recapturing if the player tries to move again.
+        //if (collider.gameObject.tag == "Player" /*&& !player*/)
         //{
         //    Vector3 dir = (transform.position - lastPos).normalized;
         //    player.GetComponent<CharacterController>().Move((dir * speed) * Time.deltaTime);
         //    print("pl");
         //}
-        lastPos = transform.position;
-    }
-    
-    private void OnTriggerStay(Collider collider)
-    {
-        //Capture a ref to player only if the player variable is currently null/unassigned to prevent recapturing if the player tries to move again.
-        if (collider.gameObject.tag == "Player" /*&& !player*/) {
-            Vector3 dir = (transform.position - lastPos).normalized;
-            player.GetComponent<CharacterController>().Move((dir * speed) * Time.deltaTime);
-            print("pl");
+        print("on stay");
+        if (collider.gameObject.tag == "Player" && !player)
+        {
+            player = collider.gameObject;
         }
+
     }
 
     private void OnTriggerExit(Collider collider)
@@ -102,16 +110,16 @@ public class platformMovement : MonoBehaviour
 
         //Move based on heading and speed
         transform.position += (heading / heading.magnitude) * speed * Time.deltaTime;
-        
+
         //If in tolerable range set to exact location
-        if(heading.magnitude < tolerance)
+        if (heading.magnitude < tolerance)
         {
             transform.position = CurrentTarget.transform.position;
             delayCur = delayTime;
         }
 
     }
-   
+
     //Update self
     private void UpdatePlatform()
     {
