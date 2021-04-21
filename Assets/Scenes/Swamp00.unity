@@ -172,6 +172,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.47920418
@@ -252,6 +256,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -439,6 +447,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.65
@@ -495,6 +507,10 @@ PrefabInstance:
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -626,6 +642,10 @@ PrefabInstance:
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -797,6 +817,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 31.66
@@ -858,6 +882,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1015,6 +1043,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.571556
@@ -1087,6 +1119,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1192,6 +1228,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1360,6 +1400,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 25.66
@@ -1440,6 +1484,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1566,6 +1614,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_RockBig_02c_PRE
       objectReference: {fileID: 0}
+    - target: {fileID: 7548524047968987162, guid: ef59ef0f1d2b7914bb4164505deea1ac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef59ef0f1d2b7914bb4164505deea1ac, type: 3}
 --- !u!1 &101680154
@@ -1674,6 +1726,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -22.35
@@ -1730,6 +1786,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1812,6 +1872,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.9000049
@@ -1892,6 +1956,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1998,6 +2066,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.72
@@ -2054,6 +2126,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (90)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2136,6 +2212,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 65.7
@@ -2216,6 +2296,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (91)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2298,6 +2382,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (95)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 60
@@ -2378,6 +2466,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2509,6 +2601,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_RockBig_01a_PRE
       objectReference: {fileID: 0}
+    - target: {fileID: 2242454209044241174, guid: d9873437c338afd4a91b053db2d538d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9873437c338afd4a91b053db2d538d2, type: 3}
 --- !u!1001 &158467150
@@ -2521,6 +2617,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2738,6 +2838,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.7227535
@@ -2843,6 +2947,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.74
@@ -2946,7 +3054,7 @@ Transform:
   - {fileID: 1447347359}
   - {fileID: 2802430}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &201880063 stripped
 GameObject:
@@ -3346,6 +3454,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_RockBig_01b_PRE (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3142905135150499192, guid: 800b81c59b871d74a9b06a83c78e0bb2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 800b81c59b871d74a9b06a83c78e0bb2, type: 3}
 --- !u!1 &241454902 stripped
@@ -3406,6 +3518,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3601,6 +3717,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Vine_05d_PRE
       objectReference: {fileID: 0}
+    - target: {fileID: 1791566247563145669, guid: 499e0447d96be0443bae274c179b47bb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 499e0447d96be0443bae274c179b47bb, type: 3}
 --- !u!1001 &270035165
@@ -3613,6 +3733,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3695,6 +3819,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -25.59
@@ -3755,7 +3883,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &276138829
 Transform:
@@ -3857,6 +3985,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_tree4a_PRE
       objectReference: {fileID: 0}
+    - target: {fileID: 3523946898655504426, guid: 23286efd3da46ad42a2517e19996ac27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4299886116003328656, guid: 23286efd3da46ad42a2517e19996ac27, type: 3}
       propertyPath: m_LocalPosition.x
       value: 34.195297
@@ -3901,6 +4033,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4950461900568544593, guid: 23286efd3da46ad42a2517e19996ac27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6983721617422602023, guid: 23286efd3da46ad42a2517e19996ac27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7932057895446368631, guid: 23286efd3da46ad42a2517e19996ac27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23286efd3da46ad42a2517e19996ac27, type: 3}
 --- !u!1001 &287884967
@@ -3913,6 +4057,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4032,6 +4180,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_tree9_PRE
       objectReference: {fileID: 0}
+    - target: {fileID: 5701673762807815886, guid: 1e063940ddfce4340a838f3ad7c66851, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e063940ddfce4340a838f3ad7c66851, type: 3}
 --- !u!1001 &309975205
@@ -4044,6 +4196,10 @@ PrefabInstance:
     - target: {fileID: 4894870124239600735, guid: 7cfc4d4af6b65a34890cfc849a4c107e, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01b_PRE (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894870124239600735, guid: 7cfc4d4af6b65a34890cfc849a4c107e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5234804397309519589, guid: 7cfc4d4af6b65a34890cfc849a4c107e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4075,7 +4231,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5234804397309519589, guid: 7cfc4d4af6b65a34890cfc849a4c107e, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5234804397309519589, guid: 7cfc4d4af6b65a34890cfc849a4c107e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4176,6 +4332,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 28.26
@@ -4237,6 +4397,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4319,6 +4483,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 22.205301
@@ -4399,6 +4567,10 @@ PrefabInstance:
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4555,6 +4727,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -23.09
@@ -4635,6 +4811,10 @@ PrefabInstance:
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4818,6 +4998,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5094,6 +5278,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.148445
@@ -5150,6 +5338,10 @@ PrefabInstance:
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5217,7 +5409,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &400697591
 Transform:
@@ -5716,6 +5908,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 62.2
@@ -5796,6 +5992,10 @@ PrefabInstance:
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5965,6 +6165,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_RockBig_02a_PRE
       objectReference: {fileID: 0}
+    - target: {fileID: 1348384822564394438, guid: c47c19109c1c7574fae9faebc63cc888, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1872860238198787964, guid: c47c19109c1c7574fae9faebc63cc888, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.0219803
@@ -6021,6 +6225,10 @@ PrefabInstance:
     - target: {fileID: 329820647317112062, guid: b1b46156857fc0043b926f02de61fb3c, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Vine_01a_PRE
+      objectReference: {fileID: 0}
+    - target: {fileID: 329820647317112062, guid: b1b46156857fc0043b926f02de61fb3c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 1141682902344228420, guid: b1b46156857fc0043b926f02de61fb3c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6079,6 +6287,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.6515503
@@ -6135,6 +6347,10 @@ PrefabInstance:
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6273,6 +6489,10 @@ PrefabInstance:
     - target: {fileID: 3142905135150499192, guid: 800b81c59b871d74a9b06a83c78e0bb2, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_RockBig_01b_PRE (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3142905135150499192, guid: 800b81c59b871d74a9b06a83c78e0bb2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 800b81c59b871d74a9b06a83c78e0bb2, type: 3}
@@ -6475,6 +6695,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -17.761559
@@ -6531,6 +6755,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6612,6 +6840,10 @@ PrefabInstance:
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6701,6 +6933,10 @@ PrefabInstance:
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6811,6 +7047,10 @@ PrefabInstance:
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7110,6 +7350,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 34.038445
@@ -7181,6 +7425,10 @@ PrefabInstance:
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7368,6 +7616,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_RockBig_02a_PRE (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1348384822564394438, guid: c47c19109c1c7574fae9faebc63cc888, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1872860238198787964, guid: c47c19109c1c7574fae9faebc63cc888, type: 3}
       propertyPath: m_LocalPosition.x
       value: 30.972015
@@ -7424,6 +7676,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7505,6 +7761,10 @@ PrefabInstance:
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7607,6 +7867,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_RockBig_02c_PRE (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7548524047968987162, guid: ef59ef0f1d2b7914bb4164505deea1ac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef59ef0f1d2b7914bb4164505deea1ac, type: 3}
 --- !u!1001 &596294423
@@ -7619,6 +7883,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7700,6 +7968,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7890,6 +8162,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 62.8
@@ -7970,6 +8246,10 @@ PrefabInstance:
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8057,6 +8337,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -30.889996
@@ -8113,6 +8397,10 @@ PrefabInstance:
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8194,6 +8482,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8369,6 +8661,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.59
@@ -8455,6 +8751,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 62.2
@@ -8536,6 +8836,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20.98156
@@ -8592,6 +8896,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8751,6 +9059,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01b_PRE (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4894870124239600735, guid: 7cfc4d4af6b65a34890cfc849a4c107e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5234804397309519589, guid: 7cfc4d4af6b65a34890cfc849a4c107e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -103.52
@@ -8781,7 +9093,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5234804397309519589, guid: 7cfc4d4af6b65a34890cfc849a4c107e, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5234804397309519589, guid: 7cfc4d4af6b65a34890cfc849a4c107e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8807,6 +9119,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8957,6 +9273,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.06
@@ -9062,6 +9382,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.911959
@@ -9147,6 +9471,10 @@ PrefabInstance:
     - target: {fileID: 4632309092009777187, guid: c4258e83a8663034f96d7d4fc38f6641, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Vine_03a_PRE
+      objectReference: {fileID: 0}
+    - target: {fileID: 4632309092009777187, guid: c4258e83a8663034f96d7d4fc38f6641, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5405045504956318361, guid: c4258e83a8663034f96d7d4fc38f6641, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9283,7 +9611,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6801135985746143898, guid: 97f4288cb4300434c95412e8f1427477, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6801135985746143898, guid: 97f4288cb4300434c95412e8f1427477, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9309,6 +9637,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9521,6 +9853,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.74
@@ -9601,6 +9937,10 @@ PrefabInstance:
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9710,6 +10050,10 @@ PrefabInstance:
     - target: {fileID: 3142905135150499192, guid: 800b81c59b871d74a9b06a83c78e0bb2, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_RockBig_01b_PRE (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3142905135150499192, guid: 800b81c59b871d74a9b06a83c78e0bb2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 800b81c59b871d74a9b06a83c78e0bb2, type: 3}
@@ -9865,6 +10209,10 @@ PrefabInstance:
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10362,6 +10710,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.291557
@@ -10437,6 +10789,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10628,7 +10984,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9048512373942000335, guid: a08b7014c251db54c9a52fadbc505cc7, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9048512373942000335, guid: a08b7014c251db54c9a52fadbc505cc7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -10662,6 +11018,10 @@ PrefabInstance:
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10743,6 +11103,10 @@ PrefabInstance:
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10894,6 +11258,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20.768053
@@ -10999,6 +11367,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (100)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 37
@@ -11079,6 +11451,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11161,6 +11537,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 62.2
@@ -11241,6 +11621,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11323,6 +11707,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -27.73
@@ -11379,6 +11767,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11636,6 +12028,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_RockBig_01a_PRE (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2242454209044241174, guid: d9873437c338afd4a91b053db2d538d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9873437c338afd4a91b053db2d538d2, type: 3}
 --- !u!1001 &933403672
@@ -11705,6 +12101,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_tree9_PRE (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5701673762807815886, guid: 1e063940ddfce4340a838f3ad7c66851, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e063940ddfce4340a838f3ad7c66851, type: 3}
 --- !u!1001 &933560684
@@ -11717,6 +12117,10 @@ PrefabInstance:
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11822,6 +12226,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11931,7 +12339,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &967166187
 Transform:
@@ -12057,6 +12465,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -21.36
@@ -12165,6 +12577,10 @@ PrefabInstance:
     - target: {fileID: 3142905135150499192, guid: 800b81c59b871d74a9b06a83c78e0bb2, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_RockBig_01b_PRE
+      objectReference: {fileID: 0}
+    - target: {fileID: 3142905135150499192, guid: 800b81c59b871d74a9b06a83c78e0bb2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 800b81c59b871d74a9b06a83c78e0bb2, type: 3}
@@ -12335,6 +12751,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 24.66
@@ -12416,6 +12836,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.8684464
@@ -12472,6 +12896,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12598,6 +13026,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 34.98
@@ -12684,6 +13116,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 64.7
@@ -12764,6 +13200,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12898,6 +13338,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.9953098
@@ -12979,6 +13423,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 23.548447
@@ -13035,6 +13483,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13272,6 +13724,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.4
@@ -13352,6 +13808,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13515,6 +13975,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.29
@@ -13571,6 +14035,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13883,6 +14351,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Vine_03a_PRE (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4632309092009777187, guid: c4258e83a8663034f96d7d4fc38f6641, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5405045504956318361, guid: c4258e83a8663034f96d7d4fc38f6641, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.2853
@@ -13939,6 +14411,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14051,7 +14527,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9048512373942000335, guid: a08b7014c251db54c9a52fadbc505cc7, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9048512373942000335, guid: a08b7014c251db54c9a52fadbc505cc7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -14089,6 +14565,10 @@ PrefabInstance:
     - target: {fileID: 4969661240566505016, guid: 8c2dbccfc396a9f46ac77be9e7f5d2ce, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_tree7_PRE
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969661240566505016, guid: 8c2dbccfc396a9f46ac77be9e7f5d2ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5745493879106176130, guid: 8c2dbccfc396a9f46ac77be9e7f5d2ce, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14210,6 +14690,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.7
@@ -14301,6 +14785,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.34
@@ -14358,6 +14846,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_RockBig_02a_PRE
       objectReference: {fileID: 0}
+    - target: {fileID: 1348384822564394438, guid: c47c19109c1c7574fae9faebc63cc888, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1872860238198787964, guid: c47c19109c1c7574fae9faebc63cc888, type: 3}
       propertyPath: m_LocalPosition.x
       value: 28.0653
@@ -14414,6 +14906,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14569,6 +15065,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_RockBig_01a_PRE (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2242454209044241174, guid: d9873437c338afd4a91b053db2d538d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9873437c338afd4a91b053db2d538d2, type: 3}
 --- !u!4 &1147149104 stripped
@@ -14610,6 +15110,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14777,6 +15281,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.06
@@ -14857,6 +15365,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15034,6 +15546,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 30.355303
@@ -15144,6 +15660,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -28.709995
@@ -15200,6 +15720,10 @@ PrefabInstance:
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15287,6 +15811,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.071556
@@ -15343,6 +15871,10 @@ PrefabInstance:
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15665,6 +16197,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 60.85
@@ -15790,6 +16326,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_RockBig_01a_PRE (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2242454209044241174, guid: d9873437c338afd4a91b053db2d538d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9873437c338afd4a91b053db2d538d2, type: 3}
 --- !u!1001 &1243913489
@@ -15802,6 +16342,10 @@ PrefabInstance:
     - target: {fileID: 1692052172865906682, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_RockBig_01c_PRE
+      objectReference: {fileID: 0}
+    - target: {fileID: 1692052172865906682, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2031317839807905088, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15859,6 +16403,10 @@ PrefabInstance:
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15940,6 +16488,10 @@ PrefabInstance:
     - target: {fileID: 8368343184799640878, guid: d6c8583eec6359c4aa24ce62c54f138e, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_RockBig_Moss_01b_PRE (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8368343184799640878, guid: d6c8583eec6359c4aa24ce62c54f138e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 9181013791934740372, guid: d6c8583eec6359c4aa24ce62c54f138e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16206,6 +16758,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (98)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.8
@@ -16286,6 +16842,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16373,6 +16933,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -24.371902
@@ -16429,6 +16993,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16511,6 +17079,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 57.8
@@ -16592,6 +17164,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -26.79
@@ -16672,6 +17248,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16823,6 +17403,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.188103
@@ -16879,6 +17463,10 @@ PrefabInstance:
     - target: {fileID: 4894870124239600735, guid: 7cfc4d4af6b65a34890cfc849a4c107e, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01b_PRE
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894870124239600735, guid: 7cfc4d4af6b65a34890cfc849a4c107e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5234804397309519589, guid: 7cfc4d4af6b65a34890cfc849a4c107e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17011,6 +17599,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (96)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17147,6 +17739,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -29.761559
@@ -17227,6 +17823,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17309,6 +17909,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 28.76
@@ -17367,9 +17971,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1081815214}
     m_Modifications:
+    - target: {fileID: 3080768486131265215, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17497,6 +18109,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -25.55
@@ -17553,6 +18169,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17659,6 +18279,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.011559
@@ -17715,6 +18339,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17797,6 +18425,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.7327557
@@ -17877,6 +18509,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17964,6 +18600,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -24.811554
@@ -18025,6 +18665,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18106,6 +18750,10 @@ PrefabInstance:
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18192,6 +18840,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18403,6 +19055,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.398445
@@ -18508,6 +19164,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -22.32
@@ -18569,6 +19229,10 @@ PrefabInstance:
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18731,6 +19395,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (97)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19022,6 +19690,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 62.2
@@ -19126,6 +19798,10 @@ PrefabInstance:
     - target: {fileID: 8368343184799640878, guid: d6c8583eec6359c4aa24ce62c54f138e, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_RockBig_Moss_01b_PRE (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8368343184799640878, guid: d6c8583eec6359c4aa24ce62c54f138e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 9181013791934740372, guid: d6c8583eec6359c4aa24ce62c54f138e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19255,6 +19931,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19427,6 +20107,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19777,6 +20461,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.7999988
@@ -19858,6 +20546,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_tree10_Moss_01a_PRE (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 392958628197393662, guid: da0ec812098d3bc4fa6ad06b723f2e15, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1026751887376989764, guid: da0ec812098d3bc4fa6ad06b723f2e15, type: 3}
       propertyPath: m_LocalPosition.x
       value: 31.445297
@@ -19914,6 +20606,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (87)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19992,9 +20688,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1081815214}
     m_Modifications:
+    - target: {fileID: 3080768486131265215, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 95301de0feae14b4883d2c2d720b194a, type: 2}
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20052,6 +20756,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20211,6 +20919,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.23
@@ -20344,6 +21056,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_RockBig_01b_PRE (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3142905135150499192, guid: 800b81c59b871d74a9b06a83c78e0bb2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 800b81c59b871d74a9b06a83c78e0bb2, type: 3}
 --- !u!1001 &1640862600
@@ -20356,6 +21072,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20437,6 +21157,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20779,7 +21503,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1665129924
 PrefabInstance:
@@ -20791,6 +21515,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20873,6 +21601,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.2115555
@@ -20929,6 +21661,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21138,6 +21874,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.748451
@@ -21290,6 +22030,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.23
@@ -21381,6 +22125,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 28.918055
@@ -21442,6 +22190,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (92)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21667,6 +22419,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.011551
@@ -21786,6 +22542,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21933,6 +22693,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -28.749996
@@ -21989,6 +22753,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22109,7 +22877,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 570598219568621416, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 570598219568621416, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -22384,6 +23152,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.6999989
@@ -22567,6 +23339,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22840,6 +23616,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 31.42
@@ -22946,6 +23726,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_RockBig_02c_PRE (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7548524047968987162, guid: ef59ef0f1d2b7914bb4164505deea1ac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef59ef0f1d2b7914bb4164505deea1ac, type: 3}
 --- !u!1001 &1831529025
@@ -22958,6 +23742,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23397,6 +24185,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (102)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 70.1
@@ -23477,6 +24269,10 @@ PrefabInstance:
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23559,6 +24355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 16.41804
@@ -23639,6 +24439,10 @@ PrefabInstance:
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23721,6 +24525,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (83)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 65.7
@@ -23802,6 +24610,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.599994
@@ -23882,6 +24694,10 @@ PrefabInstance:
     - target: {fileID: 8368343184799640878, guid: d6c8583eec6359c4aa24ce62c54f138e, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_RockBig_Moss_01b_PRE
+      objectReference: {fileID: 0}
+    - target: {fileID: 8368343184799640878, guid: d6c8583eec6359c4aa24ce62c54f138e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 9181013791934740372, guid: d6c8583eec6359c4aa24ce62c54f138e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24081,6 +24897,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.53
@@ -24216,6 +25036,10 @@ PrefabInstance:
     - target: {fileID: 8316764949750342395, guid: 7365e0303c59c8448be0209754c568df, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Stones_01a_PRE (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316764949750342395, guid: 7365e0303c59c8448be0209754c568df, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8656135108081334337, guid: 7365e0303c59c8448be0209754c568df, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24743,6 +25567,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1
@@ -24848,6 +25676,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (101)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20.8
@@ -24933,6 +25765,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25020,6 +25856,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (99)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.8
@@ -25101,6 +25941,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 57.8
@@ -25181,6 +26025,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25294,6 +26142,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 22.678444
@@ -25391,9 +26243,45 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3058872657950850298, guid: 059dc4cc0a783384e8ea6d217a7e1ad3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 3205986638733762499, guid: 059dc4cc0a783384e8ea6d217a7e1ad3, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_tree8a_PRE
+      objectReference: {fileID: 0}
+    - target: {fileID: 3205986638733762499, guid: 059dc4cc0a783384e8ea6d217a7e1ad3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3766769646106988550, guid: 059dc4cc0a783384e8ea6d217a7e1ad3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5787006191286316918, guid: 059dc4cc0a783384e8ea6d217a7e1ad3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5793208010864589835, guid: 059dc4cc0a783384e8ea6d217a7e1ad3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7723870479414476736, guid: 059dc4cc0a783384e8ea6d217a7e1ad3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132606391284358008, guid: 059dc4cc0a783384e8ea6d217a7e1ad3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8179137624712284948, guid: 059dc4cc0a783384e8ea6d217a7e1ad3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 9001534217439211539, guid: 059dc4cc0a783384e8ea6d217a7e1ad3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 059dc4cc0a783384e8ea6d217a7e1ad3, type: 3}
@@ -25431,6 +26319,10 @@ PrefabInstance:
     - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25668,6 +26560,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.407547
@@ -25725,6 +26621,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.7884445
@@ -25781,6 +26681,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (89)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26027,6 +26931,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.9
@@ -26107,6 +27015,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26189,6 +27101,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.3
@@ -26269,6 +27185,10 @@ PrefabInstance:
     - target: {fileID: 8526349441916696256, guid: 987065b88f3b54a418d569ef3eae2bd5, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Vine_05c_PRE (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8526349441916696256, guid: 987065b88f3b54a418d569ef3eae2bd5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 9014092127746600058, guid: 987065b88f3b54a418d569ef3eae2bd5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26474,6 +27394,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_RockBig_01b_PRE (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3142905135150499192, guid: 800b81c59b871d74a9b06a83c78e0bb2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 800b81c59b871d74a9b06a83c78e0bb2, type: 3}
 --- !u!1 &2023043808 stripped
@@ -26500,98 +27424,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1872860238198787964, guid: c47c19109c1c7574fae9faebc63cc888, type: 3}
   m_PrefabInstance: {fileID: 573364199}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2024300577
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2024300579}
-  - component: {fileID: 2024300578}
-  m_Layer: 0
-  m_Name: Directional Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!108 &2024300578
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2024300577}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 1
-  m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
-  m_Range: 10
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 2
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
---- !u!4 &2024300579
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2024300577}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 152.7, y: 113.5, z: 15.7}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &2025277915 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1395990474172773541, guid: 34e9fb7680a7ba543b58f2823ad65aa0, type: 3}
@@ -26612,6 +27444,10 @@ PrefabInstance:
     - target: {fileID: 392958628197393662, guid: da0ec812098d3bc4fa6ad06b723f2e15, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_tree10_Moss_01a_PRE
+      objectReference: {fileID: 0}
+    - target: {fileID: 392958628197393662, guid: da0ec812098d3bc4fa6ad06b723f2e15, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 1026751887376989764, guid: da0ec812098d3bc4fa6ad06b723f2e15, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26669,6 +27505,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26840,6 +27680,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.188446
@@ -26896,6 +27740,10 @@ PrefabInstance:
     - target: {fileID: 505533494716410338, guid: d84b9e2117309bd4f9acd235a7329464, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_tree8_PRE
+      objectReference: {fileID: 0}
+    - target: {fileID: 505533494716410338, guid: d84b9e2117309bd4f9acd235a7329464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 887161454268150616, guid: d84b9e2117309bd4f9acd235a7329464, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26972,6 +27820,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27099,6 +27951,10 @@ PrefabInstance:
     - target: {fileID: 8316764949750342395, guid: 7365e0303c59c8448be0209754c568df, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Stones_01a_PRE
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316764949750342395, guid: 7365e0303c59c8448be0209754c568df, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8656135108081334337, guid: 7365e0303c59c8448be0209754c568df, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27281,6 +28137,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Mud_01a_PRE (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4218248052891030992, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -24.811554
@@ -27353,6 +28213,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27482,6 +28346,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27628,6 +28496,10 @@ PrefabInstance:
     - target: {fileID: 8316764949750342395, guid: 7365e0303c59c8448be0209754c568df, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Stones_01a_PRE (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316764949750342395, guid: 7365e0303c59c8448be0209754c568df, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8656135108081334337, guid: 7365e0303c59c8448be0209754c568df, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27958,6 +28830,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (93)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 53.73
@@ -28174,6 +29050,10 @@ PrefabInstance:
     - target: {fileID: 8316764949750342395, guid: 7365e0303c59c8448be0209754c568df, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Stones_01a_PRE (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316764949750342395, guid: 7365e0303c59c8448be0209754c568df, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8656135108081334337, guid: 7365e0303c59c8448be0209754c568df, type: 3}
       propertyPath: m_LocalPosition.x
