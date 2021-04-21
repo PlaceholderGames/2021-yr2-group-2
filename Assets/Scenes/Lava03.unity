@@ -25,8 +25,8 @@ RenderSettings:
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubtractiveShadowColor: {r: 0.9528302, g: 0.115906045, b: 0, a: 1}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 4b997d6de2f198545a1137162b8ab466, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -35,10 +35,10 @@ RenderSettings:
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
-  m_ReflectionIntensity: 1
+  m_ReflectionIntensity: 0.111
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.150633, g: 0.13406974, b: 0.0925707, a: 0.111}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 148a5620c343f56498cc976e768260f3, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -137,6 +137,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -268,7 +272,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &84785851
 Transform:
@@ -295,7 +299,7 @@ Transform:
   - {fileID: 874864519}
   - {fileID: 982106019}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &93925315 stripped
 GameObject:
@@ -385,7 +389,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &128197448
 PrefabInstance:
@@ -401,6 +405,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -530,6 +538,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_RockBig_01c_PRE (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 1692052172865906682, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2031317839807905088, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.210449
@@ -602,7 +614,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &167481414
 Transform:
@@ -638,6 +650,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -707,6 +723,10 @@ PrefabInstance:
     - target: {fileID: 173434, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
       propertyPath: m_Name
       value: Rock Type4 02 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 173434, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 497078, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -865,6 +885,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_RockBig_01c_PRE (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 1692052172865906682, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2031317839807905088, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.16
@@ -988,6 +1012,10 @@ PrefabInstance:
     - target: {fileID: 1348384822564394438, guid: c47c19109c1c7574fae9faebc63cc888, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_RockBig_02a_PRE (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1348384822564394438, guid: c47c19109c1c7574fae9faebc63cc888, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 1872860238198787964, guid: c47c19109c1c7574fae9faebc63cc888, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1138,6 +1166,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teleporterpad
       objectReference: {fileID: 0}
+    - target: {fileID: 6166555129935253631, guid: 33ede0435ceea9942a6af0e9092f0eb4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6716300758530115531, guid: 33ede0435ceea9942a6af0e9092f0eb4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 6716300758530115543, guid: 33ede0435ceea9942a6af0e9092f0eb4, type: 3}
       propertyPath: m_LocalScale.x
       value: 0
@@ -1158,6 +1194,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TeleporterA
       objectReference: {fileID: 0}
+    - target: {fileID: 6716300759527900804, guid: 33ede0435ceea9942a6af0e9092f0eb4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 6716300759548145416, guid: 33ede0435ceea9942a6af0e9092f0eb4, type: 3}
       propertyPath: m_LocalScale.x
       value: 0
@@ -1169,6 +1209,10 @@ PrefabInstance:
     - target: {fileID: 6716300759548145416, guid: 33ede0435ceea9942a6af0e9092f0eb4, type: 3}
       propertyPath: m_LocalScale.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6716300759548145420, guid: 33ede0435ceea9942a6af0e9092f0eb4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33ede0435ceea9942a6af0e9092f0eb4, type: 3}
@@ -1311,6 +1355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Type4 02 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 173434, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 497078, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.56
@@ -1396,6 +1444,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 48.2
@@ -1468,6 +1520,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1552,6 +1608,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1650,6 +1710,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 48.199993
@@ -1738,6 +1802,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_RockBig_01c_PRE (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 1692052172865906682, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2031317839807905088, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -41.35
@@ -1820,6 +1888,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1916,7 +1988,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 570598219568621416, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 570598219568621416, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2108,6 +2180,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Type4 02 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 173434, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 497078, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.85
@@ -2197,9 +2273,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 167481414}
     m_Modifications:
+    - target: {fileID: 2425857311259615338, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 3348665455290596227, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
       propertyPath: m_Name
       value: LvlPickup (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3348665455290596227, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 3348665455290596284, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2257,6 +2341,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1.0728999
       objectReference: {fileID: 0}
+    - target: {fileID: 5642752173726714954, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
 --- !u!1 &592721355
@@ -2273,7 +2361,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &592721356
 Transform:
@@ -2304,6 +2392,10 @@ PrefabInstance:
     - target: {fileID: 1692052172865906682, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_RockBig_01c_PRE (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1692052172865906682, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2031317839807905088, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2377,6 +2469,10 @@ PrefabInstance:
     - target: {fileID: 1692052172865906682, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_RockBig_01c_PRE (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1692052172865906682, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2031317839807905088, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2475,6 +2571,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 48.2
@@ -2564,7 +2664,7 @@ Transform:
   - {fileID: 704477792}
   - {fileID: 1443531154}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &675421035
 PrefabInstance:
@@ -2576,6 +2676,10 @@ PrefabInstance:
     - target: {fileID: 173434, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
       propertyPath: m_Name
       value: Rock Type4 02 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 173434, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 497078, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2657,6 +2761,10 @@ PrefabInstance:
     - target: {fileID: 173434, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
       propertyPath: m_Name
       value: Rock Type4 02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 173434, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 497078, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2854,6 +2962,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 48.199993
@@ -2926,7 +3038,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &773890742
 Transform:
@@ -2958,6 +3070,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3052,6 +3168,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_RockBig_02a_PRE (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1348384822564394438, guid: c47c19109c1c7574fae9faebc63cc888, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1872860238198787964, guid: c47c19109c1c7574fae9faebc63cc888, type: 3}
       propertyPath: m_LocalPosition.x
       value: -42.02
@@ -3120,6 +3240,10 @@ PrefabInstance:
     - target: {fileID: 8316764949750342395, guid: 7365e0303c59c8448be0209754c568df, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Stones_01a_PRE
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316764949750342395, guid: 7365e0303c59c8448be0209754c568df, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8656135108081334337, guid: 7365e0303c59c8448be0209754c568df, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3290,9 +3414,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 167481414}
     m_Modifications:
+    - target: {fileID: 2425857311259615338, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 3348665455290596227, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
       propertyPath: m_Name
       value: LvlPickup (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3348665455290596227, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 3348665455290596284, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3350,100 +3482,12 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1.0728999
       objectReference: {fileID: 0}
+    - target: {fileID: 5642752173726714954, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
---- !u!1 &834551476
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 834551478}
-  - component: {fileID: 834551477}
-  m_Layer: 0
-  m_Name: Directional Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!108 &834551477
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 834551476}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 1
-  m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
-  m_Range: 10
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 2
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
---- !u!4 &834551478
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 834551476}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &856987087
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3458,6 +3502,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3642,7 +3690,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &871037389 stripped
 GameObject:
@@ -3687,7 +3735,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!114 &874864514
 MonoBehaviour:
@@ -3751,7 +3799,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6bb11efb2d52a7a49bf2193c7a094e51, type: 2}
+  - {fileID: 2100000, guid: 39cf616e56758664b90f46f8cbcd3dc3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3809,7 +3857,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &882627964
 Transform:
@@ -3885,6 +3933,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_RockBig_01c_PRE (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 1692052172865906682, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2031317839807905088, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.67
@@ -3957,6 +4009,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4096,6 +4152,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Type4 02 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 173434, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 497078, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.560002
@@ -4201,6 +4261,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Type4 02 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 173434, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 497078, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.87
@@ -4281,6 +4345,10 @@ PrefabInstance:
     - target: {fileID: 173434, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
       propertyPath: m_Name
       value: Rock Type4 02 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 173434, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 497078, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4369,7 +4437,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &982106016
 BoxCollider:
@@ -4403,7 +4471,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 39cf616e56758664b90f46f8cbcd3dc3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4461,6 +4529,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4534,6 +4606,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4702,6 +4778,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Type4 02 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 173434, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 497078, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.770002
@@ -4811,6 +4891,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_RockBig_01c_PRE (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 1692052172865906682, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2031317839807905088, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.9
@@ -4900,9 +4984,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 167481414}
     m_Modifications:
+    - target: {fileID: 2425857311259615338, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 3348665455290596227, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
       propertyPath: m_Name
       value: LvlPickup (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3348665455290596227, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 3348665455290596284, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4960,6 +5052,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1.0728999
       objectReference: {fileID: 0}
+    - target: {fileID: 5642752173726714954, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
 --- !u!4 &1050105194 stripped
@@ -5005,6 +5101,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5099,6 +5199,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Stones_01a_PRE (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8316764949750342395, guid: 7365e0303c59c8448be0209754c568df, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8656135108081334337, guid: 7365e0303c59c8448be0209754c568df, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.8
@@ -5176,6 +5280,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5371,6 +5479,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_RockBig_01c_PRE (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 1692052172865906682, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2031317839807905088, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -41.35
@@ -5491,6 +5603,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5662,6 +5778,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_RockBig_01c_PRE (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 1692052172865906682, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2031317839807905088, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.210449
@@ -5730,6 +5850,10 @@ PrefabInstance:
     - target: {fileID: 126190, guid: be320b6d231cacc4894038f2c3375674, type: 3}
       propertyPath: m_Name
       value: Rock Type3 03 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 126190, guid: be320b6d231cacc4894038f2c3375674, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 408956, guid: be320b6d231cacc4894038f2c3375674, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5848,6 +5972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Type4 02 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 173434, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 497078, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.7
@@ -5933,6 +6061,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 48.2
@@ -6005,7 +6137,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1397361490
 Transform:
@@ -6048,6 +6180,10 @@ PrefabInstance:
     - target: {fileID: 1692052172865906682, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_RockBig_01c_PRE (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1692052172865906682, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2031317839807905088, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6175,6 +6311,10 @@ PrefabInstance:
     - target: {fileID: 173434, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
       propertyPath: m_Name
       value: Rock Type4 02 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 173434, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 497078, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6331,6 +6471,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 48.199993
@@ -6399,6 +6543,10 @@ PrefabInstance:
     - target: {fileID: 173434, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
       propertyPath: m_Name
       value: Rock Type4 02 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 173434, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 497078, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6485,6 +6633,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_RockBig_01c_PRE (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 1692052172865906682, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2031317839807905088, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.8
@@ -6553,6 +6705,10 @@ PrefabInstance:
     - target: {fileID: 173434, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
       propertyPath: m_Name
       value: Rock Type4 02 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 173434, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 497078, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6640,6 +6796,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Type4 02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 173434, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 497078, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.56
@@ -6724,6 +6884,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6817,6 +6981,10 @@ PrefabInstance:
     - target: {fileID: 173434, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
       propertyPath: m_Name
       value: Rock Type4 02 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 173434, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 497078, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6915,6 +7083,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 47.333885
@@ -7011,6 +7183,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7224,7 +7400,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4268597916284530, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4268597916284530, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7463,6 +7639,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_RockBig_02a_PRE
       objectReference: {fileID: 0}
+    - target: {fileID: 1348384822564394438, guid: c47c19109c1c7574fae9faebc63cc888, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1872860238198787964, guid: c47c19109c1c7574fae9faebc63cc888, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.08
@@ -7559,6 +7739,10 @@ PrefabInstance:
     - target: {fileID: 1692052172865906682, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_RockBig_01c_PRE (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1692052172865906682, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2031317839807905088, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7657,6 +7841,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 53.63388
@@ -7746,9 +7934,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 167481414}
     m_Modifications:
+    - target: {fileID: 2425857311259615338, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 3348665455290596227, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
       propertyPath: m_Name
       value: LvlPickup (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3348665455290596227, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 3348665455290596284, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7805,6 +8001,10 @@ PrefabInstance:
     - target: {fileID: 3348665455290596284, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
       propertyPath: m_LocalScale.y
       value: 1.0728999
+      objectReference: {fileID: 0}
+    - target: {fileID: 5642752173726714954, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
@@ -7909,7 +8109,7 @@ Transform:
   - {fileID: 233893496}
   - {fileID: 2022236690}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1756553647 stripped
 GameObject:
@@ -7956,6 +8156,10 @@ PrefabInstance:
     - target: {fileID: 1348384822564394438, guid: c47c19109c1c7574fae9faebc63cc888, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_RockBig_02a_PRE (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1348384822564394438, guid: c47c19109c1c7574fae9faebc63cc888, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 1872860238198787964, guid: c47c19109c1c7574fae9faebc63cc888, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8030,6 +8234,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 48.199993
@@ -8095,9 +8303,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 167481414}
     m_Modifications:
+    - target: {fileID: 2425857311259615338, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 3348665455290596227, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
       propertyPath: m_Name
       value: LvlPickup
+      objectReference: {fileID: 0}
+    - target: {fileID: 3348665455290596227, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 3348665455290596284, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8155,6 +8371,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1.0728999
       objectReference: {fileID: 0}
+    - target: {fileID: 5642752173726714954, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
 --- !u!1 &1842523811 stripped
@@ -8195,6 +8415,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8268,6 +8492,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8365,7 +8593,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1870933145
 Transform:
@@ -8382,7 +8610,7 @@ Transform:
   - {fileID: 592721356}
   - {fileID: 167481414}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1896643397 stripped
 GameObject:
@@ -8492,6 +8720,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 48.199993
@@ -8588,6 +8820,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8692,6 +8928,10 @@ PrefabInstance:
     - target: {fileID: 1348384822564394438, guid: c47c19109c1c7574fae9faebc63cc888, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_RockBig_02a_PRE (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1348384822564394438, guid: c47c19109c1c7574fae9faebc63cc888, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 1872860238198787964, guid: c47c19109c1c7574fae9faebc63cc888, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8814,6 +9054,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 48.2
@@ -8930,6 +9174,10 @@ PrefabInstance:
     - target: {fileID: 173434, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
       propertyPath: m_Name
       value: Rock Type4 02 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 173434, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 497078, guid: 3a699487877e77b439ff09deb77625e5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9048,6 +9296,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.3661194
@@ -9144,6 +9396,10 @@ PrefabInstance:
     - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9290,6 +9546,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EA_Swamp_Island_Part_03a_PRE (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495104577184236842, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2302602875476434832, guid: 997e01b305bfdd14b830559cf4ad82a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 48.199993
@@ -9355,9 +9615,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 167481414}
     m_Modifications:
+    - target: {fileID: 2425857311259615338, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 3348665455290596227, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
       propertyPath: m_Name
       value: LvlPickup (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3348665455290596227, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 3348665455290596284, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9415,6 +9683,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1.0728999
       objectReference: {fileID: 0}
+    - target: {fileID: 5642752173726714954, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75ec4bd5da1a75c47a083348e8eac737, type: 3}
 --- !u!1001 &2124183481
@@ -9431,6 +9703,10 @@ PrefabInstance:
     - target: {fileID: 1692052172865906682, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_RockBig_01c_PRE (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1692052172865906682, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2031317839807905088, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9504,6 +9780,10 @@ PrefabInstance:
     - target: {fileID: 1692052172865906682, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
       propertyPath: m_Name
       value: EA_Swamp_RockBig_01c_PRE (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1692052172865906682, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2031317839807905088, guid: 4a8df1b973e8c3746a10aef80b97330f, type: 3}
       propertyPath: m_LocalPosition.x
