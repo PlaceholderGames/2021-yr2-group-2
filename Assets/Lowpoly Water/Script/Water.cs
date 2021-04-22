@@ -84,7 +84,7 @@ public class Water : MonoBehaviour
 	void Update ()
 	{ 
 		CalcWave ();
-		m_WaterCamera.DoRender ();
+		//m_WaterCamera.DoRender ();
 		
 		RenderSettings.ambientLight = m_AmbientColor;
 		
