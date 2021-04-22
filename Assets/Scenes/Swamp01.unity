@@ -2351,6 +2351,10 @@ PrefabInstance:
       propertyPath: LvlType
       value: Swamp
       objectReference: {fileID: 0}
+    - target: {fileID: 8594266668861151571, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+      propertyPath: LvlNum
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
 --- !u!1001 &105373154

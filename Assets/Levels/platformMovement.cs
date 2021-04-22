@@ -76,7 +76,7 @@ public class platformMovement : MonoBehaviour
             {
                 Vector3 dir = (transform.position - lastPos).normalized;
                 player.GetComponent<CharacterController>().Move((dir * speed) * Time.deltaTime);
-                print("pl");
+                //print("pl");
             }
             lastPos = transform.position;
         }
@@ -92,7 +92,7 @@ public class platformMovement : MonoBehaviour
         //    player.GetComponent<CharacterController>().Move((dir * speed) * Time.deltaTime);
         //    print("pl");
         //}
-        print("on stay");
+        //print("on stay");
         if (collider.gameObject.tag == "Player" && !player)
         {
             player = collider.gameObject;
