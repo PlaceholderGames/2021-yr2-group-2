@@ -89,7 +89,7 @@ public class GhostPower : MonoBehaviour
     {
         //Come out of ghost form
         isGhost = false;
-        print("no longer ghost");
+       // print("no longer ghost");
 
         //Go back to default look
         //GetComponent<Renderer>().material = standardMaterial;

@@ -62,21 +62,24 @@ public class platformMovement : MonoBehaviour
 
     private void Update()
     {
-        if (transform.position != CurrentTarget.transform.position)
+        if (CurrentTarget != null)
         {
-            MovePlatform();
+            if (transform.position != CurrentTarget.transform.position)
+            {
+                MovePlatform();
+            }
+            else
+            {
+                UpdatePlatform();
+            }
+            if (player)
+            {
+                Vector3 dir = (transform.position - lastPos).normalized;
+                player.GetComponent<CharacterController>().Move((dir * speed) * Time.deltaTime);
+                print("pl");
+            }
+            lastPos = transform.position;
         }
-        else
-        {
-            UpdatePlatform();
-        }
-        if (player)
-        {
-            Vector3 dir = (transform.position - lastPos).normalized;
-            player.GetComponent<CharacterController>().Move((dir * speed) * Time.deltaTime);
-            print("pl");
-        }
-        lastPos = transform.position;
     }
 
 

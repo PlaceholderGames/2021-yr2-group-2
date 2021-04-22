@@ -3340,7 +3340,8 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8027957627992328746, guid: 800b81c59b871d74a9b06a83c78e0bb2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 800b81c59b871d74a9b06a83c78e0bb2, type: 3}
 --- !u!4 &134525647 stripped
 Transform:
@@ -33881,7 +33882,8 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8027957627992328746, guid: 800b81c59b871d74a9b06a83c78e0bb2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 800b81c59b871d74a9b06a83c78e0bb2, type: 3}
 --- !u!1 &1441822916 stripped
 GameObject:

@@ -24,7 +24,7 @@ public class SpeedRun : MonoBehaviour
     void Start()
     {
         highScore = PlayerPrefs.GetFloat("HighScore");
-        print(highScore);
+        //print(highScore);
         _timeText = gameObject.GetComponent<Text>(); //finds the text component
     }
 
