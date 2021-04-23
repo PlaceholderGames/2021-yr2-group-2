@@ -784,6 +784,17 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7987837090597469128, guid: 8ab6cba822115154093f9dee05ee9d3d, type: 3}
+--- !u!114 &29879118 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3976502994770938051, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
+  m_PrefabInstance: {fileID: 105872686}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869998b7d3a251b47bfbc11f8aaa3299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &32803133 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3585405084772454250, guid: e9ed89ef10a318845b45931393468d7b, type: 3}
@@ -2279,6 +2290,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 570598220183688724, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+      propertyPath: pController
+      value: 
+      objectReference: {fileID: 29879118}
     - target: {fileID: 570598220183688726, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -2311,6 +2326,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3586557728156844251, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+      propertyPath: _camera
+      value: 
+      objectReference: {fileID: 105872687}
     - target: {fileID: 4028283111290228658, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
       propertyPath: m_AnchorMin.x
       value: 0
@@ -2331,6 +2350,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4582712400880159866, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
+      propertyPath: _camera
+      value: 
+      objectReference: {fileID: 105872687}
     - target: {fileID: 5010462665716549776, guid: 9cc22ff3fe406924a9ed2abf94df5818, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
