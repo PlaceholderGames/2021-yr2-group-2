@@ -11,8 +11,9 @@ public class SpeedRun : MonoBehaviour
     //The text that will be affected from the update function
     Text _timeText;
     public Text _highScoreText;
-    float startingTime = 0f;
+    public float delay = 0f;
     static float time = 0;
+    static bool initialCall = true;
 
     private static float minutes = 0;
     private static float seconds = 0;
@@ -23,32 +24,34 @@ public class SpeedRun : MonoBehaviour
 
     void Start()
     {
+        if (initialCall)
+        {
+            delay = Time.time;
+            initialCall = false;
+        }
         highScore = PlayerPrefs.GetFloat("HighScore");
-        //print(highScore);
         _timeText = gameObject.GetComponent<Text>(); //finds the text component
     }
 
     void Update()
     {
 
-        if (!(SceneManager.GetActiveScene().name == "WinScreen") && !(SceneManager.GetActiveScene().name == "MainMenu"))
+        if ( !(SceneManager.GetActiveScene().name == "MainMenu"))
         {
-            minutes = Mathf.FloorToInt((Time.time - startingTime) / 60f);
-            seconds = (float)Math.Round(((Time.time - startingTime) - minutes * 60), 2);
-            time = (minutes * 60) + seconds;
-        }
-        else
-        {
-            if (time < highScore)
+            if (!(SceneManager.GetActiveScene().name == "WinScreen"))
             {
-                print("here");
+                minutes = Mathf.FloorToInt((Time.time - delay) / 60f);
+                seconds = (float)Math.Round(((Time.time - delay) - minutes * 60), 2);
+                time = (minutes * 60) + seconds;
+            }
+            else if (time < highScore)
+            {
                 highScore = time;
                 PlayerPrefs.SetFloat("HighScore", highScore);
             }
-            print(time);
             if (_highScoreText != null) { _highScoreText.text = highScore.ToString(); print(highScore); }
         }
         _timeText.text = string.Format("{00:00}:{01:00}", minutes, seconds.ToString()); 
-        // _timeText.text = time.ToString();
+
     }
 }

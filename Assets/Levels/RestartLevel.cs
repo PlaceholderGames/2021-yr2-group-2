@@ -5,10 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class RestartLevel : MonoBehaviour
 {
+    public SpeedRun _time;
 
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        _time.delay = Time.time;
     }
 
     void OnDisable()
