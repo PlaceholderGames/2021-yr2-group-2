@@ -11,7 +11,7 @@ public class SpeedRun : MonoBehaviour
     //The text that will be affected from the update function
     Text _timeText;
     public Text _highScoreText;
-    public float delay = 0f;
+    public static float delay = 0f;
     static float time = 0;
     static bool initialCall = true;
 
@@ -49,9 +49,16 @@ public class SpeedRun : MonoBehaviour
                 highScore = time;
                 PlayerPrefs.SetFloat("HighScore", highScore);
             }
-            if (_highScoreText != null) { _highScoreText.text = highScore.ToString(); print(highScore); }
+            if (_highScoreText != null) { _highScoreText.text = highScore.ToString(); }
         }
         _timeText.text = string.Format("{00:00}:{01:00}", minutes, seconds.ToString()); 
 
+    }
+
+    public void setDelay()
+    {
+        delay = Time.time;
+        print(delay);
+        print(Time.time);
     }
 }
